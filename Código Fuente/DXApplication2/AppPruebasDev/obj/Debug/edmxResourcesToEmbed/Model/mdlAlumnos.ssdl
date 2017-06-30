@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BDPruebasModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ALUMNOS">
+    <Key>
+      <PropertyRef Name="Matricula" />
+    </Key>
+    <Property Name="Matricula" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreAlumno" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ApellidoPaterno" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="ApellidoMaterno" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="Telefono" Type="varchar" MaxLength="10" />
+    <Property Name="IDCarrera" Type="int" Nullable="false" />
+    <Property Name="IDGrupo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CARRERAS">
+    <Key>
+      <PropertyRef Name="IDCarrera" />
+    </Key>
+    <Property Name="IDCarrera" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreCarrera" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="IDDivision" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DIVISIONES">
+    <Key>
+      <PropertyRef Name="IDDivision" />
+    </Key>
+    <Property Name="IDDivision" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreDivision" Type="varchar" MaxLength="70" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GRUPOS">
+    <Key>
+      <PropertyRef Name="IDGrupo" />
+    </Key>
+    <Property Name="IDGrupo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cuatrimestre" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="Grupo" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaAlumnos' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="VistaAlumnos">
+    <Key>
+      <PropertyRef Name="Matricula" />
+      <PropertyRef Name="NombreCompleto" />
+      <PropertyRef Name="NombreCarrera" />
+      <PropertyRef Name="GradoGrupo" />
+    </Key>
+    <Property Name="Matricula" Type="int" Nullable="false" />
+    <Property Name="NombreCompleto" Type="varchar" MaxLength="102" Nullable="false" />
+    <Property Name="Telefono" Type="varchar" MaxLength="10" />
+    <Property Name="NombreCarrera" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="GradoGrupo" Type="varchar" MaxLength="2" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaCarreras' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="VistaCarreras">
+    <Key>
+      <PropertyRef Name="IDCarrera" />
+      <PropertyRef Name="NombreCarrera" />
+      <PropertyRef Name="NombreDivision" />
+    </Key>
+    <Property Name="IDCarrera" Type="int" Nullable="false" />
+    <Property Name="NombreCarrera" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="NombreDivision" Type="varchar" MaxLength="70" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaDivisiones' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="VistaDivisiones">
+    <Key>
+      <PropertyRef Name="IDDivision" />
+      <PropertyRef Name="NombreDivision" />
+    </Key>
+    <Property Name="IDDivision" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreDivision" Type="varchar" MaxLength="70" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaGrupos' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="VistaGrupos">
+    <Key>
+      <PropertyRef Name="IDGrupo" />
+      <PropertyRef Name="Cuatrimestre" />
+      <PropertyRef Name="Grupo" />
+    </Key>
+    <Property Name="IDGrupo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cuatrimestre" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="Grupo" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <Association Name="RefCARRERAS4">
+    <End Role="CARRERAS" Type="Self.CARRERAS" Multiplicity="1" />
+    <End Role="ALUMNOS" Type="Self.ALUMNOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CARRERAS">
+        <PropertyRef Name="IDCarrera" />
+      </Principal>
+      <Dependent Role="ALUMNOS">
+        <PropertyRef Name="IDCarrera" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefDIVISIONES7">
+    <End Role="DIVISIONES" Type="Self.DIVISIONES" Multiplicity="1" />
+    <End Role="CARRERAS" Type="Self.CARRERAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DIVISIONES">
+        <PropertyRef Name="IDDivision" />
+      </Principal>
+      <Dependent Role="CARRERAS">
+        <PropertyRef Name="IDDivision" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefGRUPOS5">
+    <End Role="GRUPOS" Type="Self.GRUPOS" Multiplicity="1" />
+    <End Role="ALUMNOS" Type="Self.ALUMNOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GRUPOS">
+        <PropertyRef Name="IDGrupo" />
+      </Principal>
+      <Dependent Role="ALUMNOS">
+        <PropertyRef Name="IDGrupo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BDPruebasModelStoreContainer">
+    <EntitySet Name="ALUMNOS" EntityType="Self.ALUMNOS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CARRERAS" EntityType="Self.CARRERAS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DIVISIONES" EntityType="Self.DIVISIONES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GRUPOS" EntityType="Self.GRUPOS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VistaAlumnos" EntityType="Self.VistaAlumnos" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VistaAlumnos].[Matricula] AS [Matricula], 
+    [VistaAlumnos].[NombreCompleto] AS [NombreCompleto], 
+    [VistaAlumnos].[Telefono] AS [Telefono], 
+    [VistaAlumnos].[NombreCarrera] AS [NombreCarrera], 
+    [VistaAlumnos].[GradoGrupo] AS [GradoGrupo]
+    FROM [dbo].[VistaAlumnos] AS [VistaAlumnos]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VistaCarreras" EntityType="Self.VistaCarreras" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VistaCarreras].[IDCarrera] AS [IDCarrera], 
+    [VistaCarreras].[NombreCarrera] AS [NombreCarrera], 
+    [VistaCarreras].[NombreDivision] AS [NombreDivision]
+    FROM [dbo].[VistaCarreras] AS [VistaCarreras]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VistaDivisiones" EntityType="Self.VistaDivisiones" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VistaDivisiones].[IDDivision] AS [IDDivision], 
+    [VistaDivisiones].[NombreDivision] AS [NombreDivision]
+    FROM [dbo].[VistaDivisiones] AS [VistaDivisiones]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VistaGrupos" EntityType="Self.VistaGrupos" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VistaGrupos].[IDGrupo] AS [IDGrupo], 
+    [VistaGrupos].[Cuatrimestre] AS [Cuatrimestre], 
+    [VistaGrupos].[Grupo] AS [Grupo]
+    FROM [dbo].[VistaGrupos] AS [VistaGrupos]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="RefCARRERAS4" Association="Self.RefCARRERAS4">
+      <End Role="CARRERAS" EntitySet="CARRERAS" />
+      <End Role="ALUMNOS" EntitySet="ALUMNOS" />
+    </AssociationSet>
+    <AssociationSet Name="RefDIVISIONES7" Association="Self.RefDIVISIONES7">
+      <End Role="DIVISIONES" EntitySet="DIVISIONES" />
+      <End Role="CARRERAS" EntitySet="CARRERAS" />
+    </AssociationSet>
+    <AssociationSet Name="RefGRUPOS5" Association="Self.RefGRUPOS5">
+      <End Role="GRUPOS" EntitySet="GRUPOS" />
+      <End Role="ALUMNOS" EntitySet="ALUMNOS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

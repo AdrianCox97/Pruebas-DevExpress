@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BDPruebasModelStoreContainer" CdmEntityContainer="BDPruebasEntities">
+    <EntitySetMapping Name="ALUMNOS">
+      <EntityTypeMapping TypeName="BDPruebasModel.ALUMNOS">
+        <MappingFragment StoreEntitySet="ALUMNOS">
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+          <ScalarProperty Name="NombreAlumno" ColumnName="NombreAlumno" />
+          <ScalarProperty Name="ApellidoPaterno" ColumnName="ApellidoPaterno" />
+          <ScalarProperty Name="ApellidoMaterno" ColumnName="ApellidoMaterno" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="IDCarrera" ColumnName="IDCarrera" />
+          <ScalarProperty Name="IDGrupo" ColumnName="IDGrupo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CARRERAS">
+      <EntityTypeMapping TypeName="BDPruebasModel.CARRERAS">
+        <MappingFragment StoreEntitySet="CARRERAS">
+          <ScalarProperty Name="IDCarrera" ColumnName="IDCarrera" />
+          <ScalarProperty Name="NombreCarrera" ColumnName="NombreCarrera" />
+          <ScalarProperty Name="IDDivision" ColumnName="IDDivision" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DIVISIONES">
+      <EntityTypeMapping TypeName="BDPruebasModel.DIVISIONES">
+        <MappingFragment StoreEntitySet="DIVISIONES">
+          <ScalarProperty Name="IDDivision" ColumnName="IDDivision" />
+          <ScalarProperty Name="NombreDivision" ColumnName="NombreDivision" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GRUPOS">
+      <EntityTypeMapping TypeName="BDPruebasModel.GRUPOS">
+        <MappingFragment StoreEntitySet="GRUPOS">
+          <ScalarProperty Name="IDGrupo" ColumnName="IDGrupo" />
+          <ScalarProperty Name="Cuatrimestre" ColumnName="Cuatrimestre" />
+          <ScalarProperty Name="Grupo" ColumnName="Grupo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VistaAlumnos">
+      <EntityTypeMapping TypeName="BDPruebasModel.VistaAlumnos">
+        <MappingFragment StoreEntitySet="VistaAlumnos">
+          <ScalarProperty Name="GradoGrupo" ColumnName="GradoGrupo" />
+          <ScalarProperty Name="NombreCarrera" ColumnName="NombreCarrera" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VistaCarreras">
+      <EntityTypeMapping TypeName="BDPruebasModel.VistaCarreras">
+        <MappingFragment StoreEntitySet="VistaCarreras">
+          <ScalarProperty Name="NombreDivision" ColumnName="NombreDivision" />
+          <ScalarProperty Name="NombreCarrera" ColumnName="NombreCarrera" />
+          <ScalarProperty Name="IDCarrera" ColumnName="IDCarrera" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VistaDivisiones">
+      <EntityTypeMapping TypeName="BDPruebasModel.VistaDivisiones">
+        <MappingFragment StoreEntitySet="VistaDivisiones">
+          <ScalarProperty Name="NombreDivision" ColumnName="NombreDivision" />
+          <ScalarProperty Name="IDDivision" ColumnName="IDDivision" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VistaGrupos">
+      <EntityTypeMapping TypeName="BDPruebasModel.VistaGrupos">
+        <MappingFragment StoreEntitySet="VistaGrupos">
+          <ScalarProperty Name="Grupo" ColumnName="Grupo" />
+          <ScalarProperty Name="Cuatrimestre" ColumnName="Cuatrimestre" />
+          <ScalarProperty Name="IDGrupo" ColumnName="IDGrupo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BDPruebasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ALUMNOS">
+    <Key>
+      <PropertyRef Name="Matricula" />
+    </Key>
+    <Property Name="Matricula" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NombreAlumno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ApellidoPaterno" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ApellidoMaterno" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Telefono" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="IDCarrera" Type="Int32" Nullable="false" />
+    <Property Name="IDGrupo" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="CARRERAS" Relationship="Self.RefCARRERAS4" FromRole="ALUMNOS" ToRole="CARRERAS" />
+    <NavigationProperty Name="GRUPOS" Relationship="Self.RefGRUPOS5" FromRole="ALUMNOS" ToRole="GRUPOS" />
+  </EntityType>
+  <EntityType Name="CARRERAS">
+    <Key>
+      <PropertyRef Name="IDCarrera" />
+    </Key>
+    <Property Name="IDCarrera" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NombreCarrera" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IDDivision" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ALUMNOS" Relationship="Self.RefCARRERAS4" FromRole="CARRERAS" ToRole="ALUMNOS" />
+    <NavigationProperty Name="DIVISIONES" Relationship="Self.RefDIVISIONES7" FromRole="CARRERAS" ToRole="DIVISIONES" />
+  </EntityType>
+  <EntityType Name="DIVISIONES">
+    <Key>
+      <PropertyRef Name="IDDivision" />
+    </Key>
+    <Property Name="IDDivision" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NombreDivision" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="CARRERAS" Relationship="Self.RefDIVISIONES7" FromRole="DIVISIONES" ToRole="CARRERAS" />
+  </EntityType>
+  <EntityType Name="GRUPOS">
+    <Key>
+      <PropertyRef Name="IDGrupo" />
+    </Key>
+    <Property Name="IDGrupo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cuatrimestre" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Grupo" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="ALUMNOS" Relationship="Self.RefGRUPOS5" FromRole="GRUPOS" ToRole="ALUMNOS" />
+  </EntityType>
+  <Association Name="RefCARRERAS4">
+    <End Role="CARRERAS" Type="Self.CARRERAS" Multiplicity="1" />
+    <End Role="ALUMNOS" Type="Self.ALUMNOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CARRERAS">
+        <PropertyRef Name="IDCarrera" />
+      </Principal>
+      <Dependent Role="ALUMNOS">
+        <PropertyRef Name="IDCarrera" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefGRUPOS5">
+    <End Role="GRUPOS" Type="Self.GRUPOS" Multiplicity="1" />
+    <End Role="ALUMNOS" Type="Self.ALUMNOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GRUPOS">
+        <PropertyRef Name="IDGrupo" />
+      </Principal>
+      <Dependent Role="ALUMNOS">
+        <PropertyRef Name="IDGrupo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="RefDIVISIONES7">
+    <End Role="DIVISIONES" Type="Self.DIVISIONES" Multiplicity="1" />
+    <End Role="CARRERAS" Type="Self.CARRERAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DIVISIONES">
+        <PropertyRef Name="IDDivision" />
+      </Principal>
+      <Dependent Role="CARRERAS">
+        <PropertyRef Name="IDDivision" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BDPruebasEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ALUMNOS" EntityType="Self.ALUMNOS" />
+    <EntitySet Name="CARRERAS" EntityType="Self.CARRERAS" />
+    <EntitySet Name="DIVISIONES" EntityType="Self.DIVISIONES" />
+    <EntitySet Name="GRUPOS" EntityType="Self.GRUPOS" />
+    <AssociationSet Name="RefCARRERAS4" Association="Self.RefCARRERAS4">
+      <End Role="CARRERAS" EntitySet="CARRERAS" />
+      <End Role="ALUMNOS" EntitySet="ALUMNOS" />
+    </AssociationSet>
+    <AssociationSet Name="RefGRUPOS5" Association="Self.RefGRUPOS5">
+      <End Role="GRUPOS" EntitySet="GRUPOS" />
+      <End Role="ALUMNOS" EntitySet="ALUMNOS" />
+    </AssociationSet>
+    <AssociationSet Name="RefDIVISIONES7" Association="Self.RefDIVISIONES7">
+      <End Role="DIVISIONES" EntitySet="DIVISIONES" />
+      <End Role="CARRERAS" EntitySet="CARRERAS" />
+    </AssociationSet>
+    <EntitySet Name="VistaAlumnos" EntityType="BDPruebasModel.VistaAlumnos" />
+    <EntitySet Name="VistaCarreras" EntityType="BDPruebasModel.VistaCarreras" />
+    <EntitySet Name="VistaDivisiones" EntityType="BDPruebasModel.VistaDivisiones" />
+    <EntitySet Name="VistaGrupos" EntityType="BDPruebasModel.VistaGrupos" />
+  </EntityContainer>
+  <EntityType Name="VistaAlumnos">
+    <Key>
+      <PropertyRef Name="Matricula" />
+      <PropertyRef Name="NombreCompleto" />
+      <PropertyRef Name="NombreCarrera" />
+      <PropertyRef Name="GradoGrupo" />
+    </Key>
+    <Property Name="Matricula" Type="Int32" Nullable="false" />
+    <Property Name="NombreCompleto" Type="String" Nullable="false" MaxLength="102" FixedLength="false" Unicode="false" />
+    <Property Name="Telefono" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="NombreCarrera" Type="String" Nullable="false" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="GradoGrupo" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="VistaCarreras">
+    <Key>
+      <PropertyRef Name="IDCarrera" />
+      <PropertyRef Name="NombreCarrera" />
+      <PropertyRef Name="NombreDivision" />
+    </Key>
+    <Property Name="IDCarrera" Type="Int32" Nullable="false" />
+    <Property Name="NombreCarrera" Type="String" Nullable="false" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="NombreDivision" Type="String" Nullable="false" MaxLength="70" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="VistaDivisiones">
+    <Key>
+      <PropertyRef Name="IDDivision" />
+      <PropertyRef Name="NombreDivision" />
+    </Key>
+    <Property Name="IDDivision" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NombreDivision" Type="String" Nullable="false" MaxLength="70" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="VistaGrupos">
+    <Key>
+      <PropertyRef Name="IDGrupo" />
+      <PropertyRef Name="Cuatrimestre" />
+      <PropertyRef Name="Grupo" />
+    </Key>
+    <Property Name="IDGrupo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cuatrimestre" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="Grupo" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+  </EntityType>
+</Schema>
