@@ -32,8 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Accessibility" />
     <Reference Include="DevExpress.Data.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Utils.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -47,9 +49,13 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
     <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -61,6 +67,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BDPruebasDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDPruebasDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="GUI\frmAlumnos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,49 +103,58 @@
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\ALUMNOS.cs">
-      <DependentUpon>mdlAlumnos.tt</DependentUpon>
+      <DependentUpon>mdlBDPruebas.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\CARRERAS.cs">
-      <DependentUpon>mdlAlumnos.tt</DependentUpon>
+      <DependentUpon>mdlBDPruebas.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\DIVISIONES.cs">
-      <DependentUpon>mdlAlumnos.tt</DependentUpon>
+      <DependentUpon>mdlBDPruebas.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\General.cs" />
     <Compile Include="Model\GRUPOS.cs">
-      <DependentUpon>mdlAlumnos.tt</DependentUpon>
+      <DependentUpon>mdlBDPruebas.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\mdlAlumnos.Context.cs">
+    <Compile Include="Model\mdlBDPruebas.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>mdlAlumnos.Context.tt</DependentUpon>
+      <DependentUpon>mdlBDPruebas.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\mdlAlumnos.cs">
+    <Compile Include="Model\mdlBDPruebas.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>mdlAlumnos.tt</DependentUpon>
+      <DependentUpon>mdlBDPruebas.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\mdlAlumnos.Designer.cs">
+    <Compile Include="Model\mdlBDPruebas.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>mdlAlumnos.edmx</DependentUpon>
+      <DependentUpon>mdlBDPruebas.edmx</DependentUpon>
     </Compile>
     <Compile Include="Model\VistaAlumnos.cs">
-      <DependentUpon>mdlAlumnos.tt</DependentUpon>
+      <DependentUpon>mdlBDPruebas.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\VistaCarreras.cs">
-      <DependentUpon>mdlAlumnos.tt</DependentUpon>
+      <DependentUpon>mdlBDPruebas.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\VistaDivisiones.cs">
-      <DependentUpon>mdlAlumnos.tt</DependentUpon>
+      <DependentUpon>mdlBDPruebas.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\VistaGrupos.cs">
-      <DependentUpon>mdlAlumnos.tt</DependentUpon>
+      <DependentUpon>mdlBDPruebas.tt</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\frmAlumnos.resx">
+      <DependentUpon>frmAlumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmCarreras.resx">
+      <DependentUpon>frmCarreras.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\frmDivisiones.resx">
       <DependentUpon>frmDivisiones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmGrupos.resx">
+      <DependentUpon>frmGrupos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
@@ -149,12 +169,23 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EntityDeploy Include="Model\mdlAlumnos.edmx">
+    <EntityDeploy Include="Model\mdlBDPruebas.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>mdlAlumnos.Designer.cs</LastGenOutput>
+      <LastGenOutput>mdlBDPruebas.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Model\mdlAlumnos.edmx.diagram">
-      <DependentUpon>mdlAlumnos.edmx</DependentUpon>
+    <None Include="BDPruebasDataSet.xsc">
+      <DependentUpon>BDPruebasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BDPruebasDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDPruebasDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BDPruebasDataSet.xss">
+      <DependentUpon>BDPruebasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Model\mdlBDPruebas.edmx.diagram">
+      <DependentUpon>mdlBDPruebas.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -170,21 +201,20 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <Content Include="Model\mdlAlumnos.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>mdlAlumnos.Context.cs</LastGenOutput>
-      <DependentUpon>mdlAlumnos.edmx</DependentUpon>
-    </Content>
-    <Content Include="Model\mdlAlumnos.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>mdlAlumnos.edmx</DependentUpon>
-      <LastGenOutput>mdlAlumnos.cs</LastGenOutput>
-    </Content>
-  </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model\mdlBDPruebas.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>mdlBDPruebas.edmx</DependentUpon>
+      <LastGenOutput>mdlBDPruebas.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model\mdlBDPruebas.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>mdlBDPruebas.edmx</DependentUpon>
+      <LastGenOutput>mdlBDPruebas.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

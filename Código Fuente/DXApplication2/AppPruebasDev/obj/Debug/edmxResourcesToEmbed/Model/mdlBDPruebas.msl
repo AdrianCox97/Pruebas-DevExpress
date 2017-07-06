@@ -4,12 +4,12 @@
     <EntitySetMapping Name="ALUMNOS">
       <EntityTypeMapping TypeName="BDPruebasModel.ALUMNOS">
         <MappingFragment StoreEntitySet="ALUMNOS">
-          <ScalarProperty Name="Status" ColumnName="Status" />
           <ScalarProperty Name="Matricula" ColumnName="Matricula" />
           <ScalarProperty Name="NombreAlumno" ColumnName="NombreAlumno" />
           <ScalarProperty Name="ApellidoPaterno" ColumnName="ApellidoPaterno" />
           <ScalarProperty Name="ApellidoMaterno" ColumnName="ApellidoMaterno" />
           <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
           <ScalarProperty Name="IDCarrera" ColumnName="IDCarrera" />
           <ScalarProperty Name="IDGrupo" ColumnName="IDGrupo" />
         </MappingFragment>
@@ -18,9 +18,9 @@
     <EntitySetMapping Name="CARRERAS">
       <EntityTypeMapping TypeName="BDPruebasModel.CARRERAS">
         <MappingFragment StoreEntitySet="CARRERAS">
-          <ScalarProperty Name="Status" ColumnName="Status" />
           <ScalarProperty Name="IDCarrera" ColumnName="IDCarrera" />
           <ScalarProperty Name="NombreCarrera" ColumnName="NombreCarrera" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
           <ScalarProperty Name="IDDivision" ColumnName="IDDivision" />
         </MappingFragment>
       </EntityTypeMapping>
@@ -28,58 +28,60 @@
     <EntitySetMapping Name="DIVISIONES">
       <EntityTypeMapping TypeName="BDPruebasModel.DIVISIONES">
         <MappingFragment StoreEntitySet="DIVISIONES">
-          <ScalarProperty Name="Status" ColumnName="Status" />
           <ScalarProperty Name="IDDivision" ColumnName="IDDivision" />
           <ScalarProperty Name="NombreDivision" ColumnName="NombreDivision" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="GRUPOS">
       <EntityTypeMapping TypeName="BDPruebasModel.GRUPOS">
         <MappingFragment StoreEntitySet="GRUPOS">
-          <ScalarProperty Name="Status" ColumnName="Status" />
           <ScalarProperty Name="IDGrupo" ColumnName="IDGrupo" />
           <ScalarProperty Name="Cuatrimestre" ColumnName="Cuatrimestre" />
           <ScalarProperty Name="Grupo" ColumnName="Grupo" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="VistaAlumnos">
       <EntityTypeMapping TypeName="BDPruebasModel.VistaAlumnos">
         <MappingFragment StoreEntitySet="VistaAlumnos">
-          <ScalarProperty Name="GradoGrupo" ColumnName="GradoGrupo" />
-          <ScalarProperty Name="NombreCarrera" ColumnName="NombreCarrera" />
-          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
-          <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
           <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+          <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="NombreCarrera" ColumnName="NombreCarrera" />
+          <ScalarProperty Name="GradoGrupo" ColumnName="GradoGrupo" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="VistaCarreras">
       <EntityTypeMapping TypeName="BDPruebasModel.VistaCarreras">
         <MappingFragment StoreEntitySet="VistaCarreras">
-          <ScalarProperty Name="NombreDivision" ColumnName="NombreDivision" />
-          <ScalarProperty Name="NombreCarrera" ColumnName="NombreCarrera" />
           <ScalarProperty Name="IDCarrera" ColumnName="IDCarrera" />
+          <ScalarProperty Name="NombreCarrera" ColumnName="NombreCarrera" />
+          <ScalarProperty Name="NombreDivision" ColumnName="NombreDivision" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="VistaDivisiones">
       <EntityTypeMapping TypeName="BDPruebasModel.VistaDivisiones">
         <MappingFragment StoreEntitySet="VistaDivisiones">
-          <ScalarProperty Name="Status" ColumnName="Status" />
-          <ScalarProperty Name="NombreDivision" ColumnName="NombreDivision" />
           <ScalarProperty Name="IDDivision" ColumnName="IDDivision" />
+          <ScalarProperty Name="NombreDivision" ColumnName="NombreDivision" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="VistaGrupos">
       <EntityTypeMapping TypeName="BDPruebasModel.VistaGrupos">
         <MappingFragment StoreEntitySet="VistaGrupos">
-          <ScalarProperty Name="Status" ColumnName="Status" />
-          <ScalarProperty Name="Grupo" ColumnName="Grupo" />
-          <ScalarProperty Name="Cuatrimestre" ColumnName="Cuatrimestre" />
           <ScalarProperty Name="IDGrupo" ColumnName="IDGrupo" />
+          <ScalarProperty Name="Cuatrimestre" ColumnName="Cuatrimestre" />
+          <ScalarProperty Name="Grupo" ColumnName="Grupo" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

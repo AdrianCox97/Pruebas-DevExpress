@@ -9,11 +9,12 @@
           <Key>
             <PropertyRef Name="Matricula" />
           </Key>
-          <Property Name="Matricula" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Matricula" Type="varchar" MaxLength="10" Nullable="false" />
           <Property Name="NombreAlumno" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="ApellidoPaterno" Type="varchar" MaxLength="25" Nullable="false" />
           <Property Name="ApellidoMaterno" Type="varchar" MaxLength="25" Nullable="false" />
           <Property Name="Telefono" Type="varchar" MaxLength="10" />
+          <Property Name="Status" Type="bit" Nullable="false" />
           <Property Name="IDCarrera" Type="int" Nullable="false" />
           <Property Name="IDGrupo" Type="int" Nullable="false" />
         </EntityType>
@@ -23,6 +24,7 @@
           </Key>
           <Property Name="IDCarrera" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="NombreCarrera" Type="varchar" MaxLength="70" Nullable="false" />
+          <Property Name="Status" Type="bit" Nullable="false" />
           <Property Name="IDDivision" Type="int" Nullable="false" />
         </EntityType>
         <EntityType Name="DIVISIONES">
@@ -31,63 +33,73 @@
           </Key>
           <Property Name="IDDivision" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="NombreDivision" Type="varchar" MaxLength="70" Nullable="false" />
+          <Property Name="Status" Type="bit" Nullable="false" />
         </EntityType>
         <EntityType Name="GRUPOS">
           <Key>
             <PropertyRef Name="IDGrupo" />
           </Key>
           <Property Name="IDGrupo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Cuatrimestre" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="Cuatrimestre" Type="char" MaxLength="2" />
           <Property Name="Grupo" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="Status" Type="bit" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaAlumnos' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'BDPruebas.dbo.VistaAlumnos' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="VistaAlumnos">
           <Key>
             <PropertyRef Name="Matricula" />
             <PropertyRef Name="NombreCompleto" />
             <PropertyRef Name="NombreCarrera" />
             <PropertyRef Name="GradoGrupo" />
+            <PropertyRef Name="Status" />
           </Key>
-          <Property Name="Matricula" Type="int" Nullable="false" />
+          <Property Name="Matricula" Type="varchar" MaxLength="10" Nullable="false" />
           <Property Name="NombreCompleto" Type="varchar" MaxLength="102" Nullable="false" />
           <Property Name="Telefono" Type="varchar" MaxLength="10" />
           <Property Name="NombreCarrera" Type="varchar" MaxLength="70" Nullable="false" />
           <Property Name="GradoGrupo" Type="varchar" MaxLength="2" Nullable="false" />
+          <Property Name="Status" Type="bit" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaCarreras' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'BDPruebas.dbo.VistaCarreras' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="VistaCarreras">
           <Key>
             <PropertyRef Name="IDCarrera" />
             <PropertyRef Name="NombreCarrera" />
             <PropertyRef Name="NombreDivision" />
+            <PropertyRef Name="Status" />
           </Key>
           <Property Name="IDCarrera" Type="int" Nullable="false" />
           <Property Name="NombreCarrera" Type="varchar" MaxLength="70" Nullable="false" />
           <Property Name="NombreDivision" Type="varchar" MaxLength="70" Nullable="false" />
+          <Property Name="Status" Type="bit" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaDivisiones' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'BDPruebas.dbo.VistaDivisiones' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="VistaDivisiones">
           <Key>
             <PropertyRef Name="IDDivision" />
             <PropertyRef Name="NombreDivision" />
+            <PropertyRef Name="Status" />
           </Key>
           <Property Name="IDDivision" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="NombreDivision" Type="varchar" MaxLength="70" Nullable="false" />
+          <Property Name="Status" Type="bit" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaGrupos' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'BDPruebas.dbo.VistaGrupos' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="VistaGrupos">
           <Key>
             <PropertyRef Name="IDGrupo" />
             <PropertyRef Name="Cuatrimestre" />
             <PropertyRef Name="Grupo" />
+            <PropertyRef Name="Status" />
           </Key>
           <Property Name="IDGrupo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Cuatrimestre" Type="char" MaxLength="1" Nullable="false" />
           <Property Name="Grupo" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="Status" Type="bit" Nullable="false" />
         </EntityType>
         <Association Name="RefCARRERAS4">
           <End Role="CARRERAS" Type="Self.CARRERAS" Multiplicity="1" />
@@ -136,27 +148,31 @@ advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaGrupos' no tiene definida
     [VistaAlumnos].[NombreCompleto] AS [NombreCompleto], 
     [VistaAlumnos].[Telefono] AS [Telefono], 
     [VistaAlumnos].[NombreCarrera] AS [NombreCarrera], 
-    [VistaAlumnos].[GradoGrupo] AS [GradoGrupo]
+    [VistaAlumnos].[GradoGrupo] AS [GradoGrupo], 
+    [VistaAlumnos].[Status] AS [Status]
     FROM [dbo].[VistaAlumnos] AS [VistaAlumnos]</DefiningQuery>
           </EntitySet>
           <EntitySet Name="VistaCarreras" EntityType="Self.VistaCarreras" store:Type="Views" store:Schema="dbo">
             <DefiningQuery>SELECT 
     [VistaCarreras].[IDCarrera] AS [IDCarrera], 
     [VistaCarreras].[NombreCarrera] AS [NombreCarrera], 
-    [VistaCarreras].[NombreDivision] AS [NombreDivision]
+    [VistaCarreras].[NombreDivision] AS [NombreDivision], 
+    [VistaCarreras].[Status] AS [Status]
     FROM [dbo].[VistaCarreras] AS [VistaCarreras]</DefiningQuery>
           </EntitySet>
           <EntitySet Name="VistaDivisiones" EntityType="Self.VistaDivisiones" store:Type="Views" store:Schema="dbo">
             <DefiningQuery>SELECT 
     [VistaDivisiones].[IDDivision] AS [IDDivision], 
-    [VistaDivisiones].[NombreDivision] AS [NombreDivision]
+    [VistaDivisiones].[NombreDivision] AS [NombreDivision], 
+    [VistaDivisiones].[Status] AS [Status]
     FROM [dbo].[VistaDivisiones] AS [VistaDivisiones]</DefiningQuery>
           </EntitySet>
           <EntitySet Name="VistaGrupos" EntityType="Self.VistaGrupos" store:Type="Views" store:Schema="dbo">
             <DefiningQuery>SELECT 
     [VistaGrupos].[IDGrupo] AS [IDGrupo], 
     [VistaGrupos].[Cuatrimestre] AS [Cuatrimestre], 
-    [VistaGrupos].[Grupo] AS [Grupo]
+    [VistaGrupos].[Grupo] AS [Grupo], 
+    [VistaGrupos].[Status] AS [Status]
     FROM [dbo].[VistaGrupos] AS [VistaGrupos]</DefiningQuery>
           </EntitySet>
           <AssociationSet Name="RefCARRERAS4" Association="Self.RefCARRERAS4">
@@ -180,11 +196,12 @@ advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaGrupos' no tiene definida
           <Key>
             <PropertyRef Name="Matricula" />
           </Key>
-          <Property Name="Matricula" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Matricula" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="NombreAlumno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="ApellidoPaterno" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="ApellidoMaterno" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Telefono" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Status" Type="Boolean" Nullable="false" />
           <Property Name="IDCarrera" Type="Int32" Nullable="false" />
           <Property Name="IDGrupo" Type="Int32" Nullable="false" />
           <NavigationProperty Name="CARRERAS" Relationship="Self.RefCARRERAS4" FromRole="ALUMNOS" ToRole="CARRERAS" />
@@ -196,6 +213,7 @@ advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaGrupos' no tiene definida
           </Key>
           <Property Name="IDCarrera" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="NombreCarrera" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Status" Type="Boolean" Nullable="false" />
           <Property Name="IDDivision" Type="Int32" Nullable="false" />
           <NavigationProperty Name="ALUMNOS" Relationship="Self.RefCARRERAS4" FromRole="CARRERAS" ToRole="ALUMNOS" />
           <NavigationProperty Name="DIVISIONES" Relationship="Self.RefDIVISIONES7" FromRole="CARRERAS" ToRole="DIVISIONES" />
@@ -206,6 +224,7 @@ advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaGrupos' no tiene definida
           </Key>
           <Property Name="IDDivision" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="NombreDivision" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Status" Type="Boolean" Nullable="false" />
           <NavigationProperty Name="CARRERAS" Relationship="Self.RefDIVISIONES7" FromRole="DIVISIONES" ToRole="CARRERAS" />
         </EntityType>
         <EntityType Name="GRUPOS">
@@ -213,9 +232,59 @@ advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaGrupos' no tiene definida
             <PropertyRef Name="IDGrupo" />
           </Key>
           <Property Name="IDGrupo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Cuatrimestre" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="Grupo" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="Status" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="ALUMNOS" Relationship="Self.RefGRUPOS5" FromRole="GRUPOS" ToRole="ALUMNOS" />
+        </EntityType>
+        <EntityType Name="VistaAlumnos">
+          <Key>
+            <PropertyRef Name="Matricula" />
+            <PropertyRef Name="NombreCompleto" />
+            <PropertyRef Name="NombreCarrera" />
+            <PropertyRef Name="GradoGrupo" />
+            <PropertyRef Name="Status" />
+          </Key>
+          <Property Name="Matricula" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="NombreCompleto" Type="String" MaxLength="102" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Telefono" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="NombreCarrera" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="GradoGrupo" Type="String" MaxLength="2" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Status" Type="Boolean" Nullable="false" />
+        </EntityType>
+        <EntityType Name="VistaCarreras">
+          <Key>
+            <PropertyRef Name="IDCarrera" />
+            <PropertyRef Name="NombreCarrera" />
+            <PropertyRef Name="NombreDivision" />
+            <PropertyRef Name="Status" />
+          </Key>
+          <Property Name="IDCarrera" Type="Int32" Nullable="false" />
+          <Property Name="NombreCarrera" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="NombreDivision" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Status" Type="Boolean" Nullable="false" />
+        </EntityType>
+        <EntityType Name="VistaDivisiones">
+          <Key>
+            <PropertyRef Name="IDDivision" />
+            <PropertyRef Name="NombreDivision" />
+            <PropertyRef Name="Status" />
+          </Key>
+          <Property Name="IDDivision" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NombreDivision" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Status" Type="Boolean" Nullable="false" />
+        </EntityType>
+        <EntityType Name="VistaGrupos">
+          <Key>
+            <PropertyRef Name="IDGrupo" />
+            <PropertyRef Name="Cuatrimestre" />
+            <PropertyRef Name="Grupo" />
+            <PropertyRef Name="Status" />
+          </Key>
+          <Property Name="IDGrupo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Cuatrimestre" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
           <Property Name="Grupo" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
-          <NavigationProperty Name="ALUMNOS" Relationship="Self.RefGRUPOS5" FromRole="GRUPOS" ToRole="ALUMNOS" />
+          <Property Name="Status" Type="Boolean" Nullable="false" />
         </EntityType>
         <Association Name="RefCARRERAS4">
           <End Role="CARRERAS" Type="Self.CARRERAS" Multiplicity="1" />
@@ -258,6 +327,10 @@ advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaGrupos' no tiene definida
           <EntitySet Name="CARRERAS" EntityType="Self.CARRERAS" />
           <EntitySet Name="DIVISIONES" EntityType="Self.DIVISIONES" />
           <EntitySet Name="GRUPOS" EntityType="Self.GRUPOS" />
+          <EntitySet Name="VistaAlumnos" EntityType="Self.VistaAlumnos" />
+          <EntitySet Name="VistaCarreras" EntityType="Self.VistaCarreras" />
+          <EntitySet Name="VistaDivisiones" EntityType="Self.VistaDivisiones" />
+          <EntitySet Name="VistaGrupos" EntityType="Self.VistaGrupos" />
           <AssociationSet Name="RefCARRERAS4" Association="Self.RefCARRERAS4">
             <End Role="CARRERAS" EntitySet="CARRERAS" />
             <End Role="ALUMNOS" EntitySet="ALUMNOS" />
@@ -270,52 +343,7 @@ advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaGrupos' no tiene definida
             <End Role="DIVISIONES" EntitySet="DIVISIONES" />
             <End Role="CARRERAS" EntitySet="CARRERAS" />
           </AssociationSet>
-          <EntitySet Name="VistaAlumnos" EntityType="BDPruebasModel.VistaAlumnos" />
-          <EntitySet Name="VistaCarreras" EntityType="BDPruebasModel.VistaCarreras" />
-          <EntitySet Name="VistaDivisiones" EntityType="BDPruebasModel.VistaDivisiones" />
-          <EntitySet Name="VistaGrupos" EntityType="BDPruebasModel.VistaGrupos" />
         </EntityContainer>
-        <EntityType Name="VistaAlumnos">
-          <Key>
-            <PropertyRef Name="Matricula" />
-            <PropertyRef Name="NombreCompleto" />
-            <PropertyRef Name="NombreCarrera" />
-            <PropertyRef Name="GradoGrupo" />
-          </Key>
-          <Property Name="Matricula" Type="Int32" Nullable="false" />
-          <Property Name="NombreCompleto" Type="String" Nullable="false" MaxLength="102" FixedLength="false" Unicode="false" />
-          <Property Name="Telefono" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="NombreCarrera" Type="String" Nullable="false" MaxLength="70" FixedLength="false" Unicode="false" />
-          <Property Name="GradoGrupo" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
-        </EntityType>
-        <EntityType Name="VistaCarreras">
-          <Key>
-            <PropertyRef Name="IDCarrera" />
-            <PropertyRef Name="NombreCarrera" />
-            <PropertyRef Name="NombreDivision" />
-          </Key>
-          <Property Name="IDCarrera" Type="Int32" Nullable="false" />
-          <Property Name="NombreCarrera" Type="String" Nullable="false" MaxLength="70" FixedLength="false" Unicode="false" />
-          <Property Name="NombreDivision" Type="String" Nullable="false" MaxLength="70" FixedLength="false" Unicode="false" />
-        </EntityType>
-        <EntityType Name="VistaDivisiones">
-          <Key>
-            <PropertyRef Name="IDDivision" />
-            <PropertyRef Name="NombreDivision" />
-          </Key>
-          <Property Name="IDDivision" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="NombreDivision" Type="String" Nullable="false" MaxLength="70" FixedLength="false" Unicode="false" />
-        </EntityType>
-        <EntityType Name="VistaGrupos">
-          <Key>
-            <PropertyRef Name="IDGrupo" />
-            <PropertyRef Name="Cuatrimestre" />
-            <PropertyRef Name="Grupo" />
-          </Key>
-          <Property Name="IDGrupo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Cuatrimestre" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
-          <Property Name="Grupo" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
-        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -330,6 +358,7 @@ advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaGrupos' no tiene definida
                 <ScalarProperty Name="ApellidoPaterno" ColumnName="ApellidoPaterno" />
                 <ScalarProperty Name="ApellidoMaterno" ColumnName="ApellidoMaterno" />
                 <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
                 <ScalarProperty Name="IDCarrera" ColumnName="IDCarrera" />
                 <ScalarProperty Name="IDGrupo" ColumnName="IDGrupo" />
               </MappingFragment>
@@ -340,6 +369,7 @@ advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaGrupos' no tiene definida
               <MappingFragment StoreEntitySet="CARRERAS">
                 <ScalarProperty Name="IDCarrera" ColumnName="IDCarrera" />
                 <ScalarProperty Name="NombreCarrera" ColumnName="NombreCarrera" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
                 <ScalarProperty Name="IDDivision" ColumnName="IDDivision" />
               </MappingFragment>
             </EntityTypeMapping>
@@ -349,6 +379,7 @@ advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaGrupos' no tiene definida
               <MappingFragment StoreEntitySet="DIVISIONES">
                 <ScalarProperty Name="IDDivision" ColumnName="IDDivision" />
                 <ScalarProperty Name="NombreDivision" ColumnName="NombreDivision" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -358,43 +389,48 @@ advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaGrupos' no tiene definida
                 <ScalarProperty Name="IDGrupo" ColumnName="IDGrupo" />
                 <ScalarProperty Name="Cuatrimestre" ColumnName="Cuatrimestre" />
                 <ScalarProperty Name="Grupo" ColumnName="Grupo" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="VistaAlumnos">
             <EntityTypeMapping TypeName="BDPruebasModel.VistaAlumnos">
               <MappingFragment StoreEntitySet="VistaAlumnos">
-                <ScalarProperty Name="GradoGrupo" ColumnName="GradoGrupo" />
-                <ScalarProperty Name="NombreCarrera" ColumnName="NombreCarrera" />
-                <ScalarProperty Name="Telefono" ColumnName="Telefono" />
-                <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
                 <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+                <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+                <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+                <ScalarProperty Name="NombreCarrera" ColumnName="NombreCarrera" />
+                <ScalarProperty Name="GradoGrupo" ColumnName="GradoGrupo" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="VistaCarreras">
             <EntityTypeMapping TypeName="BDPruebasModel.VistaCarreras">
               <MappingFragment StoreEntitySet="VistaCarreras">
-                <ScalarProperty Name="NombreDivision" ColumnName="NombreDivision" />
-                <ScalarProperty Name="NombreCarrera" ColumnName="NombreCarrera" />
                 <ScalarProperty Name="IDCarrera" ColumnName="IDCarrera" />
+                <ScalarProperty Name="NombreCarrera" ColumnName="NombreCarrera" />
+                <ScalarProperty Name="NombreDivision" ColumnName="NombreDivision" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="VistaDivisiones">
             <EntityTypeMapping TypeName="BDPruebasModel.VistaDivisiones">
               <MappingFragment StoreEntitySet="VistaDivisiones">
-                <ScalarProperty Name="NombreDivision" ColumnName="NombreDivision" />
                 <ScalarProperty Name="IDDivision" ColumnName="IDDivision" />
+                <ScalarProperty Name="NombreDivision" ColumnName="NombreDivision" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="VistaGrupos">
             <EntityTypeMapping TypeName="BDPruebasModel.VistaGrupos">
               <MappingFragment StoreEntitySet="VistaGrupos">
-                <ScalarProperty Name="Grupo" ColumnName="Grupo" />
-                <ScalarProperty Name="Cuatrimestre" ColumnName="Cuatrimestre" />
                 <ScalarProperty Name="IDGrupo" ColumnName="IDGrupo" />
+                <ScalarProperty Name="Cuatrimestre" ColumnName="Cuatrimestre" />
+                <ScalarProperty Name="Grupo" ColumnName="Grupo" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -415,7 +451,7 @@ advertencia 6002: La tabla o vista 'BDPruebas.dbo.VistaGrupos' no tiene definida
         <DesignerProperty Name="EnablePluralization" Value="false" />
         <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
         <DesignerProperty Name="UseLegacyProvider" Value="false" />
-        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
       </DesignerInfoPropertySet>
     </Options>
     <!-- Diagram content (shape and connector positions) -->

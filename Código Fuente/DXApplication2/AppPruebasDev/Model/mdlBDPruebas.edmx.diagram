@@ -4,18 +4,18 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="b441b294577a4c38ac9244dc69fbb7e7" Name="Diagram1" ZoomLevel="55">
+      <Diagram DiagramId="0fc2905deaf8465f87190233d69b2398" Name="Diagram1">
         <EntityTypeShape EntityType="BDPruebasModel.ALUMNOS" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="BDPruebasModel.CARRERAS" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
         <EntityTypeShape EntityType="BDPruebasModel.DIVISIONES" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
         <EntityTypeShape EntityType="BDPruebasModel.GRUPOS" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDPruebasModel.VistaAlumnos" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDPruebasModel.VistaCarreras" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDPruebasModel.VistaDivisiones" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDPruebasModel.VistaGrupos" Width="1.5" PointX="5.75" PointY="7.75" IsExpanded="true" />
         <AssociationConnector Association="BDPruebasModel.RefCARRERAS4" ManuallyRouted="false" />
         <AssociationConnector Association="BDPruebasModel.RefGRUPOS5" ManuallyRouted="false" />
         <AssociationConnector Association="BDPruebasModel.RefDIVISIONES7" ManuallyRouted="false" />
-        <EntityTypeShape EntityType="BDPruebasModel.VistaAlumnos" Width="1.5" PointX="7.375" PointY="5.625" />
-        <EntityTypeShape EntityType="BDPruebasModel.VistaCarreras" Width="1.5" PointX="7.375" PointY="0.75" />
-        <EntityTypeShape EntityType="BDPruebasModel.VistaDivisiones" Width="1.5" PointX="7.375" PointY="3.75" />
-        <EntityTypeShape EntityType="BDPruebasModel.VistaGrupos" Width="1.5" PointX="5.375" PointY="7.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

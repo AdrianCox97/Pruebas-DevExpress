@@ -17,7 +17,7 @@ namespace AppPruebasDev.GUI
     {
         public static BDPruebasEntities bdPruebas = null;
         DIVISIONES oDivisiones;
-        General d;
+        General oGeneral = new General();
         
         public frmDivisiones()
         {
@@ -52,14 +52,14 @@ namespace AppPruebasDev.GUI
             {
                 Int32 IndexFila = e.RowHandle;
 
-                txtIDDivision.Text = dtgVistaDivisiones.GetRowCellValue(IndexFila, dtgVistaDivisiones.Columns[0]).ToString().Trim();
-                txtNombreDivision.Text = dtgVistaDivisiones.GetRowCellValue(IndexFila, dtgVistaDivisiones.Columns[1]).ToString().Trim();
+                txtIDDivision.Text = dtgVistaDivisiones.GetRowCellValue(IndexFila, IDDivision).ToString().Trim();
+                txtNombreDivision.Text = dtgVistaDivisiones.GetRowCellValue(IndexFila, NombreDivision).ToString().Trim();
 
-                OffBotones(false);
+                OffBotonesEdicion(false);
             }
             catch (Exception f)
             {
-                Mensajes('X', "");
+                oGeneral.Mensajes('X', "");
             }
         }
 
@@ -73,27 +73,27 @@ namespace AppPruebasDev.GUI
 
         private void Nuevo()
         {
-            txtIDDivision.Text = "";
-            txtNombreDivision.Text = "";
+            txtIDDivision.ResetText();
+            txtNombreDivision.ResetText();
 
-            OffBotones(true);
+            OffBotonesEdicion(true);
         }
 
         private void Guardar()
         {
             try
             {
-                BD.DIVISIONES.Add(GetDatos());
-                BD.SaveChanges();
+                bdPruebas.DIVISIONES.Add(GetDatos());
+                bdPruebas.SaveChanges();
 
-                Mensajes('S', "Éxito");
+                oGeneral.Mensajes('S', "Éxito");
 
                 Nuevo();
                 VistaDatos();
             }
             catch(Exception f)
             {
-                Mensajes('S', "Error");
+                oGeneral.Mensajes('S', "Error");
             }
         }
 
@@ -103,22 +103,22 @@ namespace AppPruebasDev.GUI
             {
                 Int32 IDDivision = Convert.ToInt32(txtIDDivision.Text.Trim());
 
-                var Consulta = BD.DIVISIONES.Find(IDDivision);
+                var Consulta = bdPruebas.DIVISIONES.Find(IDDivision);
 
                 var Division = GetDatos();
 
                 Consulta.NombreDivision = Division.NombreDivision;
-                BD.SaveChanges();
+                bdPruebas.SaveChanges();
 
-                Mensajes('U', "Éxito");
+                oGeneral.Mensajes('U', "Éxito");
 
                 Nuevo();
                 VistaDatos();
-                OffBotones(true);
+                OffBotonesEdicion(true);
             }
             catch(Exception f)
             {
-                Mensajes('U', "Error");
+                oGeneral.Mensajes('U', "Error");
             }
         }
 
@@ -126,22 +126,26 @@ namespace AppPruebasDev.GUI
         {
             try
             {
-                Int32 IDDivision = Convert.ToInt32(txtIDDivision.Text);
+                if (oGeneral.Mensajes('d', "") == DialogResult.Yes)
+                {
+                    Int32 IDDivision = Convert.ToInt32(txtIDDivision.Text);
 
-                var Consulta = BD.DIVISIONES.Find(IDDivision);
+                    var Consulta = bdPruebas.DIVISIONES.Find(IDDivision);
 
-                BD.DIVISIONES.Remove(Consulta);
-                BD.SaveChanges();
+                    Consulta.Status = false;
 
-                Mensajes('D', "Éxito");
+                    bdPruebas.SaveChanges();
 
-                Nuevo();
-                VistaDatos();
-                OffBotones(true);
+                    oGeneral.Mensajes('D', "Éxito");
+
+                    Nuevo();
+                    VistaDatos();
+                    OffBotonesEdicion(true);
+                }
             }
             catch
             {
-                Mensajes('D', "Error");
+                oGeneral.Mensajes('D', "Error");
             }
         }
 
@@ -149,7 +153,8 @@ namespace AppPruebasDev.GUI
         {
             oDivisiones = new DIVISIONES
             {
-                NombreDivision = txtNombreDivision.Text.Trim() 
+                NombreDivision = txtNombreDivision.Text.Trim(),
+                Status = true
             };
 
             oDivisiones.IDDivision = txtIDDivision.Text != "" ? Convert.ToInt32(txtIDDivision.Text) : 0;
@@ -159,10 +164,10 @@ namespace AppPruebasDev.GUI
 
         private void VistaDatos()
         {
-            dtgVista.DataSource = BD.VistaDivisiones.ToList();
+            dtgVista.DataSource = bdPruebas.VistaDivisiones.ToList();
         }
 
-        private void OffBotones(Boolean Valor)
+        private void OffBotonesEdicion(Boolean Valor)
         {
             switch (Valor)
             {

@@ -9,7 +9,7 @@ namespace AppPruebasDev.Model
 {
     public class General
     {
-        private DialogResult Mensajes(Char Accion, String Informacion)
+        public DialogResult Mensajes(Char Accion, String Informacion)
         {
             DialogResult Mensaje;
             String MSG = "Ha ocurrido un error inesperado.";
@@ -32,6 +32,11 @@ namespace AppPruebasDev.Model
                     MSG = Informacion + " al eliminar el registro.";
                     Botones = MessageBoxButtons.OK;
                     Icono = MessageBoxIcon.Information;
+                    break;
+                case 'd':
+                    MSG = "¿Desea eliminar el registro?";
+                    Botones = MessageBoxButtons.YesNo;
+                    Icono = MessageBoxIcon.Warning;
                     break;
                 default:
                     MSG = "Ha ocurrido un error inesperado.";

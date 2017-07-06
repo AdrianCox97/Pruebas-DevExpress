@@ -21,6 +21,8 @@ namespace AppPruebasDev.GUI
 
         private void btnAlumnos_Click(object sender, EventArgs e)
         {
+            frmAlumnos.bdPruebas = bdPruebas;
+
             frmAlumnos frm = new frmAlumnos();
 
             frm.ShowDialog();
@@ -28,6 +30,8 @@ namespace AppPruebasDev.GUI
 
         private void btnGrupos_Click(object sender, EventArgs e)
         {
+            frmGrupos.bdPruebas = bdPruebas;
+
             frmGrupos frm = new frmGrupos();
 
             frm.ShowDialog();
@@ -35,6 +39,8 @@ namespace AppPruebasDev.GUI
 
         private void btnCarreras_Click(object sender, EventArgs e)
         {
+            frmCarreras.bdPruebas = bdPruebas;
+
             frmCarreras frm = new frmCarreras();
 
             frm.ShowDialog();

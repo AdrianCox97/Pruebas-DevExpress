@@ -86,7 +86,7 @@ go
 
 CREATE TABLE GRUPOS(
     IDGrupo         int        IDENTITY(1,1),
-    Cuatrimestre    char(1)    NOT NULL,
+    Cuatrimestre    char(2)    NOT NULL,
     Grupo           char(1)    NOT NULL,
     Status          bit        NOT NULL,
     CONSTRAINT PK5 PRIMARY KEY NONCLUSTERED (IDGrupo)
