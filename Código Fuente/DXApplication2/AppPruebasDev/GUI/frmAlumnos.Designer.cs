@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
+            this.components = new System.ComponentModel.Container();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode3 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode2 = new DevExpress.XtraGrid.GridLevelNode();
             this.dtgVistaAlumnosSub1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -37,21 +39,28 @@
             this.dtgVistaAlumnos = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.colMatricula = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.bDPruebasDataSet = new AppPruebasDev.BDPruebasDataSet();
+            this.cARRERASBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.cARRERASTableAdapter = new AppPruebasDev.BDPruebasDataSetTableAdapters.CARRERASTableAdapter();
+            this.cardView1 = new DevExpress.XtraGrid.Views.Card.CardView();
+            this.colIDCarrera = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colNombreCarrera = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colNombreAlumno = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colApellidoPaterno = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colApellidoMaterno = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colMatricula = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTelefono = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colStatus = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colIDCarrera = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colIDGrupo = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.alumnosTableAdapter1 = new AppPruebasDev.BDPruebasDataSetTableAdapters.ALUMNOSTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dtgVistaAlumnosSub1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgVista)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgVistaAlumnos)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bDPruebasDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cARRERASBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardView1)).BeginInit();
             this.SuspendLayout();
             // 
             // dtgVistaAlumnosSub1
@@ -91,10 +100,10 @@
             // dtgVista
             // 
             this.dtgVista.Dock = System.Windows.Forms.DockStyle.Bottom;
-            gridLevelNode1.LevelTemplate = this.dtgVistaAlumnosSub1;
-            gridLevelNode1.RelationName = "Level1";
+            gridLevelNode3.LevelTemplate = this.dtgVistaAlumnosSub1;
+            gridLevelNode3.RelationName = "Level1";
             this.dtgVista.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode1});
+            gridLevelNode3});
             this.dtgVista.Location = new System.Drawing.Point(0, 276);
             this.dtgVista.MainView = this.dtgVistaAlumnos;
             this.dtgVista.Name = "dtgVista";
@@ -132,86 +141,116 @@
             this.gridColumn2.Visible = true;
             this.gridColumn2.VisibleIndex = 1;
             // 
+            // gridView1
+            // 
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colIDCarrera,
+            this.colNombreCarrera});
+            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.Name = "gridView1";
+            // 
             // gridControl1
             // 
+            this.gridControl1.DataSource = this.cARRERASBindingSource;
             this.gridControl1.Dock = System.Windows.Forms.DockStyle.Top;
+            gridLevelNode2.LevelTemplate = this.cardView1;
+            gridLevelNode2.RelationName = "RefCARRERAS4";
+            this.gridControl1.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
+            gridLevelNode2});
             this.gridControl1.Location = new System.Drawing.Point(0, 0);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
             this.gridControl1.Size = new System.Drawing.Size(755, 270);
             this.gridControl1.TabIndex = 19;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
+            this.gridView1,
+            this.cardView1});
             // 
-            // gridView1
+            // bDPruebasDataSet
             // 
-            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.bDPruebasDataSet.DataSetName = "BDPruebasDataSet";
+            this.bDPruebasDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // cARRERASBindingSource
+            // 
+            this.cARRERASBindingSource.DataMember = "CARRERAS";
+            this.cARRERASBindingSource.DataSource = this.bDPruebasDataSet;
+            // 
+            // cARRERASTableAdapter
+            // 
+            this.cARRERASTableAdapter.ClearBeforeFill = true;
+            // 
+            // cardView1
+            // 
+            this.cardView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.colMatricula,
+            this.colTelefono,
             this.colNombreAlumno,
             this.colApellidoPaterno,
-            this.colApellidoMaterno,
-            this.colTelefono,
-            this.colStatus,
-            this.colIDCarrera,
-            this.colIDGrupo});
-            this.gridView1.GridControl = this.gridControl1;
-            this.gridView1.Name = "gridView1";
+            this.colApellidoMaterno});
+            this.cardView1.FocusedCardTopFieldIndex = 0;
+            this.cardView1.GridControl = this.gridControl1;
+            this.cardView1.Name = "cardView1";
             // 
-            // colMatricula
+            // colIDCarrera
             // 
-            this.colMatricula.FieldName = "Matricula";
-            this.colMatricula.Name = "colMatricula";
-            this.colMatricula.Visible = true;
-            this.colMatricula.VisibleIndex = 0;
+            this.colIDCarrera.Caption = "Clave";
+            this.colIDCarrera.FieldName = "IDCarrera";
+            this.colIDCarrera.Name = "colIDCarrera";
+            this.colIDCarrera.Visible = true;
+            this.colIDCarrera.VisibleIndex = 0;
+            // 
+            // colNombreCarrera
+            // 
+            this.colNombreCarrera.Caption = "Nombre de la Carrera";
+            this.colNombreCarrera.FieldName = "NombreCarrera";
+            this.colNombreCarrera.Name = "colNombreCarrera";
+            this.colNombreCarrera.Visible = true;
+            this.colNombreCarrera.VisibleIndex = 1;
             // 
             // colNombreAlumno
             // 
+            this.colNombreAlumno.Caption = "Nombre(s) del Alumno";
             this.colNombreAlumno.FieldName = "NombreAlumno";
             this.colNombreAlumno.Name = "colNombreAlumno";
             this.colNombreAlumno.Visible = true;
-            this.colNombreAlumno.VisibleIndex = 1;
+            this.colNombreAlumno.VisibleIndex = 0;
             // 
             // colApellidoPaterno
             // 
+            this.colApellidoPaterno.Caption = "Apellido Paterno";
             this.colApellidoPaterno.FieldName = "ApellidoPaterno";
             this.colApellidoPaterno.Name = "colApellidoPaterno";
             this.colApellidoPaterno.Visible = true;
-            this.colApellidoPaterno.VisibleIndex = 2;
+            this.colApellidoPaterno.VisibleIndex = 1;
             // 
             // colApellidoMaterno
             // 
+            this.colApellidoMaterno.Caption = "Aprellido Materno";
             this.colApellidoMaterno.FieldName = "ApellidoMaterno";
             this.colApellidoMaterno.Name = "colApellidoMaterno";
             this.colApellidoMaterno.Visible = true;
-            this.colApellidoMaterno.VisibleIndex = 3;
+            this.colApellidoMaterno.VisibleIndex = 2;
+            // 
+            // colMatricula
+            // 
+            this.colMatricula.Caption = "Matrícula";
+            this.colMatricula.FieldName = "Matricula";
+            this.colMatricula.Name = "colMatricula";
+            this.colMatricula.Visible = true;
+            this.colMatricula.VisibleIndex = 3;
             // 
             // colTelefono
             // 
+            this.colTelefono.Caption = "Teléfono";
             this.colTelefono.FieldName = "Telefono";
             this.colTelefono.Name = "colTelefono";
             this.colTelefono.Visible = true;
             this.colTelefono.VisibleIndex = 4;
             // 
-            // colStatus
+            // alumnosTableAdapter1
             // 
-            this.colStatus.FieldName = "Status";
-            this.colStatus.Name = "colStatus";
-            this.colStatus.Visible = true;
-            this.colStatus.VisibleIndex = 5;
-            // 
-            // colIDCarrera
-            // 
-            this.colIDCarrera.FieldName = "IDCarrera";
-            this.colIDCarrera.Name = "colIDCarrera";
-            this.colIDCarrera.Visible = true;
-            this.colIDCarrera.VisibleIndex = 6;
-            // 
-            // colIDGrupo
-            // 
-            this.colIDGrupo.FieldName = "IDGrupo";
-            this.colIDGrupo.Name = "colIDGrupo";
-            this.colIDGrupo.Visible = true;
-            this.colIDGrupo.VisibleIndex = 7;
+            this.alumnosTableAdapter1.ClearBeforeFill = true;
             // 
             // frmAlumnos
             // 
@@ -221,13 +260,16 @@
             this.Controls.Add(this.gridControl1);
             this.Controls.Add(this.dtgVista);
             this.Name = "frmAlumnos";
-            this.Text = "frmAlumnos";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.frmAlumnos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgVistaAlumnosSub1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgVista)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgVistaAlumnos)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bDPruebasDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cARRERASBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -242,15 +284,19 @@
         private DevExpress.XtraGrid.Views.Grid.GridView dtgVistaAlumnos;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
-        private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.GridControl gridControl1;
+        private BDPruebasDataSet bDPruebasDataSet;
+        private System.Windows.Forms.BindingSource cARRERASBindingSource;
+        private BDPruebasDataSetTableAdapters.CARRERASTableAdapter cARRERASTableAdapter;
+        private DevExpress.XtraGrid.Columns.GridColumn colIDCarrera;
+        private DevExpress.XtraGrid.Columns.GridColumn colNombreCarrera;
+        private DevExpress.XtraGrid.Views.Card.CardView cardView1;
         private DevExpress.XtraGrid.Columns.GridColumn colMatricula;
+        private DevExpress.XtraGrid.Columns.GridColumn colTelefono;
         private DevExpress.XtraGrid.Columns.GridColumn colNombreAlumno;
         private DevExpress.XtraGrid.Columns.GridColumn colApellidoPaterno;
         private DevExpress.XtraGrid.Columns.GridColumn colApellidoMaterno;
-        private DevExpress.XtraGrid.Columns.GridColumn colTelefono;
-        private DevExpress.XtraGrid.Columns.GridColumn colStatus;
-        private DevExpress.XtraGrid.Columns.GridColumn colIDCarrera;
-        private DevExpress.XtraGrid.Columns.GridColumn colIDGrupo;
+        private BDPruebasDataSetTableAdapters.ALUMNOSTableAdapter alumnosTableAdapter1;
     }
 }

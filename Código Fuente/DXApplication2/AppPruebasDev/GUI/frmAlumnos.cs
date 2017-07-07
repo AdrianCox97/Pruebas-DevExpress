@@ -95,19 +95,9 @@ namespace AppPruebasDev.GUI
 
         private void frmAlumnos_Load(object sender, EventArgs e)
         {
-            
-            // TODO: This line of code loads data into the 'bDPruebasDataSet.ALUMNOS' table. You can move, or remove it, as needed.
-            this.aLUMNOSTableAdapter.Fill(this.bDPruebasDataSet.ALUMNOS);
             // TODO: This line of code loads data into the 'bDPruebasDataSet.CARRERAS' table. You can move, or remove it, as needed.
-            //this.cARRERASTableAdapter.Fill(this.bDPruebasDataSet.CARRERAS);
-            // TODO: This line of code loads data into the 'bDPruebasDataSet.ALUMNOS' table. You can move, or remove it, as needed.
-            //this.aLUMNOSTableAdapter.Fill(this.bDPruebasDataSet.ALUMNOS);
-            // TODO: This line of code loads data into the 'bDPruebasDataSet.ALUMNOS' table. You can move, or remove it, as needed.
-            //this.aLUMNOSTableAdapter.Fill(this.bDPruebasDataSet.ALUMNOS);
-            //// TODO: This line of code loads data into the 'bDPruebasDataSet.VistaAlumnos' table. You can move, or remove it, as needed.
-            //this.vistaAlumnosTableAdapter.Fill(this.bDPruebasDataSet.VistaAlumnos);
-// TODO: This line of code loads data into the 'bDPruebasDataSet.CARRERAS' table. You can move, or remove it, as needed.
             this.cARRERASTableAdapter.Fill(this.bDPruebasDataSet.CARRERAS);
+            this.alumnosTableAdapter1.Fill(this.bDPruebasDataSet.ALUMNOS);
         }
     }
 }
