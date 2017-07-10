@@ -95,6 +95,9 @@ namespace AppPruebasDev.GUI
 
         private void frmAlumnos_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'bDPruebasDataSet.ALUMNOS1' table. You can move, or remove it, as needed.
+            this.aLUMNOS1TableAdapter.Fill(this.bDPruebasDataSet1.ALUMNOS1);
+            this.alumnoS2TableAdapter1.Fill(this.bDPruebasDataSet1.ALUMNOS2);
             // TODO: This line of code loads data into the 'bDPruebasDataSet.CARRERAS' table. You can move, or remove it, as needed.
             this.cARRERASTableAdapter.Fill(this.bDPruebasDataSet.CARRERAS);
             this.alumnosTableAdapter1.Fill(this.bDPruebasDataSet.ALUMNOS);
