@@ -4,7 +4,7 @@
  * Project :      BDPruebas.DM1
  * Author :       Adrian Cox
  *
- * Date Created : Friday, June 30, 2017 14:43:49
+ * Date Created : Tuesday, July 11, 2017 13:07:31
  * Target DBMS : Microsoft SQL Server 2008
  */
 
@@ -14,6 +14,9 @@ CREATE DATABASE BDPruebas
 go
 USE BDPruebas
 go
+
+/****************************** TABLAS ******************************/
+
 /* 
  * TABLE: ALUMNOS 
  */
@@ -23,6 +26,8 @@ CREATE TABLE ALUMNOS(
     NombreAlumno       varchar(50)    NOT NULL,
     ApellidoPaterno    varchar(25)    NOT NULL,
     ApellidoMaterno    varchar(25)    NOT NULL,
+    Correo             varchar(75)    NOT NULL,
+    Contrasenia        varchar(75)    NOT NULL,
     Telefono           varchar(10)    NULL,
     Status             bit            NOT NULL,
     IDCarrera          int            NOT NULL,
@@ -31,12 +36,34 @@ CREATE TABLE ALUMNOS(
 )
 go
 
-
-
 IF OBJECT_ID('ALUMNOS') IS NOT NULL
     PRINT '<<< CREATED TABLE ALUMNOS >>>'
 ELSE
     PRINT '<<< FAILED CREATING TABLE ALUMNOS >>>'
+go
+
+/* 
+ * TABLE: BITACORA 
+ */
+
+CREATE TABLE BITACORA(
+    CLAVE            int              IDENTITY(1,1),
+    PK               nvarchar(max)    NOT NULL,
+    ACCION           char(1)          NOT NULL,
+    TABLA            nvarchar(max)    NOT NULL,
+    CAMPO            nvarchar(max)    NOT NULL,
+    VALORORIGINAL    nvarchar(max)    NOT NULL,
+    VALORNUEVO       nvarchar(max)    NOT NULL,
+    FECHA            datetime2(7)     NOT NULL,
+    IDUSUARIO        nvarchar(max)    NOT NULL,
+    CONSTRAINT PK6 PRIMARY KEY NONCLUSTERED (CLAVE)
+)
+go
+
+IF OBJECT_ID('BITACORA') IS NOT NULL
+    PRINT '<<< CREATED TABLE BITACORA >>>'
+ELSE
+    PRINT '<<< FAILED CREATING TABLE BITACORA >>>'
 go
 
 /* 
@@ -51,8 +78,6 @@ CREATE TABLE CARRERAS(
     CONSTRAINT PK2 PRIMARY KEY NONCLUSTERED (IDCarrera)
 )
 go
-
-
 
 IF OBJECT_ID('CARRERAS') IS NOT NULL
     PRINT '<<< CREATED TABLE CARRERAS >>>'
@@ -72,8 +97,6 @@ CREATE TABLE DIVISIONES(
 )
 go
 
-
-
 IF OBJECT_ID('DIVISIONES') IS NOT NULL
     PRINT '<<< CREATED TABLE DIVISIONES >>>'
 ELSE
@@ -86,14 +109,12 @@ go
 
 CREATE TABLE GRUPOS(
     IDGrupo         int        IDENTITY(1,1),
-    Cuatrimestre    char(2)    NOT NULL,
+    Cuatrimestre    char(1)    NOT NULL,
     Grupo           char(1)    NOT NULL,
     Status          bit        NOT NULL,
     CONSTRAINT PK5 PRIMARY KEY NONCLUSTERED (IDGrupo)
 )
 go
-
-
 
 IF OBJECT_ID('GRUPOS') IS NOT NULL
     PRINT '<<< CREATED TABLE GRUPOS >>>'
@@ -115,7 +136,6 @@ ALTER TABLE ALUMNOS ADD CONSTRAINT RefGRUPOS5
     REFERENCES GRUPOS(IDGrupo)
 go
 
-
 /* 
  * TABLE: CARRERAS 
  */
@@ -125,46 +145,46 @@ ALTER TABLE CARRERAS ADD CONSTRAINT RefDIVISIONES7
     REFERENCES DIVISIONES(IDDivision)
 go
 
-/*************************************************************************************
-VISTAS	VISTAS	VISTAS	VISTAS	VISTAS	VISTAS	VISTAS	VISTAS	VISTAS	VISTAS	VISTAS
-*************************************************************************************/
+/****************************** VISTAS ******************************/
 
-CREATE VIEW VistaDivisiones
+/*VISTA ALUMNOS*/
+CREATE VIEW VISTAALUMNOS
 AS
-SELECT * FROM DIVISIONES D;
-
-GO
-
-CREATE VIEW VistaGrupos
-AS
-SELECT * FROM GRUPOS;
-
-GO
-
-CREATE VIEW VistaCarreras
-AS
-SELECT C.IDCarrera, C.NombreCarrera, D.NombreDivision
-FROM CARRERAS C
-INNER JOIN DIVISIONES D ON C.IDDivision = D.IDDivision;
-
-GO
-
-CREATE VIEW VistaAlumnos
-AS
-SELECT A.Matricula, CONCAT(LTRIM(RTRIM(A.NombreAlumno)), ' ',
-						   LTRIM(RTRIM(A.ApellidoPaterno)), ' ',
-						   LTRIM(RTRIM(A.ApellidoMaterno))) AS 'NombreCompleto',
-	   A.Telefono, c.NombreCarrera, CONCAT(LTRIM(RTRIM(G.Cuatrimestre)),
-										   LTRIM(RTRIM(G.Grupo))) AS 'GradoGrupo'
+SELECT	A.Matricula,
+			RTRIM(LTRIM(A.NombreAlumno)) +
+			RTRIM(LTRIM(A.ApellidoPaterno)) +
+			RTRIM(LTRIM(A.ApellidoPaterno)) AS [NombreCompleto],
+		A.Correo, A.Contrasenia, A.Telefono, C.NombreCarrera,
+			RTRIM(LTRIM(G.CUATRIMESTRE)) +
+			RTRIM(LTRIM(G.Grupo)) AS [GradoGrupo], A.Status
 FROM ALUMNOS A
 INNER JOIN CARRERAS C ON A.IDCarrera = C.IDCarrera
 INNER JOIN GRUPOS G ON A.IDGrupo = G.IDGrupo
+go
 
-GO
+/*VISTA CARRERAS*/
+CREATE VIEW VISTACARRERAS
+AS
+SELECT C.IDCarrera, C.NombreCarrera, D.NombreDivision, C.Status
+FROM CARRERAS C
+INNER JOIN DIVISIONES D ON C.IDDivision = D.IDDivision
+go
 
-/*************************************************************************************
-PROCEDURES	PROCEDURES	PROCEDURES	PROCEDURES	PROCEDURES	PROCEDURES	PROCEDURES
-*************************************************************************************/
+/*VISTA DIVISIONES*/
+CREATE VIEW VISTADIVISIONES
+AS
+SELECT D.IDDivision, D.NombreDivision, D.Status
+FROM DIVISIONES D
+go
+
+/*VISTA GRUPOS*/
+CREATE VIEW VISTAGRUPOS
+AS
+SELECT G.IDGrupo, G.Cuatrimestre, G.Grupo, G.Status
+FROM GRUPOS G
+go
+
+/**************************** PROCEDURES ****************************/
 
 /* PROCEDURES ALUMNOS */
 CREATE PROCEDURE dbo.AgregarAlumno

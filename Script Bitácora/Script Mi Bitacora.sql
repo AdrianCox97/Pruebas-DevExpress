@@ -15,12 +15,15 @@ CREATE TABLE BITACORA
 	CAMPO VARCHAR(100),
 	VALORORIGINAL VARCHAR(1500),
 	VALORNUEVO VARCHAR(1500),
-	FECHA DATETIME2
+	FECHA DATETIME2,
+	IDUSUARIO VARCHAR(10)
 );
+go
+alter table dbo.bitacora alter column  IDUsuario varchar(75) not null
 
 GO
 
-ALTER TRIGGER TR_BITACORA
+alter TRIGGER TR_BITACORA
 ON CLIENTE
 FOR INSERT, UPDATE, DELETE
 AS
@@ -33,6 +36,7 @@ DECLARE
     @FECHA DATETIME2,
     @ACCION char(1) ,	
     @PKSELECT varchar(1000),
+	@IDUSUARIO varchar(10),
 	@SQL VARCHAR(2000)
 
 	--REMUEVE EL NÚMERO DE COLUMNAS AFECTADAS
@@ -45,6 +49,9 @@ DECLARE
 	SELECT * INTO #ins FROM inserted
 	SELECT * INTO #del FROM deleted
 
+	--SE LE ASIGNA EL ID DEL USUARIO QUE REALIZÓ EL CAMBIO
+	SELECT @IDUSUARIO = IDUsuario from #ins;
+	
 	--SE OBTIENE LA FECHA Y HORA ACTUAL
 	SELECT @FECHA = TODATETIMEOFFSET(CONVERT(DATETIME2, GETDATE()), '-06:00')
 
@@ -99,7 +106,7 @@ DECLARE
 				WHERE TABLE_NAME = @TABLA and ORDINAL_POSITION = @COLUMNA
 
 				--SELECT @sql = 'INSERT INTO BITACORA (PK, ACCION, TABLA, CAMPO, VALORORIGINAL, VALORNUEVO, FECHA)'
-				SELECT @sql = 'INSERT INTO BITACORA (ACCION, TABLA, PK, CAMPO, VALORORIGINAL, VALORNUEVO, FECHA)'
+				SELECT @sql = 'INSERT INTO BITACORA (ACCION, TABLA, PK, CAMPO, VALORORIGINAL, VALORNUEVO, FECHA, IDUSUARIO)'
 				SELECT @sql = @sql + 	' SELECT ''' + @ACCION + ''''
 				SELECT @sql = @sql + 	',''' + @TABLA + ''''
 				SELECT @sql = @sql + 	',' + @PKSELECT
@@ -107,7 +114,7 @@ DECLARE
 				SELECT @sql = @sql + 	',convert(varchar(1000),D.' + @CAMPO + ')'
 				SELECT @sql = @sql + 	',convert(varchar(1000),I.' + @CAMPO + ')'
 				SELECT @sql = @sql + 	',''' + CONVERT(VARCHAR, @FECHA) + ''''
-				--SELECT @sql = @sql + 	',''' + @UserName + ''''
+				SELECT @sql = @sql + 	',''' + @IDUSUARIO+ ''''
 				SELECT @sql = @sql + 	' from #ins I full outer join #del D '
 				SELECT @sql = @sql + 	@PKCOL
 				SELECT @sql = @sql + 	' where I.' + @CAMPO + ' <> D.' + @CAMPO 
@@ -118,15 +125,15 @@ DECLARE
 	END
 GO
 
-INSERT INTO Cliente (Nombres, Apellidos, NumeroDocumento, TipoDocumento)
-VALUES ('JESUS', 'TORRES', 6818, 'DNI');
+--INSERT INTO Cliente (Nombres, Apellidos, NumeroDocumento, TipoDocumento, IDUsuario)
+--VALUES ('JESUS', 'TORRES', 6818, 'DNI', '15090526');
 
-UPDATE CLIENTE SET Nombres = 'MARIA', Apellidos = 'ESTEFANIA' WHERE IdCliente = 3;
+UPDATE CLIENTE SET Nombres = 'MARIA', Apellidos = 'ESTEFANIA' WHERE IdCliente = 10;
 
-DELETE FROM CLIENTE WHERE IdCliente = 4;
+--DELETE FROM CLIENTE WHERE IdCliente = 4;
 
-SELECT * FROM BITACORA;
 SELECT * FROM CLIENTE;
+SELECT * FROM BITACORA;
 
 TRUNCATE TABLE CLIENTE;
 TRUNCATE TABLE BITACORA;
