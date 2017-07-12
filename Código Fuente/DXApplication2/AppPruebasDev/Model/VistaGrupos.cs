@@ -12,7 +12,7 @@ namespace AppPruebasDev.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class VistaGrupos
+    public partial class VISTAGRUPOS
     {
         public int IDGrupo { get; set; }
         public string Cuatrimestre { get; set; }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AppPruebasDev.GUI
 {
-    public partial class frmPrincipal : Form
+    public partial class frmPrincipal : DevExpress.XtraEditors.XtraForm
     {
-        Model.BDPruebasEntities bdPruebas = new Model.BDPruebasEntities();
+        Model.BDPruebasDev1Entities bdPruebas = new Model.BDPruebasDev1Entities();
 
         public frmPrincipal()
         {

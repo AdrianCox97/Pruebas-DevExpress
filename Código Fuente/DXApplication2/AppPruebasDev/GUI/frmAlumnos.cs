@@ -14,12 +14,35 @@ using System.Data.Entity.Core.Objects;
 
 namespace AppPruebasDev.GUI
 {
-    public partial class frmAlumnos : Form
+    public partial class frmAlumnos : DevExpress.XtraEditors.XtraForm
     {
+        public static BDPruebasDev1Entities bdPruebas = null;
+        CARRERAS oCarreras;
+        General oGeneral = new General();
 
         public frmAlumnos()
         {
             InitializeComponent();
+        }
+
+        private void btnNuevoAlumno_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGuardarAlumno_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEditarAlumno_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEliminarAlumno_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

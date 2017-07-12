@@ -12,9 +12,9 @@ using AppPruebasDev.Model;
 
 namespace AppPruebasDev.GUI
 {
-    public partial class frmGrupos : Form
+    public partial class frmGrupos : DevExpress.XtraEditors.XtraForm
     {
-        public static BDPruebasEntities bdPruebas = null;
+        public static BDPruebasDev1Entities bdPruebas = null;
         GRUPOS oGrupos;
         General oGeneral = new General();
 
@@ -167,7 +167,7 @@ namespace AppPruebasDev.GUI
 
         private void VistaDatos()
         {
-            dtgVista.DataSource = bdPruebas.VistaGrupos.ToList();
+            dtgVista.DataSource = bdPruebas.VISTAGRUPOS.ToList();
         }
 
         private void OffBotonesEdicion(Boolean Valor)

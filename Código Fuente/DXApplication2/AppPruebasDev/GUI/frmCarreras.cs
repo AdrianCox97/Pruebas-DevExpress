@@ -12,9 +12,9 @@ using AppPruebasDev.Model;
 
 namespace AppPruebasDev.GUI
 {
-    public partial class frmCarreras : Form
+    public partial class frmCarreras : DevExpress.XtraEditors.XtraForm
     {
-        public static BDPruebasEntities bdPruebas = null;
+        public static BDPruebasDev1Entities bdPruebas = null;
         CARRERAS oCarreras;
         General oGeneral = new General();
 
@@ -155,7 +155,7 @@ namespace AppPruebasDev.GUI
 
         private CARRERAS GetDatos()
         {
-            var IDDivision = (from tbDivisiones in bdPruebas.VistaDivisiones
+            var IDDivision = (from tbDivisiones in bdPruebas.VISTADIVISIONES
                               where tbDivisiones.NombreDivision.Trim() == cbxDivisionFK.SelectedItem.ToString().Trim()
                               select tbDivisiones.IDDivision).ToList().FirstOrDefault();
 
@@ -180,12 +180,12 @@ namespace AppPruebasDev.GUI
 
         private void VistaDatos()
         {
-            dtgVista.DataSource = bdPruebas.VistaCarreras.ToList();
+            dtgVista.DataSource = bdPruebas.VISTACARRERAS.ToList();
         }
 
         private void LoadDivisiones()
         {
-            var Divisiones = bdPruebas.VistaDivisiones.ToList();
+            var Divisiones = bdPruebas.VISTADIVISIONES.ToList();
 
             cbxDivisionFK.Properties.Items.Clear();
             cbxDivisionFK.Properties.Items.Add("Seleccionar");

@@ -67,14 +67,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BDPruebasDataSet.cs">
-      <DependentUpon>BDPruebasDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="BDPruebasDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BDPruebasDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="GUI\frmAlumnos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,11 +100,19 @@
     <Compile Include="Model\ALUMNOS.cs">
       <DependentUpon>mdlBDPruebas.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\BITACORA.cs">
+      <DependentUpon>mdlBDPruebas.tt</DependentUpon>
+    </Compile>
     <Compile Include="Model\CARRERAS.cs">
       <DependentUpon>mdlBDPruebas.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\DIVISIONES.cs">
       <DependentUpon>mdlBDPruebas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\dsBDPruebas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsBDPruebas.xsd</DependentUpon>
     </Compile>
     <Compile Include="Model\General.cs" />
     <Compile Include="Model\GRUPOS.cs">
@@ -133,16 +133,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>mdlBDPruebas.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Model\VistaAlumnos.cs">
+    <Compile Include="Model\VISTAALUMNOS.cs">
       <DependentUpon>mdlBDPruebas.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\VistaCarreras.cs">
+    <Compile Include="Model\VISTACARRERAS.cs">
       <DependentUpon>mdlBDPruebas.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\VistaDivisiones.cs">
+    <Compile Include="Model\VISTADIVISIONES.cs">
       <DependentUpon>mdlBDPruebas.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\VistaGrupos.cs">
+    <Compile Include="Model\VISTAGRUPOS.cs">
       <DependentUpon>mdlBDPruebas.tt</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -176,16 +176,16 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>mdlBDPruebas.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="BDPruebasDataSet.xsc">
-      <DependentUpon>BDPruebasDataSet.xsd</DependentUpon>
+    <None Include="Model\dsBDPruebas.xsc">
+      <DependentUpon>dsBDPruebas.xsd</DependentUpon>
     </None>
-    <None Include="BDPruebasDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>BDPruebasDataSet.Designer.cs</LastGenOutput>
+    <None Include="Model\dsBDPruebas.xsd">
       <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsBDPruebas.Designer.cs</LastGenOutput>
     </None>
-    <None Include="BDPruebasDataSet.xss">
-      <DependentUpon>BDPruebasDataSet.xsd</DependentUpon>
+    <None Include="Model\dsBDPruebas.xss">
+      <DependentUpon>dsBDPruebas.xsd</DependentUpon>
     </None>
     <None Include="Model\mdlBDPruebas.edmx.diagram">
       <DependentUpon>mdlBDPruebas.edmx</DependentUpon>

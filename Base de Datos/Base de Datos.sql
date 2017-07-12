@@ -176,6 +176,7 @@ SELECT	A.Matricula,
 FROM ALUMNOS A
 INNER JOIN CARRERAS C ON A.IDCarrera = C.IDCarrera
 INNER JOIN GRUPOS G ON A.IDGrupo = G.IDGrupo
+WHERE A.STATUS = 1
 go
 
 /*VISTA CARRERAS*/
@@ -184,6 +185,7 @@ AS
 SELECT C.IDCarrera, C.NombreCarrera, D.NombreDivision, C.Status
 FROM CARRERAS C
 INNER JOIN DIVISIONES D ON C.IDDivision = D.IDDivision
+WHERE C.STATUS = 1
 go
 
 /*VISTA DIVISIONES*/
@@ -191,6 +193,7 @@ CREATE VIEW VISTADIVISIONES
 AS
 SELECT D.IDDivision, D.NombreDivision, D.Status
 FROM DIVISIONES D
+WHERE D.STATUS = 1
 go
 
 /*VISTA GRUPOS*/
@@ -198,6 +201,7 @@ CREATE VIEW VISTAGRUPOS
 AS
 SELECT G.IDGrupo, G.Cuatrimestre, G.Grupo, G.Status
 FROM GRUPOS G
+WHERE G.STATUS = 1
 go
 
 /********************************************************************/

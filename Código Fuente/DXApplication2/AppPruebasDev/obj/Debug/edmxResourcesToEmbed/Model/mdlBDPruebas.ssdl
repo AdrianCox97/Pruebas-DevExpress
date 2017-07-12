@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="BDPruebasModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema Namespace="BDPruebasDev1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="ALUMNOS">
     <Key>
       <PropertyRef Name="Matricula" />
@@ -8,10 +8,26 @@
     <Property Name="NombreAlumno" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="ApellidoPaterno" Type="varchar" MaxLength="25" Nullable="false" />
     <Property Name="ApellidoMaterno" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="Correo" Type="varchar" MaxLength="75" Nullable="false" />
+    <Property Name="Contrasenia" Type="varchar" MaxLength="75" Nullable="false" />
     <Property Name="Telefono" Type="varchar" MaxLength="10" />
     <Property Name="Status" Type="bit" Nullable="false" />
     <Property Name="IDCarrera" Type="int" Nullable="false" />
     <Property Name="IDGrupo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BITACORA">
+    <Key>
+      <PropertyRef Name="CLAVE" />
+    </Key>
+    <Property Name="CLAVE" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PK" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ACCION" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="TABLA" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CAMPO" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="VALORORIGINAL" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="VALORNUEVO" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="FECHA" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="USUARIO" Type="nvarchar(max)" Nullable="false" />
   </EntityType>
   <EntityType Name="CARRERAS">
     <Key>
@@ -35,30 +51,32 @@
       <PropertyRef Name="IDGrupo" />
     </Key>
     <Property Name="IDGrupo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Cuatrimestre" Type="char" MaxLength="2" />
+    <Property Name="Cuatrimestre" Type="char" MaxLength="1" Nullable="false" />
     <Property Name="Grupo" Type="char" MaxLength="1" Nullable="false" />
     <Property Name="Status" Type="bit" Nullable="false" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BDPruebas.dbo.VistaAlumnos' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
-  <EntityType Name="VistaAlumnos">
+warning 6002: The table/view 'BDPruebasDev1.dbo.VISTAALUMNOS' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="VISTAALUMNOS">
     <Key>
       <PropertyRef Name="Matricula" />
-      <PropertyRef Name="NombreCompleto" />
+      <PropertyRef Name="Correo" />
+      <PropertyRef Name="Contrasenia" />
       <PropertyRef Name="NombreCarrera" />
-      <PropertyRef Name="GradoGrupo" />
       <PropertyRef Name="Status" />
     </Key>
     <Property Name="Matricula" Type="varchar" MaxLength="10" Nullable="false" />
-    <Property Name="NombreCompleto" Type="varchar" MaxLength="102" Nullable="false" />
+    <Property Name="NombreCompleto" Type="varchar" MaxLength="100" />
+    <Property Name="Correo" Type="varchar" MaxLength="75" Nullable="false" />
+    <Property Name="Contrasenia" Type="varchar" MaxLength="75" Nullable="false" />
     <Property Name="Telefono" Type="varchar" MaxLength="10" />
     <Property Name="NombreCarrera" Type="varchar" MaxLength="70" Nullable="false" />
-    <Property Name="GradoGrupo" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="GradoGrupo" Type="varchar" MaxLength="2" />
     <Property Name="Status" Type="bit" Nullable="false" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BDPruebas.dbo.VistaCarreras' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
-  <EntityType Name="VistaCarreras">
+warning 6002: The table/view 'BDPruebasDev1.dbo.VISTACARRERAS' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="VISTACARRERAS">
     <Key>
       <PropertyRef Name="IDCarrera" />
       <PropertyRef Name="NombreCarrera" />
@@ -71,8 +89,8 @@ warning 6002: The table/view 'BDPruebas.dbo.VistaCarreras' does not have a prima
     <Property Name="Status" Type="bit" Nullable="false" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BDPruebas.dbo.VistaDivisiones' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
-  <EntityType Name="VistaDivisiones">
+warning 6002: The table/view 'BDPruebasDev1.dbo.VISTADIVISIONES' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="VISTADIVISIONES">
     <Key>
       <PropertyRef Name="IDDivision" />
       <PropertyRef Name="NombreDivision" />
@@ -83,8 +101,8 @@ warning 6002: The table/view 'BDPruebas.dbo.VistaDivisiones' does not have a pri
     <Property Name="Status" Type="bit" Nullable="false" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'BDPruebas.dbo.VistaGrupos' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
-  <EntityType Name="VistaGrupos">
+warning 6002: The table/view 'BDPruebasDev1.dbo.VISTAGRUPOS' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="VISTAGRUPOS">
     <Key>
       <PropertyRef Name="IDGrupo" />
       <PropertyRef Name="Cuatrimestre" />
@@ -132,43 +150,113 @@ warning 6002: The table/view 'BDPruebas.dbo.VistaGrupos' does not have a primary
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="BDPruebasModelStoreContainer">
+  <Function Name="AgregarAlumno" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Matricula" Type="varchar" Mode="In" />
+    <Parameter Name="NombreAlumno" Type="varchar" Mode="In" />
+    <Parameter Name="ApellidoPaterno" Type="varchar" Mode="In" />
+    <Parameter Name="ApellidoMaterno" Type="varchar" Mode="In" />
+    <Parameter Name="Correo" Type="varchar" Mode="In" />
+    <Parameter Name="Contrasenia" Type="varchar" Mode="In" />
+    <Parameter Name="Telefono" Type="varchar" Mode="In" />
+    <Parameter Name="Status" Type="bit" Mode="In" />
+    <Parameter Name="IDCarrera" Type="int" Mode="In" />
+    <Parameter Name="IDGrupo" Type="int" Mode="In" />
+  </Function>
+  <Function Name="AgregarCarrera" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NombreCarrera" Type="varchar" Mode="In" />
+    <Parameter Name="Status" Type="bit" Mode="In" />
+    <Parameter Name="IDDivision" Type="int" Mode="In" />
+  </Function>
+  <Function Name="AgregarDivision" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NombreDivision" Type="varchar" Mode="In" />
+    <Parameter Name="Status" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="AgregarGrupo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Cuatrimestre" Type="char" Mode="In" />
+    <Parameter Name="Grupo" Type="char" Mode="In" />
+    <Parameter Name="Status" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="EliminarAlumno" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Matricula" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="EliminarCarrera" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IDCarrera" Type="int" Mode="In" />
+  </Function>
+  <Function Name="EliminarDivision" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IDDivision" Type="int" Mode="In" />
+  </Function>
+  <Function Name="EliminarGrupo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IDGrupo" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ModificarAlumno" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Matricula" Type="varchar" Mode="In" />
+    <Parameter Name="NombreAlumno" Type="varchar" Mode="In" />
+    <Parameter Name="ApellidoPaterno" Type="varchar" Mode="In" />
+    <Parameter Name="ApellidoMaterno" Type="varchar" Mode="In" />
+    <Parameter Name="Correo" Type="varchar" Mode="In" />
+    <Parameter Name="Contrasenia" Type="varchar" Mode="In" />
+    <Parameter Name="Telefono" Type="varchar" Mode="In" />
+    <Parameter Name="Status" Type="bit" Mode="In" />
+    <Parameter Name="IDCarrera" Type="int" Mode="In" />
+    <Parameter Name="IDGrupo" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ModificarCarrera" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IDCarrera" Type="int" Mode="In" />
+    <Parameter Name="NombreCarrera" Type="varchar" Mode="In" />
+    <Parameter Name="Status" Type="bit" Mode="In" />
+    <Parameter Name="IDDivision" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ModificarDivision" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IDDivision" Type="int" Mode="In" />
+    <Parameter Name="NombreDivision" Type="varchar" Mode="In" />
+    <Parameter Name="Status" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="ModificarGrupo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IDGrupo" Type="int" Mode="In" />
+    <Parameter Name="Cuatrimestre" Type="char" Mode="In" />
+    <Parameter Name="Grupo" Type="char" Mode="In" />
+    <Parameter Name="Status" Type="bit" Mode="In" />
+  </Function>
+  <EntityContainer Name="BDPruebasDev1ModelStoreContainer">
     <EntitySet Name="ALUMNOS" EntityType="Self.ALUMNOS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BITACORA" EntityType="Self.BITACORA" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="CARRERAS" EntityType="Self.CARRERAS" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="DIVISIONES" EntityType="Self.DIVISIONES" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="GRUPOS" EntityType="Self.GRUPOS" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="VistaAlumnos" EntityType="Self.VistaAlumnos" store:Type="Views" store:Schema="dbo">
+    <EntitySet Name="VISTAALUMNOS" EntityType="Self.VISTAALUMNOS" store:Type="Views" store:Schema="dbo">
       <DefiningQuery>SELECT 
-    [VistaAlumnos].[Matricula] AS [Matricula], 
-    [VistaAlumnos].[NombreCompleto] AS [NombreCompleto], 
-    [VistaAlumnos].[Telefono] AS [Telefono], 
-    [VistaAlumnos].[NombreCarrera] AS [NombreCarrera], 
-    [VistaAlumnos].[GradoGrupo] AS [GradoGrupo], 
-    [VistaAlumnos].[Status] AS [Status]
-    FROM [dbo].[VistaAlumnos] AS [VistaAlumnos]</DefiningQuery>
+    [VISTAALUMNOS].[Matricula] AS [Matricula], 
+    [VISTAALUMNOS].[NombreCompleto] AS [NombreCompleto], 
+    [VISTAALUMNOS].[Correo] AS [Correo], 
+    [VISTAALUMNOS].[Contrasenia] AS [Contrasenia], 
+    [VISTAALUMNOS].[Telefono] AS [Telefono], 
+    [VISTAALUMNOS].[NombreCarrera] AS [NombreCarrera], 
+    [VISTAALUMNOS].[GradoGrupo] AS [GradoGrupo], 
+    [VISTAALUMNOS].[Status] AS [Status]
+    FROM [dbo].[VISTAALUMNOS] AS [VISTAALUMNOS]</DefiningQuery>
     </EntitySet>
-    <EntitySet Name="VistaCarreras" EntityType="Self.VistaCarreras" store:Type="Views" store:Schema="dbo">
+    <EntitySet Name="VISTACARRERAS" EntityType="Self.VISTACARRERAS" store:Type="Views" store:Schema="dbo">
       <DefiningQuery>SELECT 
-    [VistaCarreras].[IDCarrera] AS [IDCarrera], 
-    [VistaCarreras].[NombreCarrera] AS [NombreCarrera], 
-    [VistaCarreras].[NombreDivision] AS [NombreDivision], 
-    [VistaCarreras].[Status] AS [Status]
-    FROM [dbo].[VistaCarreras] AS [VistaCarreras]</DefiningQuery>
+    [VISTACARRERAS].[IDCarrera] AS [IDCarrera], 
+    [VISTACARRERAS].[NombreCarrera] AS [NombreCarrera], 
+    [VISTACARRERAS].[NombreDivision] AS [NombreDivision], 
+    [VISTACARRERAS].[Status] AS [Status]
+    FROM [dbo].[VISTACARRERAS] AS [VISTACARRERAS]</DefiningQuery>
     </EntitySet>
-    <EntitySet Name="VistaDivisiones" EntityType="Self.VistaDivisiones" store:Type="Views" store:Schema="dbo">
+    <EntitySet Name="VISTADIVISIONES" EntityType="Self.VISTADIVISIONES" store:Type="Views" store:Schema="dbo">
       <DefiningQuery>SELECT 
-    [VistaDivisiones].[IDDivision] AS [IDDivision], 
-    [VistaDivisiones].[NombreDivision] AS [NombreDivision], 
-    [VistaDivisiones].[Status] AS [Status]
-    FROM [dbo].[VistaDivisiones] AS [VistaDivisiones]</DefiningQuery>
+    [VISTADIVISIONES].[IDDivision] AS [IDDivision], 
+    [VISTADIVISIONES].[NombreDivision] AS [NombreDivision], 
+    [VISTADIVISIONES].[Status] AS [Status]
+    FROM [dbo].[VISTADIVISIONES] AS [VISTADIVISIONES]</DefiningQuery>
     </EntitySet>
-    <EntitySet Name="VistaGrupos" EntityType="Self.VistaGrupos" store:Type="Views" store:Schema="dbo">
+    <EntitySet Name="VISTAGRUPOS" EntityType="Self.VISTAGRUPOS" store:Type="Views" store:Schema="dbo">
       <DefiningQuery>SELECT 
-    [VistaGrupos].[IDGrupo] AS [IDGrupo], 
-    [VistaGrupos].[Cuatrimestre] AS [Cuatrimestre], 
-    [VistaGrupos].[Grupo] AS [Grupo], 
-    [VistaGrupos].[Status] AS [Status]
-    FROM [dbo].[VistaGrupos] AS [VistaGrupos]</DefiningQuery>
+    [VISTAGRUPOS].[IDGrupo] AS [IDGrupo], 
+    [VISTAGRUPOS].[Cuatrimestre] AS [Cuatrimestre], 
+    [VISTAGRUPOS].[Grupo] AS [Grupo], 
+    [VISTAGRUPOS].[Status] AS [Status]
+    FROM [dbo].[VISTAGRUPOS] AS [VISTAGRUPOS]</DefiningQuery>
     </EntitySet>
     <AssociationSet Name="RefCARRERAS4" Association="Self.RefCARRERAS4">
       <End Role="CARRERAS" EntitySet="CARRERAS" />

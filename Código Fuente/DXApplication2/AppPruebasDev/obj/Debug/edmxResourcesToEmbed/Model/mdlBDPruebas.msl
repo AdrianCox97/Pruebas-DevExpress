@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="BDPruebasModelStoreContainer" CdmEntityContainer="BDPruebasEntities">
+  <EntityContainerMapping StorageEntityContainer="BDPruebasDev1ModelStoreContainer" CdmEntityContainer="BDPruebasDev1Entities">
     <EntitySetMapping Name="ALUMNOS">
-      <EntityTypeMapping TypeName="BDPruebasModel.ALUMNOS">
+      <EntityTypeMapping TypeName="BDPruebasDev1Model.ALUMNOS">
         <MappingFragment StoreEntitySet="ALUMNOS">
           <ScalarProperty Name="Matricula" ColumnName="Matricula" />
           <ScalarProperty Name="NombreAlumno" ColumnName="NombreAlumno" />
           <ScalarProperty Name="ApellidoPaterno" ColumnName="ApellidoPaterno" />
           <ScalarProperty Name="ApellidoMaterno" ColumnName="ApellidoMaterno" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Contrasenia" ColumnName="Contrasenia" />
           <ScalarProperty Name="Telefono" ColumnName="Telefono" />
           <ScalarProperty Name="Status" ColumnName="Status" />
           <ScalarProperty Name="IDCarrera" ColumnName="IDCarrera" />
@@ -15,8 +17,23 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="BITACORA">
+      <EntityTypeMapping TypeName="BDPruebasDev1Model.BITACORA">
+        <MappingFragment StoreEntitySet="BITACORA">
+          <ScalarProperty Name="CLAVE" ColumnName="CLAVE" />
+          <ScalarProperty Name="PK" ColumnName="PK" />
+          <ScalarProperty Name="ACCION" ColumnName="ACCION" />
+          <ScalarProperty Name="TABLA" ColumnName="TABLA" />
+          <ScalarProperty Name="CAMPO" ColumnName="CAMPO" />
+          <ScalarProperty Name="VALORORIGINAL" ColumnName="VALORORIGINAL" />
+          <ScalarProperty Name="VALORNUEVO" ColumnName="VALORNUEVO" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="USUARIO" ColumnName="USUARIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="CARRERAS">
-      <EntityTypeMapping TypeName="BDPruebasModel.CARRERAS">
+      <EntityTypeMapping TypeName="BDPruebasDev1Model.CARRERAS">
         <MappingFragment StoreEntitySet="CARRERAS">
           <ScalarProperty Name="IDCarrera" ColumnName="IDCarrera" />
           <ScalarProperty Name="NombreCarrera" ColumnName="NombreCarrera" />
@@ -26,7 +43,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="DIVISIONES">
-      <EntityTypeMapping TypeName="BDPruebasModel.DIVISIONES">
+      <EntityTypeMapping TypeName="BDPruebasDev1Model.DIVISIONES">
         <MappingFragment StoreEntitySet="DIVISIONES">
           <ScalarProperty Name="IDDivision" ColumnName="IDDivision" />
           <ScalarProperty Name="NombreDivision" ColumnName="NombreDivision" />
@@ -35,7 +52,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="GRUPOS">
-      <EntityTypeMapping TypeName="BDPruebasModel.GRUPOS">
+      <EntityTypeMapping TypeName="BDPruebasDev1Model.GRUPOS">
         <MappingFragment StoreEntitySet="GRUPOS">
           <ScalarProperty Name="IDGrupo" ColumnName="IDGrupo" />
           <ScalarProperty Name="Cuatrimestre" ColumnName="Cuatrimestre" />
@@ -44,11 +61,13 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="VistaAlumnos">
-      <EntityTypeMapping TypeName="BDPruebasModel.VistaAlumnos">
-        <MappingFragment StoreEntitySet="VistaAlumnos">
+    <EntitySetMapping Name="VISTAALUMNOS">
+      <EntityTypeMapping TypeName="BDPruebasDev1Model.VISTAALUMNOS">
+        <MappingFragment StoreEntitySet="VISTAALUMNOS">
           <ScalarProperty Name="Matricula" ColumnName="Matricula" />
           <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Contrasenia" ColumnName="Contrasenia" />
           <ScalarProperty Name="Telefono" ColumnName="Telefono" />
           <ScalarProperty Name="NombreCarrera" ColumnName="NombreCarrera" />
           <ScalarProperty Name="GradoGrupo" ColumnName="GradoGrupo" />
@@ -56,9 +75,9 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="VistaCarreras">
-      <EntityTypeMapping TypeName="BDPruebasModel.VistaCarreras">
-        <MappingFragment StoreEntitySet="VistaCarreras">
+    <EntitySetMapping Name="VISTACARRERAS">
+      <EntityTypeMapping TypeName="BDPruebasDev1Model.VISTACARRERAS">
+        <MappingFragment StoreEntitySet="VISTACARRERAS">
           <ScalarProperty Name="IDCarrera" ColumnName="IDCarrera" />
           <ScalarProperty Name="NombreCarrera" ColumnName="NombreCarrera" />
           <ScalarProperty Name="NombreDivision" ColumnName="NombreDivision" />
@@ -66,18 +85,18 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="VistaDivisiones">
-      <EntityTypeMapping TypeName="BDPruebasModel.VistaDivisiones">
-        <MappingFragment StoreEntitySet="VistaDivisiones">
+    <EntitySetMapping Name="VISTADIVISIONES">
+      <EntityTypeMapping TypeName="BDPruebasDev1Model.VISTADIVISIONES">
+        <MappingFragment StoreEntitySet="VISTADIVISIONES">
           <ScalarProperty Name="IDDivision" ColumnName="IDDivision" />
           <ScalarProperty Name="NombreDivision" ColumnName="NombreDivision" />
           <ScalarProperty Name="Status" ColumnName="Status" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="VistaGrupos">
-      <EntityTypeMapping TypeName="BDPruebasModel.VistaGrupos">
-        <MappingFragment StoreEntitySet="VistaGrupos">
+    <EntitySetMapping Name="VISTAGRUPOS">
+      <EntityTypeMapping TypeName="BDPruebasDev1Model.VISTAGRUPOS">
+        <MappingFragment StoreEntitySet="VISTAGRUPOS">
           <ScalarProperty Name="IDGrupo" ColumnName="IDGrupo" />
           <ScalarProperty Name="Cuatrimestre" ColumnName="Cuatrimestre" />
           <ScalarProperty Name="Grupo" ColumnName="Grupo" />
@@ -85,5 +104,17 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="AgregarAlumno" FunctionName="BDPruebasDev1Model.Store.AgregarAlumno" />
+    <FunctionImportMapping FunctionImportName="AgregarCarrera" FunctionName="BDPruebasDev1Model.Store.AgregarCarrera" />
+    <FunctionImportMapping FunctionImportName="AgregarDivision" FunctionName="BDPruebasDev1Model.Store.AgregarDivision" />
+    <FunctionImportMapping FunctionImportName="AgregarGrupo" FunctionName="BDPruebasDev1Model.Store.AgregarGrupo" />
+    <FunctionImportMapping FunctionImportName="EliminarAlumno" FunctionName="BDPruebasDev1Model.Store.EliminarAlumno" />
+    <FunctionImportMapping FunctionImportName="EliminarCarrera" FunctionName="BDPruebasDev1Model.Store.EliminarCarrera" />
+    <FunctionImportMapping FunctionImportName="EliminarDivision" FunctionName="BDPruebasDev1Model.Store.EliminarDivision" />
+    <FunctionImportMapping FunctionImportName="EliminarGrupo" FunctionName="BDPruebasDev1Model.Store.EliminarGrupo" />
+    <FunctionImportMapping FunctionImportName="ModificarAlumno" FunctionName="BDPruebasDev1Model.Store.ModificarAlumno" />
+    <FunctionImportMapping FunctionImportName="ModificarCarrera" FunctionName="BDPruebasDev1Model.Store.ModificarCarrera" />
+    <FunctionImportMapping FunctionImportName="ModificarDivision" FunctionName="BDPruebasDev1Model.Store.ModificarDivision" />
+    <FunctionImportMapping FunctionImportName="ModificarGrupo" FunctionName="BDPruebasDev1Model.Store.ModificarGrupo" />
   </EntityContainerMapping>
 </Mapping>

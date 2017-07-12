@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsBDPruebas" targetNamespace="http://tempuri.org/dsBDPruebas.xsd" xmlns:mstns="http://tempuri.org/dsBDPruebas.xsd" xmlns="http://tempuri.org/dsBDPruebas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BDPruebasDev1ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BDPruebasDev1ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.AppPruebasDev.Properties.Settings.GlobalReference.Default.BDPruebasDev1ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="taAlumnosM" GeneratorDataComponentClassName="taAlumnosM" Name="AlumnosM" UserDataComponentName="taAlumnosM">
+            <MainSource>
+              <DbSource ConnectionRef="BDPruebasDev1ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Matricula, RTRIM(LTRIM(NombreAlumno)) + RTRIM(LTRIM(ApellidoPaterno)) + RTRIM(LTRIM(ApellidoMaterno)) AS NombreCompleto
+FROM            Alumnos AS AM
+WHERE        (Status = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Matricula" DataSetColumn="Matricula" />
+              <Mapping SourceColumn="NombreCompleto" DataSetColumn="NombreCompleto" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="taAlumnosD" GeneratorDataComponentClassName="taAlumnosD" Name="AlumnosD" UserDataComponentName="taAlumnosD">
+            <MainSource>
+              <DbSource ConnectionRef="BDPruebasDev1ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        AD.Matricula, C.NombreCarrera, D.NombreDivision, RTRIM(LTRIM(G.Cuatrimestre)) + RTRIM(LTRIM(G.Grupo)) AS GradoGrupo, AD.Telefono, AD.Correo, AD.Contrasenia
+FROM            Alumnos AS AD INNER JOIN
+                         Carreras AS C ON AD.IDCarrera = C.IDCarrera INNER JOIN
+                         Divisiones AS D ON C.IDDivision = D.IDDivision INNER JOIN
+                         Grupos AS G ON AD.IDGrupo = G.IDGrupo
+WHERE        (AD.Status = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Matricula" DataSetColumn="Matricula" />
+              <Mapping SourceColumn="NombreCarrera" DataSetColumn="NombreCarrera" />
+              <Mapping SourceColumn="NombreDivision" DataSetColumn="NombreDivision" />
+              <Mapping SourceColumn="GradoGrupo" DataSetColumn="GradoGrupo" />
+              <Mapping SourceColumn="Telefono" DataSetColumn="Telefono" />
+              <Mapping SourceColumn="Correo" DataSetColumn="Correo" />
+              <Mapping SourceColumn="Contrasenia" DataSetColumn="Contrasenia" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsBDPruebas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsBDPruebas" msprop:Generator_UserDSName="dsBDPruebas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AlumnosM" msprop:Generator_TableClassName="AlumnosMDataTable" msprop:Generator_TableVarName="tableAlumnosM" msprop:Generator_TablePropName="AlumnosM" msprop:Generator_RowDeletingName="AlumnosMRowDeleting" msprop:Generator_RowChangingName="AlumnosMRowChanging" msprop:Generator_RowEvHandlerName="AlumnosMRowChangeEventHandler" msprop:Generator_RowDeletedName="AlumnosMRowDeleted" msprop:Generator_UserTableName="AlumnosM" msprop:Generator_RowChangedName="AlumnosMRowChanged" msprop:Generator_RowEvArgName="AlumnosMRowChangeEvent" msprop:Generator_RowClassName="AlumnosMRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Matricula" msprop:Generator_ColumnVarNameInTable="columnMatricula" msprop:Generator_ColumnPropNameInRow="Matricula" msprop:Generator_ColumnPropNameInTable="MatriculaColumn" msprop:Generator_UserColumnName="Matricula">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NombreCompleto" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNombreCompleto" msprop:Generator_ColumnPropNameInRow="NombreCompleto" msprop:Generator_ColumnPropNameInTable="NombreCompletoColumn" msprop:Generator_UserColumnName="NombreCompleto" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AlumnosD" msprop:Generator_TableClassName="AlumnosDDataTable" msprop:Generator_TableVarName="tableAlumnosD" msprop:Generator_TablePropName="AlumnosD" msprop:Generator_RowDeletingName="AlumnosDRowDeleting" msprop:Generator_RowChangingName="AlumnosDRowChanging" msprop:Generator_RowEvHandlerName="AlumnosDRowChangeEventHandler" msprop:Generator_RowDeletedName="AlumnosDRowDeleted" msprop:Generator_UserTableName="AlumnosD" msprop:Generator_RowChangedName="AlumnosDRowChanged" msprop:Generator_RowEvArgName="AlumnosDRowChangeEvent" msprop:Generator_RowClassName="AlumnosDRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Matricula" msprop:Generator_ColumnVarNameInTable="columnMatricula" msprop:Generator_ColumnPropNameInRow="Matricula" msprop:Generator_ColumnPropNameInTable="MatriculaColumn" msprop:Generator_UserColumnName="Matricula">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NombreCarrera" msprop:Generator_ColumnVarNameInTable="columnNombreCarrera" msprop:Generator_ColumnPropNameInRow="NombreCarrera" msprop:Generator_ColumnPropNameInTable="NombreCarreraColumn" msprop:Generator_UserColumnName="NombreCarrera">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="70" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NombreDivision" msprop:Generator_ColumnVarNameInTable="columnNombreDivision" msprop:Generator_ColumnPropNameInRow="NombreDivision" msprop:Generator_ColumnPropNameInTable="NombreDivisionColumn" msprop:Generator_UserColumnName="NombreDivision">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="70" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GradoGrupo" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnGradoGrupo" msprop:Generator_ColumnPropNameInRow="GradoGrupo" msprop:Generator_ColumnPropNameInTable="GradoGrupoColumn" msprop:Generator_UserColumnName="GradoGrupo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Telefono" msprop:Generator_ColumnVarNameInTable="columnTelefono" msprop:Generator_ColumnPropNameInRow="Telefono" msprop:Generator_ColumnPropNameInTable="TelefonoColumn" msprop:Generator_UserColumnName="Telefono" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Correo" msprop:Generator_ColumnVarNameInTable="columnCorreo" msprop:Generator_ColumnPropNameInRow="Correo" msprop:Generator_ColumnPropNameInTable="CorreoColumn" msprop:Generator_UserColumnName="Correo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="75" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Contrasenia" msprop:Generator_ColumnVarNameInTable="columnContrasenia" msprop:Generator_ColumnPropNameInRow="Contrasenia" msprop:Generator_ColumnPropNameInTable="ContraseniaColumn" msprop:Generator_UserColumnName="Contrasenia">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="75" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AlumnosM" />
+      <xs:field xpath="mstns:Matricula" />
+    </xs:unique>
+    <xs:unique name="AlumnosD_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AlumnosD" />
+      <xs:field xpath="mstns:Matricula" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="MasterDetail_Alumnos" msdata:parent="AlumnosM" msdata:child="AlumnosD" msdata:parentkey="Matricula" msdata:childkey="Matricula" msprop:Generator_UserChildTable="AlumnosD" msprop:Generator_ChildPropName="GetAlumnosDRows" msprop:Generator_UserRelationName="MasterDetail_Alumnos" msprop:Generator_ParentPropName="AlumnosMRow" msprop:Generator_RelationVarName="relationMasterDetail_Alumnos" msprop:Generator_UserParentTable="AlumnosM" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

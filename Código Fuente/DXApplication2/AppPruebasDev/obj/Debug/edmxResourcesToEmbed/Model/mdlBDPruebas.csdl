@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="BDPruebasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+<Schema Namespace="BDPruebasDev1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityType Name="ALUMNOS">
     <Key>
       <PropertyRef Name="Matricula" />
@@ -8,12 +8,28 @@
     <Property Name="NombreAlumno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="ApellidoPaterno" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="ApellidoMaterno" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Correo" Type="String" MaxLength="75" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Contrasenia" Type="String" MaxLength="75" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Telefono" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
     <Property Name="Status" Type="Boolean" Nullable="false" />
     <Property Name="IDCarrera" Type="Int32" Nullable="false" />
     <Property Name="IDGrupo" Type="Int32" Nullable="false" />
     <NavigationProperty Name="CARRERAS" Relationship="Self.RefCARRERAS4" FromRole="ALUMNOS" ToRole="CARRERAS" />
     <NavigationProperty Name="GRUPOS" Relationship="Self.RefGRUPOS5" FromRole="ALUMNOS" ToRole="GRUPOS" />
+  </EntityType>
+  <EntityType Name="BITACORA">
+    <Key>
+      <PropertyRef Name="CLAVE" />
+    </Key>
+    <Property Name="CLAVE" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PK" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ACCION" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="TABLA" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CAMPO" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="VALORORIGINAL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="VALORNUEVO" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FECHA" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="USUARIO" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
   </EntityType>
   <EntityType Name="CARRERAS">
     <Key>
@@ -40,27 +56,29 @@
       <PropertyRef Name="IDGrupo" />
     </Key>
     <Property Name="IDGrupo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Cuatrimestre" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="Cuatrimestre" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
     <Property Name="Grupo" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
     <Property Name="Status" Type="Boolean" Nullable="false" />
     <NavigationProperty Name="ALUMNOS" Relationship="Self.RefGRUPOS5" FromRole="GRUPOS" ToRole="ALUMNOS" />
   </EntityType>
-  <EntityType Name="VistaAlumnos">
+  <EntityType Name="VISTAALUMNOS">
     <Key>
       <PropertyRef Name="Matricula" />
-      <PropertyRef Name="NombreCompleto" />
+      <PropertyRef Name="Correo" />
+      <PropertyRef Name="Contrasenia" />
       <PropertyRef Name="NombreCarrera" />
-      <PropertyRef Name="GradoGrupo" />
       <PropertyRef Name="Status" />
     </Key>
     <Property Name="Matricula" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="NombreCompleto" Type="String" MaxLength="102" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NombreCompleto" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Correo" Type="String" MaxLength="75" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Contrasenia" Type="String" MaxLength="75" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Telefono" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
     <Property Name="NombreCarrera" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="GradoGrupo" Type="String" MaxLength="2" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="GradoGrupo" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
     <Property Name="Status" Type="Boolean" Nullable="false" />
   </EntityType>
-  <EntityType Name="VistaCarreras">
+  <EntityType Name="VISTACARRERAS">
     <Key>
       <PropertyRef Name="IDCarrera" />
       <PropertyRef Name="NombreCarrera" />
@@ -72,7 +90,7 @@
     <Property Name="NombreDivision" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Status" Type="Boolean" Nullable="false" />
   </EntityType>
-  <EntityType Name="VistaDivisiones">
+  <EntityType Name="VISTADIVISIONES">
     <Key>
       <PropertyRef Name="IDDivision" />
       <PropertyRef Name="NombreDivision" />
@@ -82,7 +100,7 @@
     <Property Name="NombreDivision" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Status" Type="Boolean" Nullable="false" />
   </EntityType>
-  <EntityType Name="VistaGrupos">
+  <EntityType Name="VISTAGRUPOS">
     <Key>
       <PropertyRef Name="IDGrupo" />
       <PropertyRef Name="Cuatrimestre" />
@@ -130,15 +148,16 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="BDPruebasEntities" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="BDPruebasDev1Entities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="ALUMNOS" EntityType="Self.ALUMNOS" />
+    <EntitySet Name="BITACORA" EntityType="Self.BITACORA" />
     <EntitySet Name="CARRERAS" EntityType="Self.CARRERAS" />
     <EntitySet Name="DIVISIONES" EntityType="Self.DIVISIONES" />
     <EntitySet Name="GRUPOS" EntityType="Self.GRUPOS" />
-    <EntitySet Name="VistaAlumnos" EntityType="Self.VistaAlumnos" />
-    <EntitySet Name="VistaCarreras" EntityType="Self.VistaCarreras" />
-    <EntitySet Name="VistaDivisiones" EntityType="Self.VistaDivisiones" />
-    <EntitySet Name="VistaGrupos" EntityType="Self.VistaGrupos" />
+    <EntitySet Name="VISTAALUMNOS" EntityType="Self.VISTAALUMNOS" />
+    <EntitySet Name="VISTACARRERAS" EntityType="Self.VISTACARRERAS" />
+    <EntitySet Name="VISTADIVISIONES" EntityType="Self.VISTADIVISIONES" />
+    <EntitySet Name="VISTAGRUPOS" EntityType="Self.VISTAGRUPOS" />
     <AssociationSet Name="RefCARRERAS4" Association="Self.RefCARRERAS4">
       <End Role="CARRERAS" EntitySet="CARRERAS" />
       <End Role="ALUMNOS" EntitySet="ALUMNOS" />
@@ -151,5 +170,72 @@
       <End Role="DIVISIONES" EntitySet="DIVISIONES" />
       <End Role="CARRERAS" EntitySet="CARRERAS" />
     </AssociationSet>
+    <FunctionImport Name="AgregarAlumno">
+      <Parameter Name="Matricula" Mode="In" Type="String" />
+      <Parameter Name="NombreAlumno" Mode="In" Type="String" />
+      <Parameter Name="ApellidoPaterno" Mode="In" Type="String" />
+      <Parameter Name="ApellidoMaterno" Mode="In" Type="String" />
+      <Parameter Name="Correo" Mode="In" Type="String" />
+      <Parameter Name="Contrasenia" Mode="In" Type="String" />
+      <Parameter Name="Telefono" Mode="In" Type="String" />
+      <Parameter Name="Status" Mode="In" Type="Boolean" />
+      <Parameter Name="IDCarrera" Mode="In" Type="Int32" />
+      <Parameter Name="IDGrupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="AgregarCarrera">
+      <Parameter Name="NombreCarrera" Mode="In" Type="String" />
+      <Parameter Name="Status" Mode="In" Type="Boolean" />
+      <Parameter Name="IDDivision" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="AgregarDivision">
+      <Parameter Name="NombreDivision" Mode="In" Type="String" />
+      <Parameter Name="Status" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="AgregarGrupo">
+      <Parameter Name="Cuatrimestre" Mode="In" Type="String" />
+      <Parameter Name="Grupo" Mode="In" Type="String" />
+      <Parameter Name="Status" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="EliminarAlumno">
+      <Parameter Name="Matricula" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="EliminarCarrera">
+      <Parameter Name="IDCarrera" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="EliminarDivision">
+      <Parameter Name="IDDivision" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="EliminarGrupo">
+      <Parameter Name="IDGrupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="ModificarAlumno">
+      <Parameter Name="Matricula" Mode="In" Type="String" />
+      <Parameter Name="NombreAlumno" Mode="In" Type="String" />
+      <Parameter Name="ApellidoPaterno" Mode="In" Type="String" />
+      <Parameter Name="ApellidoMaterno" Mode="In" Type="String" />
+      <Parameter Name="Correo" Mode="In" Type="String" />
+      <Parameter Name="Contrasenia" Mode="In" Type="String" />
+      <Parameter Name="Telefono" Mode="In" Type="String" />
+      <Parameter Name="Status" Mode="In" Type="Boolean" />
+      <Parameter Name="IDCarrera" Mode="In" Type="Int32" />
+      <Parameter Name="IDGrupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="ModificarCarrera">
+      <Parameter Name="IDCarrera" Mode="In" Type="Int32" />
+      <Parameter Name="NombreCarrera" Mode="In" Type="String" />
+      <Parameter Name="Status" Mode="In" Type="Boolean" />
+      <Parameter Name="IDDivision" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="ModificarDivision">
+      <Parameter Name="IDDivision" Mode="In" Type="Int32" />
+      <Parameter Name="NombreDivision" Mode="In" Type="String" />
+      <Parameter Name="Status" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="ModificarGrupo">
+      <Parameter Name="IDGrupo" Mode="In" Type="Int32" />
+      <Parameter Name="Cuatrimestre" Mode="In" Type="String" />
+      <Parameter Name="Grupo" Mode="In" Type="String" />
+      <Parameter Name="Status" Mode="In" Type="Boolean" />
+    </FunctionImport>
   </EntityContainer>
 </Schema>

@@ -18,6 +18,8 @@ namespace AppPruebasDev.Model
         public string NombreAlumno { get; set; }
         public string ApellidoPaterno { get; set; }
         public string ApellidoMaterno { get; set; }
+        public string Correo { get; set; }
+        public string Contrasenia { get; set; }
         public string Telefono { get; set; }
         public bool Status { get; set; }
         public int IDCarrera { get; set; }

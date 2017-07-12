@@ -12,11 +12,16 @@ namespace AppPruebasDev.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class VISTACARRERAS
+    public partial class BITACORA
     {
-        public int IDCarrera { get; set; }
-        public string NombreCarrera { get; set; }
-        public string NombreDivision { get; set; }
-        public bool Status { get; set; }
+        public int CLAVE { get; set; }
+        public string PK { get; set; }
+        public string ACCION { get; set; }
+        public string TABLA { get; set; }
+        public string CAMPO { get; set; }
+        public string VALORORIGINAL { get; set; }
+        public string VALORNUEVO { get; set; }
+        public System.DateTime FECHA { get; set; }
+        public string USUARIO { get; set; }
     }
 }

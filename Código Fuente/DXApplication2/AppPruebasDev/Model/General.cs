@@ -45,7 +45,7 @@ namespace AppPruebasDev.Model
                     break;
             }
 
-            Mensaje = MessageBox.Show(MSG, "Información", Botones, Icono);
+            Mensaje = DevExpress.XtraEditors.XtraMessageBox.Show(MSG, "Información", Botones, Icono);
 
             return Mensaje;
         }

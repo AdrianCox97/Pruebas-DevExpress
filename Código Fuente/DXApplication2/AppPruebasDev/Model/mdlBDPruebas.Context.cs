@@ -12,11 +12,13 @@ namespace AppPruebasDev.Model
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Entity.Core.Objects;
+    using System.Linq;
     
-    public partial class BDPruebasEntities : DbContext
+    public partial class BDPruebasDev1Entities : DbContext
     {
-        public BDPruebasEntities()
-            : base("name=BDPruebasEntities")
+        public BDPruebasDev1Entities()
+            : base("name=BDPruebasDev1Entities")
         {
         }
     
@@ -26,12 +28,245 @@ namespace AppPruebasDev.Model
         }
     
         public virtual DbSet<ALUMNOS> ALUMNOS { get; set; }
+        public virtual DbSet<BITACORA> BITACORA { get; set; }
         public virtual DbSet<CARRERAS> CARRERAS { get; set; }
         public virtual DbSet<DIVISIONES> DIVISIONES { get; set; }
         public virtual DbSet<GRUPOS> GRUPOS { get; set; }
-        public virtual DbSet<VistaAlumnos> VistaAlumnos { get; set; }
-        public virtual DbSet<VistaCarreras> VistaCarreras { get; set; }
-        public virtual DbSet<VistaDivisiones> VistaDivisiones { get; set; }
-        public virtual DbSet<VistaGrupos> VistaGrupos { get; set; }
+        public virtual DbSet<VISTAALUMNOS> VISTAALUMNOS { get; set; }
+        public virtual DbSet<VISTACARRERAS> VISTACARRERAS { get; set; }
+        public virtual DbSet<VISTADIVISIONES> VISTADIVISIONES { get; set; }
+        public virtual DbSet<VISTAGRUPOS> VISTAGRUPOS { get; set; }
+    
+        public virtual int AgregarAlumno(string matricula, string nombreAlumno, string apellidoPaterno, string apellidoMaterno, string correo, string contrasenia, string telefono, Nullable<bool> status, Nullable<int> iDCarrera, Nullable<int> iDGrupo)
+        {
+            var matriculaParameter = matricula != null ?
+                new ObjectParameter("Matricula", matricula) :
+                new ObjectParameter("Matricula", typeof(string));
+    
+            var nombreAlumnoParameter = nombreAlumno != null ?
+                new ObjectParameter("NombreAlumno", nombreAlumno) :
+                new ObjectParameter("NombreAlumno", typeof(string));
+    
+            var apellidoPaternoParameter = apellidoPaterno != null ?
+                new ObjectParameter("ApellidoPaterno", apellidoPaterno) :
+                new ObjectParameter("ApellidoPaterno", typeof(string));
+    
+            var apellidoMaternoParameter = apellidoMaterno != null ?
+                new ObjectParameter("ApellidoMaterno", apellidoMaterno) :
+                new ObjectParameter("ApellidoMaterno", typeof(string));
+    
+            var correoParameter = correo != null ?
+                new ObjectParameter("Correo", correo) :
+                new ObjectParameter("Correo", typeof(string));
+    
+            var contraseniaParameter = contrasenia != null ?
+                new ObjectParameter("Contrasenia", contrasenia) :
+                new ObjectParameter("Contrasenia", typeof(string));
+    
+            var telefonoParameter = telefono != null ?
+                new ObjectParameter("Telefono", telefono) :
+                new ObjectParameter("Telefono", typeof(string));
+    
+            var statusParameter = status.HasValue ?
+                new ObjectParameter("Status", status) :
+                new ObjectParameter("Status", typeof(bool));
+    
+            var iDCarreraParameter = iDCarrera.HasValue ?
+                new ObjectParameter("IDCarrera", iDCarrera) :
+                new ObjectParameter("IDCarrera", typeof(int));
+    
+            var iDGrupoParameter = iDGrupo.HasValue ?
+                new ObjectParameter("IDGrupo", iDGrupo) :
+                new ObjectParameter("IDGrupo", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("AgregarAlumno", matriculaParameter, nombreAlumnoParameter, apellidoPaternoParameter, apellidoMaternoParameter, correoParameter, contraseniaParameter, telefonoParameter, statusParameter, iDCarreraParameter, iDGrupoParameter);
+        }
+    
+        public virtual int AgregarCarrera(string nombreCarrera, Nullable<bool> status, Nullable<int> iDDivision)
+        {
+            var nombreCarreraParameter = nombreCarrera != null ?
+                new ObjectParameter("NombreCarrera", nombreCarrera) :
+                new ObjectParameter("NombreCarrera", typeof(string));
+    
+            var statusParameter = status.HasValue ?
+                new ObjectParameter("Status", status) :
+                new ObjectParameter("Status", typeof(bool));
+    
+            var iDDivisionParameter = iDDivision.HasValue ?
+                new ObjectParameter("IDDivision", iDDivision) :
+                new ObjectParameter("IDDivision", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("AgregarCarrera", nombreCarreraParameter, statusParameter, iDDivisionParameter);
+        }
+    
+        public virtual int AgregarDivision(string nombreDivision, Nullable<bool> status)
+        {
+            var nombreDivisionParameter = nombreDivision != null ?
+                new ObjectParameter("NombreDivision", nombreDivision) :
+                new ObjectParameter("NombreDivision", typeof(string));
+    
+            var statusParameter = status.HasValue ?
+                new ObjectParameter("Status", status) :
+                new ObjectParameter("Status", typeof(bool));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("AgregarDivision", nombreDivisionParameter, statusParameter);
+        }
+    
+        public virtual int AgregarGrupo(string cuatrimestre, string grupo, Nullable<bool> status)
+        {
+            var cuatrimestreParameter = cuatrimestre != null ?
+                new ObjectParameter("Cuatrimestre", cuatrimestre) :
+                new ObjectParameter("Cuatrimestre", typeof(string));
+    
+            var grupoParameter = grupo != null ?
+                new ObjectParameter("Grupo", grupo) :
+                new ObjectParameter("Grupo", typeof(string));
+    
+            var statusParameter = status.HasValue ?
+                new ObjectParameter("Status", status) :
+                new ObjectParameter("Status", typeof(bool));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("AgregarGrupo", cuatrimestreParameter, grupoParameter, statusParameter);
+        }
+    
+        public virtual int EliminarAlumno(string matricula)
+        {
+            var matriculaParameter = matricula != null ?
+                new ObjectParameter("Matricula", matricula) :
+                new ObjectParameter("Matricula", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("EliminarAlumno", matriculaParameter);
+        }
+    
+        public virtual int EliminarCarrera(Nullable<int> iDCarrera)
+        {
+            var iDCarreraParameter = iDCarrera.HasValue ?
+                new ObjectParameter("IDCarrera", iDCarrera) :
+                new ObjectParameter("IDCarrera", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("EliminarCarrera", iDCarreraParameter);
+        }
+    
+        public virtual int EliminarDivision(Nullable<int> iDDivision)
+        {
+            var iDDivisionParameter = iDDivision.HasValue ?
+                new ObjectParameter("IDDivision", iDDivision) :
+                new ObjectParameter("IDDivision", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("EliminarDivision", iDDivisionParameter);
+        }
+    
+        public virtual int EliminarGrupo(Nullable<int> iDGrupo)
+        {
+            var iDGrupoParameter = iDGrupo.HasValue ?
+                new ObjectParameter("IDGrupo", iDGrupo) :
+                new ObjectParameter("IDGrupo", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("EliminarGrupo", iDGrupoParameter);
+        }
+    
+        public virtual int ModificarAlumno(string matricula, string nombreAlumno, string apellidoPaterno, string apellidoMaterno, string correo, string contrasenia, string telefono, Nullable<bool> status, Nullable<int> iDCarrera, Nullable<int> iDGrupo)
+        {
+            var matriculaParameter = matricula != null ?
+                new ObjectParameter("Matricula", matricula) :
+                new ObjectParameter("Matricula", typeof(string));
+    
+            var nombreAlumnoParameter = nombreAlumno != null ?
+                new ObjectParameter("NombreAlumno", nombreAlumno) :
+                new ObjectParameter("NombreAlumno", typeof(string));
+    
+            var apellidoPaternoParameter = apellidoPaterno != null ?
+                new ObjectParameter("ApellidoPaterno", apellidoPaterno) :
+                new ObjectParameter("ApellidoPaterno", typeof(string));
+    
+            var apellidoMaternoParameter = apellidoMaterno != null ?
+                new ObjectParameter("ApellidoMaterno", apellidoMaterno) :
+                new ObjectParameter("ApellidoMaterno", typeof(string));
+    
+            var correoParameter = correo != null ?
+                new ObjectParameter("Correo", correo) :
+                new ObjectParameter("Correo", typeof(string));
+    
+            var contraseniaParameter = contrasenia != null ?
+                new ObjectParameter("Contrasenia", contrasenia) :
+                new ObjectParameter("Contrasenia", typeof(string));
+    
+            var telefonoParameter = telefono != null ?
+                new ObjectParameter("Telefono", telefono) :
+                new ObjectParameter("Telefono", typeof(string));
+    
+            var statusParameter = status.HasValue ?
+                new ObjectParameter("Status", status) :
+                new ObjectParameter("Status", typeof(bool));
+    
+            var iDCarreraParameter = iDCarrera.HasValue ?
+                new ObjectParameter("IDCarrera", iDCarrera) :
+                new ObjectParameter("IDCarrera", typeof(int));
+    
+            var iDGrupoParameter = iDGrupo.HasValue ?
+                new ObjectParameter("IDGrupo", iDGrupo) :
+                new ObjectParameter("IDGrupo", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("ModificarAlumno", matriculaParameter, nombreAlumnoParameter, apellidoPaternoParameter, apellidoMaternoParameter, correoParameter, contraseniaParameter, telefonoParameter, statusParameter, iDCarreraParameter, iDGrupoParameter);
+        }
+    
+        public virtual int ModificarCarrera(Nullable<int> iDCarrera, string nombreCarrera, Nullable<bool> status, Nullable<int> iDDivision)
+        {
+            var iDCarreraParameter = iDCarrera.HasValue ?
+                new ObjectParameter("IDCarrera", iDCarrera) :
+                new ObjectParameter("IDCarrera", typeof(int));
+    
+            var nombreCarreraParameter = nombreCarrera != null ?
+                new ObjectParameter("NombreCarrera", nombreCarrera) :
+                new ObjectParameter("NombreCarrera", typeof(string));
+    
+            var statusParameter = status.HasValue ?
+                new ObjectParameter("Status", status) :
+                new ObjectParameter("Status", typeof(bool));
+    
+            var iDDivisionParameter = iDDivision.HasValue ?
+                new ObjectParameter("IDDivision", iDDivision) :
+                new ObjectParameter("IDDivision", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("ModificarCarrera", iDCarreraParameter, nombreCarreraParameter, statusParameter, iDDivisionParameter);
+        }
+    
+        public virtual int ModificarDivision(Nullable<int> iDDivision, string nombreDivision, Nullable<bool> status)
+        {
+            var iDDivisionParameter = iDDivision.HasValue ?
+                new ObjectParameter("IDDivision", iDDivision) :
+                new ObjectParameter("IDDivision", typeof(int));
+    
+            var nombreDivisionParameter = nombreDivision != null ?
+                new ObjectParameter("NombreDivision", nombreDivision) :
+                new ObjectParameter("NombreDivision", typeof(string));
+    
+            var statusParameter = status.HasValue ?
+                new ObjectParameter("Status", status) :
+                new ObjectParameter("Status", typeof(bool));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("ModificarDivision", iDDivisionParameter, nombreDivisionParameter, statusParameter);
+        }
+    
+        public virtual int ModificarGrupo(Nullable<int> iDGrupo, string cuatrimestre, string grupo, Nullable<bool> status)
+        {
+            var iDGrupoParameter = iDGrupo.HasValue ?
+                new ObjectParameter("IDGrupo", iDGrupo) :
+                new ObjectParameter("IDGrupo", typeof(int));
+    
+            var cuatrimestreParameter = cuatrimestre != null ?
+                new ObjectParameter("Cuatrimestre", cuatrimestre) :
+                new ObjectParameter("Cuatrimestre", typeof(string));
+    
+            var grupoParameter = grupo != null ?
+                new ObjectParameter("Grupo", grupo) :
+                new ObjectParameter("Grupo", typeof(string));
+    
+            var statusParameter = status.HasValue ?
+                new ObjectParameter("Status", status) :
+                new ObjectParameter("Status", typeof(bool));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("ModificarGrupo", iDGrupoParameter, cuatrimestreParameter, grupoParameter, statusParameter);
+        }
     }
 }

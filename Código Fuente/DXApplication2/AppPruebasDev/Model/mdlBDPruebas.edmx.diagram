@@ -4,18 +4,19 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="0fc2905deaf8465f87190233d69b2398" Name="Diagram1">
-        <EntityTypeShape EntityType="BDPruebasModel.ALUMNOS" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDPruebasModel.CARRERAS" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDPruebasModel.DIVISIONES" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDPruebasModel.GRUPOS" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDPruebasModel.VistaAlumnos" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDPruebasModel.VistaCarreras" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDPruebasModel.VistaDivisiones" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDPruebasModel.VistaGrupos" Width="1.5" PointX="5.75" PointY="7.75" IsExpanded="true" />
-        <AssociationConnector Association="BDPruebasModel.RefCARRERAS4" ManuallyRouted="false" />
-        <AssociationConnector Association="BDPruebasModel.RefGRUPOS5" ManuallyRouted="false" />
-        <AssociationConnector Association="BDPruebasModel.RefDIVISIONES7" ManuallyRouted="false" />
+      <Diagram DiagramId="a2beaba19b0640319fd0ff8ef6ec4022" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="BDPruebasDev1Model.ALUMNOS" Width="1.5" PointX="3.375" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDPruebasDev1Model.BITACORA" Width="1.5" PointX="0.5" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDPruebasDev1Model.CARRERAS" Width="1.5" PointX="3.375" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDPruebasDev1Model.DIVISIONES" Width="1.5" PointX="0.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDPruebasDev1Model.GRUPOS" Width="1.5" PointX="0.5" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDPruebasDev1Model.VISTAALUMNOS" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDPruebasDev1Model.VISTACARRERAS" Width="1.5" PointX="10.375" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDPruebasDev1Model.VISTADIVISIONES" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDPruebasDev1Model.VISTAGRUPOS" Width="1.5" PointX="10.375" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="BDPruebasDev1Model.RefCARRERAS4" ManuallyRouted="false" />
+        <AssociationConnector Association="BDPruebasDev1Model.RefGRUPOS5" ManuallyRouted="false" />
+        <AssociationConnector Association="BDPruebasDev1Model.RefDIVISIONES7" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

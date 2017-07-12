@@ -12,10 +12,12 @@ namespace AppPruebasDev.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class VistaAlumnos
+    public partial class VISTAALUMNOS
     {
         public string Matricula { get; set; }
         public string NombreCompleto { get; set; }
+        public string Correo { get; set; }
+        public string Contrasenia { get; set; }
         public string Telefono { get; set; }
         public string NombreCarrera { get; set; }
         public string GradoGrupo { get; set; }

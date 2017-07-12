@@ -45,5 +45,16 @@ namespace AppPruebasDev.Properties {
                 return ((string)(this["BDPruebasConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=BDPruebasDev1.mssql.somee.com;Initial Catalog=BDPruebasDev1;User ID=D" +
+            "evExpressX;Password=DevExpressX")]
+        public string BDPruebasDev1ConnectionString {
+            get {
+                return ((string)(this["BDPruebasDev1ConnectionString"]));
+            }
+        }
     }
 }

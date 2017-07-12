@@ -12,7 +12,7 @@ namespace AppPruebasDev.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class VistaDivisiones
+    public partial class VISTADIVISIONES
     {
         public int IDDivision { get; set; }
         public string NombreDivision { get; set; }
