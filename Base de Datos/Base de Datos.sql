@@ -4,7 +4,7 @@
  * Project :      BDPruebas.DM1
  * Author :       Adrian Cox
  *
- * Date Created : Tuesday, July 11, 2017 13:07:31
+ * Date Created : Wednesday, July 12, 2017 13:57:02
  * Target DBMS : Microsoft SQL Server 2008
  */
 
@@ -15,7 +15,9 @@ go
 USE BDPruebas
 go
 
+/********************************************************************/
 /****************************** TABLAS ******************************/
+/********************************************************************/
 
 /* 
  * TABLE: ALUMNOS 
@@ -36,6 +38,8 @@ CREATE TABLE ALUMNOS(
 )
 go
 
+
+
 IF OBJECT_ID('ALUMNOS') IS NOT NULL
     PRINT '<<< CREATED TABLE ALUMNOS >>>'
 ELSE
@@ -55,10 +59,12 @@ CREATE TABLE BITACORA(
     VALORORIGINAL    nvarchar(max)    NOT NULL,
     VALORNUEVO       nvarchar(max)    NOT NULL,
     FECHA            datetime2(7)     NOT NULL,
-    IDUSUARIO        nvarchar(max)    NOT NULL,
+    USUARIO          nvarchar(max)    NOT NULL,
     CONSTRAINT PK6 PRIMARY KEY NONCLUSTERED (CLAVE)
 )
 go
+
+
 
 IF OBJECT_ID('BITACORA') IS NOT NULL
     PRINT '<<< CREATED TABLE BITACORA >>>'
@@ -79,6 +85,8 @@ CREATE TABLE CARRERAS(
 )
 go
 
+
+
 IF OBJECT_ID('CARRERAS') IS NOT NULL
     PRINT '<<< CREATED TABLE CARRERAS >>>'
 ELSE
@@ -96,6 +104,8 @@ CREATE TABLE DIVISIONES(
     CONSTRAINT PK3 PRIMARY KEY NONCLUSTERED (IDDivision)
 )
 go
+
+
 
 IF OBJECT_ID('DIVISIONES') IS NOT NULL
     PRINT '<<< CREATED TABLE DIVISIONES >>>'
@@ -115,6 +125,8 @@ CREATE TABLE GRUPOS(
     CONSTRAINT PK5 PRIMARY KEY NONCLUSTERED (IDGrupo)
 )
 go
+
+
 
 IF OBJECT_ID('GRUPOS') IS NOT NULL
     PRINT '<<< CREATED TABLE GRUPOS >>>'
@@ -136,6 +148,7 @@ ALTER TABLE ALUMNOS ADD CONSTRAINT RefGRUPOS5
     REFERENCES GRUPOS(IDGrupo)
 go
 
+
 /* 
  * TABLE: CARRERAS 
  */
@@ -145,7 +158,10 @@ ALTER TABLE CARRERAS ADD CONSTRAINT RefDIVISIONES7
     REFERENCES DIVISIONES(IDDivision)
 go
 
+
+/********************************************************************/
 /****************************** VISTAS ******************************/
+/********************************************************************/
 
 /*VISTA ALUMNOS*/
 CREATE VIEW VISTAALUMNOS
@@ -184,19 +200,23 @@ SELECT G.IDGrupo, G.Cuatrimestre, G.Grupo, G.Status
 FROM GRUPOS G
 go
 
+/********************************************************************/
 /**************************** PROCEDURES ****************************/
+/********************************************************************/
 
 /* PROCEDURES ALUMNOS */
 CREATE PROCEDURE dbo.AgregarAlumno
 (
-	@Matricula          varchar(10),
-	@NombreAlumno       varchar(50),
-	@ApellidoPaterno    varchar(25),
-	@ApellidoMaterno    varchar(25),
-	@Telefono           varchar(10),
-	@Status             bit,
-	@IDCarrera          int,
-	@IDGrupo            int
+	@Matricula           varchar(10),
+    @NombreAlumno        varchar(50),
+    @ApellidoPaterno     varchar(25),
+    @ApellidoMaterno     varchar(25),
+    @Correo              varchar(75),
+    @Contrasenia         varchar(75),
+    @Telefono            varchar(10),
+    @Status              bit,
+    @IDCarrera           int,
+    @IDGrupo             int
 )
 AS
 INSERT INTO ALUMNOS
@@ -205,25 +225,29 @@ INSERT INTO ALUMNOS
 	NombreAlumno,
 	ApellidoPaterno,
 	ApellidoMaterno,
+	Correo,
+	Contrasenia,
 	Telefono,
 	Status,
 	IDCarrera,
 	IDGrupo
 )
-VALUES (@Matricula, @NombreAlumno, @ApellidoPaterno, @ApellidoMaterno, @Telefono, @Status, @IDCarrera, @IDGrupo);
+VALUES (@Matricula, @NombreAlumno, @ApellidoPaterno, @ApellidoMaterno, @Correo, @Contrasenia, @Telefono, @Status, @IDCarrera, @IDGrupo);
 
 GO
 
 CREATE PROCEDURE dbo.ModificarAlumno
 (
-	@Matricula          varchar(10),
-	@NombreAlumno       varchar(50),
-	@ApellidoPaterno    varchar(25),
-	@ApellidoMaterno    varchar(25),
-	@Telefono           varchar(10),
-	@Status             bit,
-	@IDCarrera          int,
-	@IDGrupo            int
+	@Matricula           varchar(10),
+    @NombreAlumno        varchar(50),
+    @ApellidoPaterno     varchar(25),
+    @ApellidoMaterno     varchar(25),
+    @Correo              varchar(75),
+    @Contrasenia         varchar(75),
+    @Telefono            varchar(10),
+    @Status              bit,
+    @IDCarrera           int,
+    @IDGrupo             int
 )
 AS
 UPDATE ALUMNOS
@@ -231,6 +255,8 @@ SET
 	NombreAlumno = @NombreAlumno,
 	ApellidoPaterno = @ApellidoPaterno,
 	ApellidoMaterno = @ApellidoMaterno,
+	Correo = @Correo,
+	Contrasenia = @Contrasenia,
 	Telefono = @Telefono,
 	Status = @Status,
 	IDCarrera = @IDCarrera,
@@ -350,9 +376,9 @@ GO
 /* PROCEDURES GRUPOS*/
 CREATE PROCEDURE dbo.AgregarGrupo
 (
-    @Cuatrimestre    char(1),
-    @Grupo           char(1),
-    @Status          bit
+    @Cuatrimestre     char(1),
+    @Grupo            char(1),
+    @Status           bit
 )
 AS
 INSERT INTO GRUPOS
@@ -367,10 +393,10 @@ GO
 
 CREATE PROCEDURE dbo.ModificarGrupo
 (
-	@IDGrupo         int,
-    @Cuatrimestre    char(1),
-    @Grupo           char(1),
-    @Status          bit
+	@IDGrupo          int,
+    @Cuatrimestre     char(1),
+    @Grupo            char(1),
+    @Status           bit
 )
 AS
 UPDATE GRUPOS
@@ -393,3 +419,452 @@ SET
 	Status = 0
 WHERE
 	IDGrupo = @IDGrupo;
+GO
+
+/********************************************************************/
+/***************************** TRIGGERS *****************************/
+/********************************************************************/
+
+/* TRIGGER ALUMNOS */
+CREATE TRIGGER TR_ALUMNOS_BITACORA
+ON ALUMNOS
+FOR INSERT, UPDATE, DELETE
+AS
+DECLARE
+    @COLUMNA INT,
+    @COLUMNA_MAX INT,
+    @CAMPO VARCHAR(150),
+    @TABLA VARCHAR(150),
+    @PKCOL VARCHAR(1000),
+    @FECHA DATETIME2,
+    @ACCION char(1) ,	
+    @PKSELECT varchar(1000),
+	@USUARIO varchar(10),
+	@SQL VARCHAR(2000)
+
+	--REMUEVE EL NÚMERO DE COLUMNAS AFECTADAS
+	SET NOCOUNT ON
+
+	--SE ASIGNA EL NOMBRE DE LA TABLA
+	SELECT @TABLA = 'ALUMNOS'
+
+	-- Obtenemos la lista de columnas de los cursores
+	SELECT * INTO #ins FROM inserted
+	SELECT * INTO #del FROM deleted
+
+	--SE LE ASIGNA EL ID DEL USUARIO QUE REALIZÓ EL CAMBIO
+	SELECT @USUARIO = SYSTEM_USER;
+	
+	--SE OBTIENE LA FECHA Y HORA ACTUAL
+	SELECT @FECHA = TODATETIMEOFFSET(CONVERT(DATETIME2, GETDATE()), '-06:00')
+
+	--SE OBTIENE EL NOMBRE DE LA COLUMNA QUE CONTIENE LA PK
+	SELECT @PKCOL = COALESCE(@PKCOL + ' and', ' on') +
+					' I.' + IS_CU.COLUMN_NAME + ' = D.' + IS_CU.COLUMN_NAME
+					FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS IS_C
+					JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE IS_CU
+					ON IS_CU.TABLE_NAME = IS_C.TABLE_NAME
+					AND IS_CU.CONSTRAINT_NAME = IS_C.CONSTRAINT_NAME
+					WHERE IS_C.TABLE_NAME = @TABLA AND IS_C.CONSTRAINT_TYPE = 'PRIMARY KEY'
+	
+	--SE OBTIENE LA PK Y LAS COLUMNAS PARA LA INSERCIÓN DE DATOS EN LA TABLA DE BITÁCORA
+	SELECT @PKSELECT = 	COALESCE(@PKSELECT + '+', '') + 
+						'''<' + 
+						COLUMN_NAME + 
+						'='' + CONVERT(VARCHAR(100),COALESCE(I.' + 
+						COLUMN_NAME +',D.' + 
+						COLUMN_NAME + '))+''>''' 
+						FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS IS_C
+						JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE IS_CU
+						ON IS_CU.TABLE_NAME = IS_C.TABLE_NAME
+						AND IS_CU.CONSTRAINT_NAME = IS_C.CONSTRAINT_NAME
+						WHERE IS_C.TABLE_NAME = @TABLA
+						AND CONSTRAINT_TYPE = 'PRIMARY KEY'
+
+	--SE DETERMINA LA ACCIÓN QUE ELUSUARIO ESTÁ REALIZANDO
+	if exists (SELECT * FROM inserted) 
+		if exists (SELECT * FROM deleted) --SI ES UN UPDATE
+			SELECT @ACCION = 'U'
+		else                              --SI ES UN INSERT
+			SELECT @ACCION = 'I'
+	--else                                  --SI ES UN DELETE
+	--	SELECT @ACCION = 'D'
+
+	--COMENTARIO
+	SELECT @COLUMNA = 0;
+	SELECT @COLUMNA_MAX = MAX(ORDINAL_POSITION)
+						  FROM INFORMATION_SCHEMA.COLUMNS IS_C
+						  WHERE IS_C.TABLE_NAME = @TABLA
+
+	--SE INSERTA 1 REGISTRO POR CADA CAMPO AFECTADO
+	WHILE @COLUMNA < @COLUMNA_MAX
+	BEGIN
+		SELECT @COLUMNA = MIN(ORDINAL_POSITION) 
+		FROM INFORMATION_SCHEMA.COLUMNS 
+		WHERE TABLE_NAME = @TABLA and ORDINAL_POSITION > @COLUMNA
+
+			BEGIN
+				SELECT @CAMPO = COLUMN_NAME 
+				FROM INFORMATION_SCHEMA.COLUMNS 
+				WHERE TABLE_NAME = @TABLA and ORDINAL_POSITION = @COLUMNA
+				
+				--SE VALIDA SI ES UN DELETE
+				DECLARE @VAL_STATUS BIT
+				SELECT @VAL_STATUS = STATUS FROM #ins
+
+				IF (@VAL_STATUS = 0)
+					SELECT @ACCION = 'D'
+
+				--SELECT @sql = 'INSERT INTO BITACORA (PK, ACCION, TABLA, CAMPO, VALORORIGINAL, VALORNUEVO, FECHA)'
+				SELECT @sql = 'INSERT INTO BITACORA (ACCION, TABLA, PK, CAMPO, VALORORIGINAL, VALORNUEVO, FECHA, USUARIO)'
+				SELECT @sql = @sql + 	' SELECT ''' + @ACCION + ''''
+				SELECT @sql = @sql + 	',''' + @TABLA + ''''
+				SELECT @sql = @sql + 	',' + @PKSELECT
+				SELECT @sql = @sql + 	',''' + @CAMPO + ''''
+				SELECT @sql = @sql + 	',convert(varchar(1000),D.' + @CAMPO + ')'
+				SELECT @sql = @sql + 	',convert(varchar(1000),I.' + @CAMPO + ')'
+				SELECT @sql = @sql + 	',''' + CONVERT(VARCHAR, @FECHA) + ''''
+				SELECT @sql = @sql + 	',''' + @USUARIO+ ''''
+				SELECT @sql = @sql + 	' from #ins I full outer join #del D '
+				SELECT @sql = @sql + 	@PKCOL
+				SELECT @sql = @sql + 	' where I.' + @CAMPO + ' <> D.' + @CAMPO 
+				SELECT @sql = @sql + 	' or (I.' + @CAMPO + ' is null and  D.' + @CAMPO + ' is not null)' 
+				SELECT @sql = @sql + 	' or (I.' + @CAMPO + ' is not null and D.' + @CAMPO + ' is null)' 
+				exec (@sql)
+			END
+	END
+
+GO
+
+/* TRIGGER CARRERAS */
+CREATE TRIGGER TR_CARRERAS_BITACORA
+ON CARRERAS
+FOR INSERT, UPDATE, DELETE
+AS
+DECLARE
+    @COLUMNA INT,
+    @COLUMNA_MAX INT,
+    @CAMPO VARCHAR(150),
+    @TABLA VARCHAR(150),
+    @PKCOL VARCHAR(1000),
+    @FECHA DATETIME2,
+    @ACCION char(1) ,	
+    @PKSELECT varchar(1000),
+	@USUARIO varchar(10),
+	@SQL VARCHAR(2000)
+
+	--REMUEVE EL NÚMERO DE COLUMNAS AFECTADAS
+	SET NOCOUNT ON
+
+	--SE ASIGNA EL NOMBRE DE LA TABLA
+	SELECT @TABLA = 'CARRERAS'
+
+	-- Obtenemos la lista de columnas de los cursores
+	SELECT * INTO #ins FROM inserted
+	SELECT * INTO #del FROM deleted
+
+	--SE LE ASIGNA EL ID DEL USUARIO QUE REALIZÓ EL CAMBIO
+	SELECT @USUARIO = SYSTEM_USER;
+	
+	--SE OBTIENE LA FECHA Y HORA ACTUAL
+	SELECT @FECHA = TODATETIMEOFFSET(CONVERT(DATETIME2, GETDATE()), '-06:00')
+
+	--SE OBTIENE EL NOMBRE DE LA COLUMNA QUE CONTIENE LA PK
+	SELECT @PKCOL = COALESCE(@PKCOL + ' and', ' on') +
+					' I.' + IS_CU.COLUMN_NAME + ' = D.' + IS_CU.COLUMN_NAME
+					FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS IS_C
+					JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE IS_CU
+					ON IS_CU.TABLE_NAME = IS_C.TABLE_NAME
+					AND IS_CU.CONSTRAINT_NAME = IS_C.CONSTRAINT_NAME
+					WHERE IS_C.TABLE_NAME = @TABLA AND IS_C.CONSTRAINT_TYPE = 'PRIMARY KEY'
+	
+	--SE OBTIENE LA PK Y LAS COLUMNAS PARA LA INSERCIÓN DE DATOS EN LA TABLA DE BITÁCORA
+	SELECT @PKSELECT = 	COALESCE(@PKSELECT + '+', '') + 
+						'''<' + 
+						COLUMN_NAME + 
+						'='' + CONVERT(VARCHAR(100),COALESCE(I.' + 
+						COLUMN_NAME +',D.' + 
+						COLUMN_NAME + '))+''>''' 
+						FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS IS_C
+						JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE IS_CU
+						ON IS_CU.TABLE_NAME = IS_C.TABLE_NAME
+						AND IS_CU.CONSTRAINT_NAME = IS_C.CONSTRAINT_NAME
+						WHERE IS_C.TABLE_NAME = @TABLA
+						AND CONSTRAINT_TYPE = 'PRIMARY KEY'
+
+	--SE DETERMINA LA ACCIÓN QUE ELUSUARIO ESTÁ REALIZANDO
+	if exists (SELECT * FROM inserted) 
+		if exists (SELECT * FROM deleted) --SI ES UN UPDATE
+			SELECT @ACCION = 'U'
+		else                              --SI ES UN INSERT
+			SELECT @ACCION = 'I'
+	--else                                  --SI ES UN DELETE
+	--	SELECT @ACCION = 'D'
+
+	--COMENTARIO
+	SELECT @COLUMNA = 0;
+	SELECT @COLUMNA_MAX = MAX(ORDINAL_POSITION)
+						  FROM INFORMATION_SCHEMA.COLUMNS IS_C
+						  WHERE IS_C.TABLE_NAME = @TABLA
+
+	--SE INSERTA 1 REGISTRO POR CADA CAMPO AFECTADO
+	WHILE @COLUMNA < @COLUMNA_MAX
+	BEGIN
+		SELECT @COLUMNA = MIN(ORDINAL_POSITION) 
+		FROM INFORMATION_SCHEMA.COLUMNS 
+		WHERE TABLE_NAME = @TABLA and ORDINAL_POSITION > @COLUMNA
+
+			BEGIN
+				SELECT @CAMPO = COLUMN_NAME 
+				FROM INFORMATION_SCHEMA.COLUMNS 
+				WHERE TABLE_NAME = @TABLA and ORDINAL_POSITION = @COLUMNA
+				
+				--SE VALIDA SI ES UN DELETE
+				DECLARE @VAL_STATUS BIT
+				SELECT @VAL_STATUS = STATUS FROM #ins
+
+				IF (@VAL_STATUS = 0)
+					SELECT @ACCION = 'D'
+
+				--SELECT @sql = 'INSERT INTO BITACORA (PK, ACCION, TABLA, CAMPO, VALORORIGINAL, VALORNUEVO, FECHA)'
+				SELECT @sql = 'INSERT INTO BITACORA (ACCION, TABLA, PK, CAMPO, VALORORIGINAL, VALORNUEVO, FECHA, USUARIO)'
+				SELECT @sql = @sql + 	' SELECT ''' + @ACCION + ''''
+				SELECT @sql = @sql + 	',''' + @TABLA + ''''
+				SELECT @sql = @sql + 	',' + @PKSELECT
+				SELECT @sql = @sql + 	',''' + @CAMPO + ''''
+				SELECT @sql = @sql + 	',convert(varchar(1000),D.' + @CAMPO + ')'
+				SELECT @sql = @sql + 	',convert(varchar(1000),I.' + @CAMPO + ')'
+				SELECT @sql = @sql + 	',''' + CONVERT(VARCHAR, @FECHA) + ''''
+				SELECT @sql = @sql + 	',''' + @USUARIO+ ''''
+				SELECT @sql = @sql + 	' from #ins I full outer join #del D '
+				SELECT @sql = @sql + 	@PKCOL
+				SELECT @sql = @sql + 	' where I.' + @CAMPO + ' <> D.' + @CAMPO 
+				SELECT @sql = @sql + 	' or (I.' + @CAMPO + ' is null and  D.' + @CAMPO + ' is not null)' 
+				SELECT @sql = @sql + 	' or (I.' + @CAMPO + ' is not null and D.' + @CAMPO + ' is null)' 
+				exec (@sql)
+			END
+	END
+
+GO
+
+/* TRIGGER DIVISIONES */
+CREATE TRIGGER TR_DIVISIONES_BITACORA
+ON DIVISIONES
+FOR INSERT, UPDATE, DELETE
+AS
+DECLARE
+    @COLUMNA INT,
+    @COLUMNA_MAX INT,
+    @CAMPO VARCHAR(150),
+    @TABLA VARCHAR(150),
+    @PKCOL VARCHAR(1000),
+    @FECHA DATETIME2,
+    @ACCION char(1) ,	
+    @PKSELECT varchar(1000),
+	@USUARIO varchar(10),
+	@SQL VARCHAR(2000)
+
+	--REMUEVE EL NÚMERO DE COLUMNAS AFECTADAS
+	SET NOCOUNT ON
+
+	--SE ASIGNA EL NOMBRE DE LA TABLA
+	SELECT @TABLA = 'DIVISIONES'
+
+	-- Obtenemos la lista de columnas de los cursores
+	SELECT * INTO #ins FROM inserted
+	SELECT * INTO #del FROM deleted
+
+	--SE LE ASIGNA EL ID DEL USUARIO QUE REALIZÓ EL CAMBIO
+	SELECT @USUARIO = SYSTEM_USER;
+	
+	--SE OBTIENE LA FECHA Y HORA ACTUAL
+	SELECT @FECHA = TODATETIMEOFFSET(CONVERT(DATETIME2, GETDATE()), '-06:00')
+
+	--SE OBTIENE EL NOMBRE DE LA COLUMNA QUE CONTIENE LA PK
+	SELECT @PKCOL = COALESCE(@PKCOL + ' and', ' on') +
+					' I.' + IS_CU.COLUMN_NAME + ' = D.' + IS_CU.COLUMN_NAME
+					FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS IS_C
+					JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE IS_CU
+					ON IS_CU.TABLE_NAME = IS_C.TABLE_NAME
+					AND IS_CU.CONSTRAINT_NAME = IS_C.CONSTRAINT_NAME
+					WHERE IS_C.TABLE_NAME = @TABLA AND IS_C.CONSTRAINT_TYPE = 'PRIMARY KEY'
+	
+	--SE OBTIENE LA PK Y LAS COLUMNAS PARA LA INSERCIÓN DE DATOS EN LA TABLA DE BITÁCORA
+	SELECT @PKSELECT = 	COALESCE(@PKSELECT + '+', '') + 
+						'''<' + 
+						COLUMN_NAME + 
+						'='' + CONVERT(VARCHAR(100),COALESCE(I.' + 
+						COLUMN_NAME +',D.' + 
+						COLUMN_NAME + '))+''>''' 
+						FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS IS_C
+						JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE IS_CU
+						ON IS_CU.TABLE_NAME = IS_C.TABLE_NAME
+						AND IS_CU.CONSTRAINT_NAME = IS_C.CONSTRAINT_NAME
+						WHERE IS_C.TABLE_NAME = @TABLA
+						AND CONSTRAINT_TYPE = 'PRIMARY KEY'
+
+	--SE DETERMINA LA ACCIÓN QUE ELUSUARIO ESTÁ REALIZANDO
+	if exists (SELECT * FROM inserted) 
+		if exists (SELECT * FROM deleted) --SI ES UN UPDATE
+			SELECT @ACCION = 'U'
+		else                              --SI ES UN INSERT
+			SELECT @ACCION = 'I'
+	--else                                  --SI ES UN DELETE
+	--	SELECT @ACCION = 'D'
+
+	--COMENTARIO
+	SELECT @COLUMNA = 0;
+	SELECT @COLUMNA_MAX = MAX(ORDINAL_POSITION)
+						  FROM INFORMATION_SCHEMA.COLUMNS IS_C
+						  WHERE IS_C.TABLE_NAME = @TABLA
+
+	--SE INSERTA 1 REGISTRO POR CADA CAMPO AFECTADO
+	WHILE @COLUMNA < @COLUMNA_MAX
+	BEGIN
+		SELECT @COLUMNA = MIN(ORDINAL_POSITION) 
+		FROM INFORMATION_SCHEMA.COLUMNS 
+		WHERE TABLE_NAME = @TABLA and ORDINAL_POSITION > @COLUMNA
+
+			BEGIN
+				SELECT @CAMPO = COLUMN_NAME 
+				FROM INFORMATION_SCHEMA.COLUMNS 
+				WHERE TABLE_NAME = @TABLA and ORDINAL_POSITION = @COLUMNA
+				
+				--SE VALIDA SI ES UN DELETE
+				DECLARE @VAL_STATUS BIT
+				SELECT @VAL_STATUS = STATUS FROM #ins
+
+				IF (@VAL_STATUS = 0)
+					SELECT @ACCION = 'D'
+
+				--SELECT @sql = 'INSERT INTO BITACORA (PK, ACCION, TABLA, CAMPO, VALORORIGINAL, VALORNUEVO, FECHA)'
+				SELECT @sql = 'INSERT INTO BITACORA (ACCION, TABLA, PK, CAMPO, VALORORIGINAL, VALORNUEVO, FECHA, USUARIO)'
+				SELECT @sql = @sql + 	' SELECT ''' + @ACCION + ''''
+				SELECT @sql = @sql + 	',''' + @TABLA + ''''
+				SELECT @sql = @sql + 	',' + @PKSELECT
+				SELECT @sql = @sql + 	',''' + @CAMPO + ''''
+				SELECT @sql = @sql + 	',convert(varchar(1000),D.' + @CAMPO + ')'
+				SELECT @sql = @sql + 	',convert(varchar(1000),I.' + @CAMPO + ')'
+				SELECT @sql = @sql + 	',''' + CONVERT(VARCHAR, @FECHA) + ''''
+				SELECT @sql = @sql + 	',''' + @USUARIO+ ''''
+				SELECT @sql = @sql + 	' from #ins I full outer join #del D '
+				SELECT @sql = @sql + 	@PKCOL
+				SELECT @sql = @sql + 	' where I.' + @CAMPO + ' <> D.' + @CAMPO 
+				SELECT @sql = @sql + 	' or (I.' + @CAMPO + ' is null and  D.' + @CAMPO + ' is not null)' 
+				SELECT @sql = @sql + 	' or (I.' + @CAMPO + ' is not null and D.' + @CAMPO + ' is null)' 
+				exec (@sql)
+			END
+	END
+
+GO
+
+/* TRIGGER GRUPOS */
+CREATE TRIGGER TR_GRUPOS_BITACORA
+ON GRUPOS
+FOR INSERT, UPDATE, DELETE
+AS
+DECLARE
+    @COLUMNA INT,
+    @COLUMNA_MAX INT,
+    @CAMPO VARCHAR(150),
+    @TABLA VARCHAR(150),
+    @PKCOL VARCHAR(1000),
+    @FECHA DATETIME2,
+    @ACCION char(1) ,	
+    @PKSELECT varchar(1000),
+	@USUARIO varchar(10),
+	@SQL VARCHAR(2000)
+
+	--REMUEVE EL NÚMERO DE COLUMNAS AFECTADAS
+	SET NOCOUNT ON
+
+	--SE ASIGNA EL NOMBRE DE LA TABLA
+	SELECT @TABLA = 'GRUPOS'
+
+	-- Obtenemos la lista de columnas de los cursores
+	SELECT * INTO #ins FROM inserted
+	SELECT * INTO #del FROM deleted
+
+	--SE LE ASIGNA EL ID DEL USUARIO QUE REALIZÓ EL CAMBIO
+	SELECT @USUARIO = SYSTEM_USER;
+	
+	--SE OBTIENE LA FECHA Y HORA ACTUAL
+	SELECT @FECHA = TODATETIMEOFFSET(CONVERT(DATETIME2, GETDATE()), '-06:00')
+
+	--SE OBTIENE EL NOMBRE DE LA COLUMNA QUE CONTIENE LA PK
+	SELECT @PKCOL = COALESCE(@PKCOL + ' and', ' on') +
+					' I.' + IS_CU.COLUMN_NAME + ' = D.' + IS_CU.COLUMN_NAME
+					FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS IS_C
+					JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE IS_CU
+					ON IS_CU.TABLE_NAME = IS_C.TABLE_NAME
+					AND IS_CU.CONSTRAINT_NAME = IS_C.CONSTRAINT_NAME
+					WHERE IS_C.TABLE_NAME = @TABLA AND IS_C.CONSTRAINT_TYPE = 'PRIMARY KEY'
+	
+	--SE OBTIENE LA PK Y LAS COLUMNAS PARA LA INSERCIÓN DE DATOS EN LA TABLA DE BITÁCORA
+	SELECT @PKSELECT = 	COALESCE(@PKSELECT + '+', '') + 
+						'''<' + 
+						COLUMN_NAME + 
+						'='' + CONVERT(VARCHAR(100),COALESCE(I.' + 
+						COLUMN_NAME +',D.' + 
+						COLUMN_NAME + '))+''>''' 
+						FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS IS_C
+						JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE IS_CU
+						ON IS_CU.TABLE_NAME = IS_C.TABLE_NAME
+						AND IS_CU.CONSTRAINT_NAME = IS_C.CONSTRAINT_NAME
+						WHERE IS_C.TABLE_NAME = @TABLA
+						AND CONSTRAINT_TYPE = 'PRIMARY KEY'
+
+	--SE DETERMINA LA ACCIÓN QUE ELUSUARIO ESTÁ REALIZANDO
+	if exists (SELECT * FROM inserted) 
+		if exists (SELECT * FROM deleted) --SI ES UN UPDATE
+			SELECT @ACCION = 'U'
+		else                              --SI ES UN INSERT
+			SELECT @ACCION = 'I'
+	--else                                  --SI ES UN DELETE
+	--	SELECT @ACCION = 'D'
+
+	--COMENTARIO
+	SELECT @COLUMNA = 0;
+	SELECT @COLUMNA_MAX = MAX(ORDINAL_POSITION)
+						  FROM INFORMATION_SCHEMA.COLUMNS IS_C
+						  WHERE IS_C.TABLE_NAME = @TABLA
+
+	--SE INSERTA 1 REGISTRO POR CADA CAMPO AFECTADO
+	WHILE @COLUMNA < @COLUMNA_MAX
+	BEGIN
+		SELECT @COLUMNA = MIN(ORDINAL_POSITION) 
+		FROM INFORMATION_SCHEMA.COLUMNS 
+		WHERE TABLE_NAME = @TABLA and ORDINAL_POSITION > @COLUMNA
+
+			BEGIN
+				SELECT @CAMPO = COLUMN_NAME 
+				FROM INFORMATION_SCHEMA.COLUMNS 
+				WHERE TABLE_NAME = @TABLA and ORDINAL_POSITION = @COLUMNA
+				
+				--SE VALIDA SI ES UN DELETE
+				DECLARE @VAL_STATUS BIT
+				SELECT @VAL_STATUS = STATUS FROM #ins
+
+				IF (@VAL_STATUS = 0)
+					SELECT @ACCION = 'D'
+
+				--SELECT @sql = 'INSERT INTO BITACORA (PK, ACCION, TABLA, CAMPO, VALORORIGINAL, VALORNUEVO, FECHA)'
+				SELECT @sql = 'INSERT INTO BITACORA (ACCION, TABLA, PK, CAMPO, VALORORIGINAL, VALORNUEVO, FECHA, USUARIO)'
+				SELECT @sql = @sql + 	' SELECT ''' + @ACCION + ''''
+				SELECT @sql = @sql + 	',''' + @TABLA + ''''
+				SELECT @sql = @sql + 	',' + @PKSELECT
+				SELECT @sql = @sql + 	',''' + @CAMPO + ''''
+				SELECT @sql = @sql + 	',convert(varchar(1000),D.' + @CAMPO + ')'
+				SELECT @sql = @sql + 	',convert(varchar(1000),I.' + @CAMPO + ')'
+				SELECT @sql = @sql + 	',''' + CONVERT(VARCHAR, @FECHA) + ''''
+				SELECT @sql = @sql + 	',''' + @USUARIO+ ''''
+				SELECT @sql = @sql + 	' from #ins I full outer join #del D '
+				SELECT @sql = @sql + 	@PKCOL
+				SELECT @sql = @sql + 	' where I.' + @CAMPO + ' <> D.' + @CAMPO 
+				SELECT @sql = @sql + 	' or (I.' + @CAMPO + ' is null and  D.' + @CAMPO + ' is not null)' 
+				SELECT @sql = @sql + 	' or (I.' + @CAMPO + ' is not null and D.' + @CAMPO + ' is null)' 
+				exec (@sql)
+			END
+	END
+
+GO
