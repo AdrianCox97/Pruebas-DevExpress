@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsSisApartado" targetNamespace="http://tempuri.org/dsSisApartado.xsd" xmlns:mstns="http://tempuri.org/dsSisApartado.xsd" xmlns="http://tempuri.org/dsSisApartado.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BDCarrillo" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BDCarrillo (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.CeramicaCarrillo.Properties.Settings.GlobalReference.Default.BDCarrillo" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="FolioApartadoTableAdapter" GeneratorDataComponentClassName="FolioApartadoTableAdapter" Name="FolioApartado" UserDataComponentName="FolioApartadoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BDCarrillo (Settings)" DbObjectName="BDCarrillo.dbo.Folio" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select f.IdFolio, f.FechaVenta, p.Nombre + ' ' + p.Apellido as [Nombre del Empleado] , f.TotalVenta, f.Faltante
+from Folio f
+join Personal p on p.IdPersonal = f.IdPersonal
+where f.Status = 0</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdFolio" DataSetColumn="IdFolio" />
+              <Mapping SourceColumn="FechaVenta" DataSetColumn="FechaVenta" />
+              <Mapping SourceColumn="Nombre del Empleado" DataSetColumn="Nombre del Empleado" />
+              <Mapping SourceColumn="TotalVenta" DataSetColumn="TotalVenta" />
+              <Mapping SourceColumn="Faltante" DataSetColumn="Faltante" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AbonosApartadoTableAdapter" GeneratorDataComponentClassName="AbonosApartadoTableAdapter" Name="AbonosApartado" UserDataComponentName="AbonosApartadoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BDCarrillo (Settings)" DbObjectName="BDCarrillo.dbo.Abonos" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        a.IdAbono, a.IdFolio, a.FechaAbono, a.MontoAbono
+FROM            Abonos AS a INNER JOIN
+                         Folio AS f ON a.IdFolio = f.IdFolio</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdAbono" DataSetColumn="IdAbono" />
+              <Mapping SourceColumn="IdFolio" DataSetColumn="IdFolio" />
+              <Mapping SourceColumn="FechaAbono" DataSetColumn="FechaAbono" />
+              <Mapping SourceColumn="MontoAbono" DataSetColumn="MontoAbono" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ProductosApartadoTableAdapter" GeneratorDataComponentClassName="ProductosApartadoTableAdapter" Name="ProductosApartado" UserDataComponentName="ProductosApartadoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BDCarrillo (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select pd.Descripcion, df.Precio, df.Unidades,
+df.Total, df.IdFolio
+from Productos pd join DetalleFolio df
+on df.IdProductos = pd.IdProductos</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Descripcion" DataSetColumn="Descripcion" />
+              <Mapping SourceColumn="Precio" DataSetColumn="Precio" />
+              <Mapping SourceColumn="Unidades" DataSetColumn="Unidades" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+              <Mapping SourceColumn="IdFolio" DataSetColumn="IdFolio" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsSisApartado" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsSisApartado" msprop:Generator_UserDSName="dsSisApartado">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="FolioApartado" msprop:Generator_TableClassName="FolioApartadoDataTable" msprop:Generator_TableVarName="tableFolioApartado" msprop:Generator_TablePropName="FolioApartado" msprop:Generator_RowDeletingName="FolioApartadoRowDeleting" msprop:Generator_RowChangingName="FolioApartadoRowChanging" msprop:Generator_RowEvHandlerName="FolioApartadoRowChangeEventHandler" msprop:Generator_RowDeletedName="FolioApartadoRowDeleted" msprop:Generator_UserTableName="FolioApartado" msprop:Generator_RowChangedName="FolioApartadoRowChanged" msprop:Generator_RowEvArgName="FolioApartadoRowChangeEvent" msprop:Generator_RowClassName="FolioApartadoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdFolio" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIdFolio" msprop:Generator_ColumnPropNameInRow="IdFolio" msprop:Generator_ColumnPropNameInTable="IdFolioColumn" msprop:Generator_UserColumnName="IdFolio" type="xs:int" />
+              <xs:element name="FechaVenta" msprop:Generator_ColumnVarNameInTable="columnFechaVenta" msprop:Generator_ColumnPropNameInRow="FechaVenta" msprop:Generator_ColumnPropNameInTable="FechaVentaColumn" msprop:Generator_UserColumnName="FechaVenta" type="xs:dateTime" />
+              <xs:element name="Nombre_x0020_del_x0020_Empleado" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNombre_del_Empleado" msprop:Generator_ColumnPropNameInRow="Nombre_del_Empleado" msprop:Generator_ColumnPropNameInTable="Nombre_del_EmpleadoColumn" msprop:Generator_UserColumnName="Nombre del Empleado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="151" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalVenta" msprop:Generator_ColumnVarNameInTable="columnTotalVenta" msprop:Generator_ColumnPropNameInRow="TotalVenta" msprop:Generator_ColumnPropNameInTable="TotalVentaColumn" msprop:Generator_UserColumnName="TotalVenta" type="xs:double" />
+              <xs:element name="Faltante" msprop:Generator_ColumnVarNameInTable="columnFaltante" msprop:Generator_ColumnPropNameInRow="Faltante" msprop:Generator_ColumnPropNameInTable="FaltanteColumn" msprop:Generator_UserColumnName="Faltante" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AbonosApartado" msprop:Generator_TableClassName="AbonosApartadoDataTable" msprop:Generator_TableVarName="tableAbonosApartado" msprop:Generator_TablePropName="AbonosApartado" msprop:Generator_RowDeletingName="AbonosApartadoRowDeleting" msprop:Generator_RowChangingName="AbonosApartadoRowChanging" msprop:Generator_RowEvHandlerName="AbonosApartadoRowChangeEventHandler" msprop:Generator_RowDeletedName="AbonosApartadoRowDeleted" msprop:Generator_UserTableName="AbonosApartado" msprop:Generator_RowChangedName="AbonosApartadoRowChanged" msprop:Generator_RowEvArgName="AbonosApartadoRowChangeEvent" msprop:Generator_RowClassName="AbonosApartadoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdAbono" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIdAbono" msprop:Generator_ColumnPropNameInRow="IdAbono" msprop:Generator_ColumnPropNameInTable="IdAbonoColumn" msprop:Generator_UserColumnName="IdAbono" type="xs:int" />
+              <xs:element name="IdFolio" msprop:Generator_ColumnVarNameInTable="columnIdFolio" msprop:Generator_ColumnPropNameInRow="IdFolio" msprop:Generator_ColumnPropNameInTable="IdFolioColumn" msprop:Generator_UserColumnName="IdFolio" type="xs:int" />
+              <xs:element name="FechaAbono" msprop:Generator_ColumnVarNameInTable="columnFechaAbono" msprop:Generator_ColumnPropNameInRow="FechaAbono" msprop:Generator_ColumnPropNameInTable="FechaAbonoColumn" msprop:Generator_UserColumnName="FechaAbono" type="xs:dateTime" />
+              <xs:element name="MontoAbono" msprop:Generator_ColumnVarNameInTable="columnMontoAbono" msprop:Generator_ColumnPropNameInRow="MontoAbono" msprop:Generator_ColumnPropNameInTable="MontoAbonoColumn" msprop:Generator_UserColumnName="MontoAbono" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProductosApartado" msprop:Generator_TableClassName="ProductosApartadoDataTable" msprop:Generator_TableVarName="tableProductosApartado" msprop:Generator_TablePropName="ProductosApartado" msprop:Generator_RowDeletingName="ProductosApartadoRowDeleting" msprop:Generator_RowChangingName="ProductosApartadoRowChanging" msprop:Generator_RowEvHandlerName="ProductosApartadoRowChangeEventHandler" msprop:Generator_RowDeletedName="ProductosApartadoRowDeleted" msprop:Generator_UserTableName="ProductosApartado" msprop:Generator_RowChangedName="ProductosApartadoRowChanged" msprop:Generator_RowEvArgName="ProductosApartadoRowChangeEvent" msprop:Generator_RowClassName="ProductosApartadoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" msprop:Generator_UserColumnName="Precio" type="xs:double" />
+              <xs:element name="Unidades" msprop:Generator_ColumnVarNameInTable="columnUnidades" msprop:Generator_ColumnPropNameInRow="Unidades" msprop:Generator_ColumnPropNameInTable="UnidadesColumn" msprop:Generator_UserColumnName="Unidades" type="xs:int" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:double" />
+              <xs:element name="IdFolio" msprop:Generator_ColumnVarNameInTable="columnIdFolio" msprop:Generator_ColumnPropNameInRow="IdFolio" msprop:Generator_ColumnPropNameInTable="IdFolioColumn" msprop:Generator_UserColumnName="IdFolio" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:FolioApartado" />
+      <xs:field xpath="mstns:IdFolio" />
+    </xs:unique>
+    <xs:unique name="AbonosApartado_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AbonosApartado" />
+      <xs:field xpath="mstns:IdAbono" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Abonos" msdata:parent="FolioApartado" msdata:child="AbonosApartado" msdata:parentkey="IdFolio" msdata:childkey="IdFolio" msprop:Generator_UserChildTable="AbonosApartado" msprop:Generator_ChildPropName="GetAbonosApartadoRows" msprop:Generator_UserRelationName="Abonos" msprop:Generator_ParentPropName="FolioApartadoRow" msprop:Generator_RelationVarName="relationAbonos" msprop:Generator_UserParentTable="FolioApartado" />
+      <msdata:Relationship name="Productos" msdata:parent="FolioApartado" msdata:child="ProductosApartado" msdata:parentkey="IdFolio" msdata:childkey="IdFolio" msprop:Generator_UserChildTable="ProductosApartado" msprop:Generator_ChildPropName="GetProductosApartadoRows" msprop:Generator_UserRelationName="Productos" msprop:Generator_ParentPropName="FolioApartadoRow" msprop:Generator_RelationVarName="relationProductos" msprop:Generator_UserParentTable="FolioApartado" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

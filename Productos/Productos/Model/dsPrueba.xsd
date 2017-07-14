@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPrueba" targetNamespace="http://tempuri.org/dsPrueba.xsd" xmlns:mstns="http://tempuri.org/dsPrueba.xsd" xmlns="http://tempuri.org/dsPrueba.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BDCarrillo" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BDCarrillo (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.CeramicaCarrillo.Properties.Settings.GlobalReference.Default.BDCarrillo" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="FolioTableAdapter" GeneratorDataComponentClassName="FolioTableAdapter" Name="Folio" UserDataComponentName="FolioTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BDCarrillo (Settings)" DbObjectName="BDCarrillo.dbo.Folio" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        f.IdFolio, f.TotalVenta, f.FechaVenta, p.Nombre + ' ' + p.Apellido AS [Nombre del empleado]
+FROM            Folio AS f INNER JOIN
+                         Personal AS p ON f.IdPersonal = p.IdPersonal
+WHERE        f.Status = 1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdFolio" DataSetColumn="IdFolio" />
+              <Mapping SourceColumn="TotalVenta" DataSetColumn="TotalVenta" />
+              <Mapping SourceColumn="FechaVenta" DataSetColumn="FechaVenta" />
+              <Mapping SourceColumn="Nombre del empleado" DataSetColumn="Nombre del empleado" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DetalleTableAdapter" GeneratorDataComponentClassName="DetalleTableAdapter" Name="Detalle" UserDataComponentName="DetalleTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BDCarrillo (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select pd.Descripcion, df.Precio, df.Unidades,
+df.Total, df.IdFolio
+from Productos pd join DetalleFolio df
+on df.IdProductos = pd.IdProductos</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Descripcion" DataSetColumn="Descripcion" />
+              <Mapping SourceColumn="Precio" DataSetColumn="Precio" />
+              <Mapping SourceColumn="Unidades" DataSetColumn="Unidades" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+              <Mapping SourceColumn="IdFolio" DataSetColumn="IdFolio" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPrueba" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsPrueba" msprop:Generator_UserDSName="dsPrueba">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Folio" msprop:Generator_TableClassName="FolioDataTable" msprop:Generator_TableVarName="tableFolio" msprop:Generator_TablePropName="Folio" msprop:Generator_RowDeletingName="FolioRowDeleting" msprop:Generator_RowChangingName="FolioRowChanging" msprop:Generator_RowEvHandlerName="FolioRowChangeEventHandler" msprop:Generator_RowDeletedName="FolioRowDeleted" msprop:Generator_UserTableName="Folio" msprop:Generator_RowChangedName="FolioRowChanged" msprop:Generator_RowEvArgName="FolioRowChangeEvent" msprop:Generator_RowClassName="FolioRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdFolio" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIdFolio" msprop:Generator_ColumnPropNameInRow="IdFolio" msprop:Generator_ColumnPropNameInTable="IdFolioColumn" msprop:Generator_UserColumnName="IdFolio" type="xs:int" />
+              <xs:element name="TotalVenta" msprop:Generator_ColumnVarNameInTable="columnTotalVenta" msprop:Generator_ColumnPropNameInRow="TotalVenta" msprop:Generator_ColumnPropNameInTable="TotalVentaColumn" msprop:Generator_UserColumnName="TotalVenta" type="xs:double" />
+              <xs:element name="FechaVenta" msprop:Generator_ColumnVarNameInTable="columnFechaVenta" msprop:Generator_ColumnPropNameInRow="FechaVenta" msprop:Generator_ColumnPropNameInTable="FechaVentaColumn" msprop:Generator_UserColumnName="FechaVenta" type="xs:dateTime" />
+              <xs:element name="Nombre_x0020_del_x0020_empleado" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNombre_del_empleado" msprop:Generator_ColumnPropNameInRow="Nombre_del_empleado" msprop:Generator_ColumnPropNameInTable="Nombre_del_empleadoColumn" msprop:Generator_UserColumnName="Nombre del empleado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="151" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Detalle" msprop:Generator_TableClassName="DetalleDataTable" msprop:Generator_TableVarName="tableDetalle" msprop:Generator_TablePropName="Detalle" msprop:Generator_RowDeletingName="DetalleRowDeleting" msprop:Generator_RowChangingName="DetalleRowChanging" msprop:Generator_RowEvHandlerName="DetalleRowChangeEventHandler" msprop:Generator_RowDeletedName="DetalleRowDeleted" msprop:Generator_UserTableName="Detalle" msprop:Generator_RowChangedName="DetalleRowChanged" msprop:Generator_RowEvArgName="DetalleRowChangeEvent" msprop:Generator_RowClassName="DetalleRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" msprop:Generator_UserColumnName="Precio" type="xs:double" />
+              <xs:element name="Unidades" msprop:Generator_ColumnVarNameInTable="columnUnidades" msprop:Generator_ColumnPropNameInRow="Unidades" msprop:Generator_ColumnPropNameInTable="UnidadesColumn" msprop:Generator_UserColumnName="Unidades" type="xs:int" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:double" />
+              <xs:element name="IdFolio" msprop:Generator_ColumnVarNameInTable="columnIdFolio" msprop:Generator_ColumnPropNameInRow="IdFolio" msprop:Generator_ColumnPropNameInTable="IdFolioColumn" msprop:Generator_UserColumnName="IdFolio" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Folio" />
+      <xs:field xpath="mstns:IdFolio" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Detalle" msdata:parent="Folio" msdata:child="Detalle" msdata:parentkey="IdFolio" msdata:childkey="IdFolio" msprop:Generator_UserChildTable="Detalle" msprop:Generator_ChildPropName="GetDetalleRows" msprop:Generator_UserRelationName="Detalle" msprop:Generator_ParentPropName="FolioRow" msprop:Generator_RelationVarName="relationDetalle" msprop:Generator_UserParentTable="Folio" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

@@ -1,0 +1,1543 @@
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\Productos.exe.config
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\Productos.exe
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\Productos.pdb
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.Images.v17.1.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\EntityFramework.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\EntityFramework.xml
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\obj\Debug\Productos.Form1.resources
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\obj\Debug\Productos.Properties.Resources.resources
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\obj\Debug\Productos.csproj.GenerateResource.Cache
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\obj\Debug\Productos.exe.licenses
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\obj\Debug\Productos.exe
+C:\Users\André\documents\visual studio 2017\Projects\Productos\Productos\obj\Debug\Productos.pdb
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\Productos.exe.config
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\Productos.exe
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\Productos.pdb
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\EntityFramework.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\EntityFramework.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.csprojResolveAssemblyReference.cache
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.Properties.Resources.resources
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.csproj.GenerateResource.Cache
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.exe.licenses
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.exe
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.pdb
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\Productos.exe.manifest
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\Productos.application
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.exe.manifest
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.application
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\Productos.exe.config
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\Productos.exe.manifest
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\Productos.application
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\Productos.exe
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\Productos.pdb
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\EntityFramework.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\EntityFramework.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\obj\Debug\Productos.csprojResolveAssemblyReference.cache
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\obj\Debug\Productos.Form1.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\obj\Debug\Productos.Properties.Resources.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\obj\Debug\Productos.csproj.GenerateResource.Cache
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\obj\Debug\Productos.exe.licenses
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\obj\Debug\Productos.exe.manifest
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\obj\Debug\Productos.application
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\obj\Debug\Productos.exe
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\obj\Debug\Productos.pdb
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.frmLogin.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.frmXtraPrincipal.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.frmXtraUCTiposCategorias.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\Productos\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.frmXtraUCProductos.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\Productos.exe.config
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\Productos.exe.manifest
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\Productos.application
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\Productos.exe
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\Productos.pdb
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\EntityFramework.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\EntityFramework.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.csprojResolveAssemblyReference.cache
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.Form1.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.frmLogin.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.frmXtraPrincipal.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.frmXtraUCProductos.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.frmXtraUCTiposCategorias.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.Properties.Resources.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.csproj.GenerateResource.Cache
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.exe.licenses
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.exe.manifest
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.application
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.exe
+C:\Users\Stree\Downloads\Cerámica Carrillo\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.pdb
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.csprojResolveAssemblyReference.cache
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.Form1.resources
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.frmLogin.resources
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.frmXtraPrincipal.resources
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.frmXtraUCProductos.resources
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.frmXtraUCTiposCategorias.resources
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.Properties.Resources.resources
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.csproj.GenerateResource.Cache
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.exe.licenses
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.exe
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.pdb
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\Productos.exe.config
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\Productos.exe.manifest
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\Productos.application
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\Productos.exe
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\Productos.pdb
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\EntityFramework.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\EntityFramework.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.exe.manifest
+C:\Users\Stree\Documents\GitHub\Ceramica_Carrillo\Nuevo 1\Productos\Productos\obj\Debug\Productos.application
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\obj\Debug\Productos.csprojResolveAssemblyReference.cache
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.Inicio.frmLogin.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.Inicio.frmXtraPrincipal.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.Productos.frmXtraUCProductos.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraUCTiposCategorias.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\obj\Debug\Productos.Properties.Resources.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\obj\Debug\Productos.csproj.GenerateResource.Cache
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\obj\Debug\Productos.exe.licenses
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\obj\Debug\Productos.exe
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\obj\Debug\Productos.pdb
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\Productos.exe.config
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\Productos.exe.manifest
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\Productos.application
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\Productos.exe
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\Productos.pdb
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\EntityFramework.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\EntityFramework.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\obj\Debug\Productos.exe.manifest
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\obj\Debug\Productos.application
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.Productos.frmXtraEdicionProductos.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraEdicionCategorias.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\2\Nuevo 1\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraEdicionTipos.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\Productos.exe.config
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\Productos.exe.manifest
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\Productos.application
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\Productos.exe
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\Productos.pdb
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\EntityFramework.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\EntityFramework.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\obj\Debug\Productos.csprojResolveAssemblyReference.cache
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Inicio.frmLogin.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Inicio.frmXtraPrincipal.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Productos.frmXtraEdicionProductos.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Productos.frmXtraUCProductos.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraEdicionCategorias.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraEdicionTipos.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraUCTiposCategorias.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\obj\Debug\Productos.Properties.Resources.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\obj\Debug\Productos.csproj.GenerateResource.Cache
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\obj\Debug\Productos.exe.licenses
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\obj\Debug\Productos.exe.manifest
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\obj\Debug\Productos.application
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\obj\Debug\Productos.exe
+C:\Users\CT 04\Downloads\Ceramica Carrillo\3\Proyecto\Productos\Productos\obj\Debug\Productos.pdb
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\Productos.exe.config
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\Productos.exe.manifest
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\Productos.application
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\Productos.exe
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\Productos.pdb
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\EntityFramework.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\EntityFramework.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\obj\Debug\Productos.csprojResolveAssemblyReference.cache
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Inicio.frmLogin.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Inicio.frmXtraPrincipal.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Productos.frmXtraEdicionProductos.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Productos.frmXtraUCProductos.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraEdicionCategorias.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraEdicionTipos.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraUCTiposCategorias.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\obj\Debug\Productos.Properties.Resources.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\obj\Debug\Productos.csproj.GenerateResource.Cache
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\obj\Debug\Productos.exe.licenses
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\obj\Debug\Productos.exe.manifest
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\obj\Debug\Productos.application
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\obj\Debug\Productos.exe
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\obj\Debug\Productos.pdb
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Compras.frmXtraCompras.resources
+C:\Users\CT 04\Downloads\Ceramica Carrillo\4\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Anomalias.frmXtraAnomalias.resources
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\obj\Debug\Productos.csprojResolveAssemblyReference.cache
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Anomalias.frmXtraAnomalias.resources
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Compras.frmXtraCompras.resources
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Inicio.frmLogin.resources
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Inicio.frmXtraPrincipal.resources
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Productos.frmXtraEdicionProductos.resources
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Productos.frmXtraUCProductos.resources
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraEdicionCategorias.resources
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraEdicionTipos.resources
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraUCTiposCategorias.resources
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Ventas.frmXtraUCPuntoVenta.resources
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\obj\Debug\Productos.Properties.Resources.resources
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\obj\Debug\Productos.csproj.GenerateResource.Cache
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\obj\Debug\Productos.exe.licenses
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\Productos.exe.config
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\Productos.exe.manifest
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\Productos.application
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\Productos.exe
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\Productos.pdb
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\EntityFramework.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\EntityFramework.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\obj\Debug\Productos.exe.manifest
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\obj\Debug\Productos.application
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\obj\Debug\Productos.exe
+C:\Proyectos Android\Ceramica_Carrillo\Proyecto\Productos\Productos\obj\Debug\Productos.pdb
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\Productos.exe.config
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\Productos.exe.manifest
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\Productos.application
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\Productos.exe
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\Productos.pdb
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\EntityFramework.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\EntityFramework.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Anomalias.frmXtraAnomalias.resources
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Compras.frmXtraCompras.resources
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Inicio.frmLogin.resources
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Inicio.frmXtraPrincipal.resources
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Productos.frmXtraEdicionProductos.resources
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Productos.frmXtraUCProductos.resources
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraEdicionCategorias.resources
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraEdicionTipos.resources
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraUCTiposCategorias.resources
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Ventas.frmXtraUCPuntoVenta.resources
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.Properties.Resources.resources
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.csproj.GenerateResource.Cache
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.exe.licenses
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.exe.manifest
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.application
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.exe
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.pdb
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Ventas.frmXtraCobroV.resources
+C:\Users\CT 08\Documents\GitHub\Proyecto\Productos\Productos\obj\Debug\Productos.GUI.Ventas.frmXtraCobroA.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\Productos.exe.config
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\Productos.exe.manifest
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\Productos.application
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\Productos.exe
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\Productos.pdb
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\EntityFramework.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\EntityFramework.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.csprojResolveAssemblyReference.cache
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.GUI.Anomalias.frmXtraAnomalias.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.GUI.Compras.frmXtraCompras.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.GUI.Inicio.frmLogin.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.GUI.Inicio.frmXtraPrincipal.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.GUI.Productos.frmXtraEdicionProductos.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.GUI.Productos.frmXtraUCProductos.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraEdicionCategorias.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraEdicionTipos.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraUCTiposCategorias.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.GUI.Ventas.frmXtraCobroA.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.GUI.Ventas.frmXtraCobroV.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.GUI.Ventas.frmXtraUCPuntoVenta.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.Properties.Resources.resources
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.csproj.GenerateResource.Cache
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.exe.licenses
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.exe.manifest
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.application
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.exe
+C:\Users\Stree\Downloads\Cerámica Carrillo\7\Productos\Productos\obj\Debug\Productos.pdb
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Anomalias.frmXtraAnomalias.resources
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Compras.frmXtraCompras.resources
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Compras.frmXtraUCRegistroC.resources
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Inicio.frmLogin.resources
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Inicio.frmXtraPrincipal.resources
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Productos.frmXtraEdicionProductos.resources
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Productos.frmXtraUCProductos.resources
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraEdicionCategorias.resources
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraEdicionTipos.resources
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraUCTiposCategorias.resources
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Ventas.frmXtraCobroA.resources
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Ventas.frmXtraCobroV.resources
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Ventas.frmXtraUCPuntoVenta.resources
+C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Ventas.frmXtraUCRegistroV.resources
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\Productos.exe.config
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\Productos.exe.manifest
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\Productos.application
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\Productos.exe
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\Productos.pdb
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\EntityFramework.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\EntityFramework.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Anomalias.frmXtraAnomalias.resources
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Apartado.frmXtraUCSistemaA.resources
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Compras.frmXtraCompras.resources
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Compras.frmXtraUCRegistroC.resources
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Inicio.frmLogin.resources
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Inicio.frmXtraPrincipal.resources
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Productos.frmXtraEdicionProductos.resources
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Productos.frmXtraUCProductos.resources
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraEdicionCategorias.resources
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraEdicionTipos.resources
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.TiposCategorias.frmXtraUCTiposCategorias.resources
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Ventas.frmXtraCobroA.resources
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Ventas.frmXtraCobroV.resources
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Ventas.frmXtraUCPuntoVenta.resources
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.GUI.Ventas.frmXtraUCRegistroV.resources
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.Properties.Resources.resources
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.csproj.GenerateResource.Cache
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.exe.licenses
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.exe.manifest
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.application
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.exe
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.pdb
+C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\obj\Debug\Productos.csprojResolveAssemblyReference.cache

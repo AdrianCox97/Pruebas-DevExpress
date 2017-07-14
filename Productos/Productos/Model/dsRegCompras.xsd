@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRegCompras" targetNamespace="http://tempuri.org/dsRegCompras.xsd" xmlns:mstns="http://tempuri.org/dsRegCompras.xsd" xmlns="http://tempuri.org/dsRegCompras.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BDCarrillo" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BDCarrillo (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.CeramicaCarrillo.Properties.Settings.GlobalReference.Default.BDCarrillo" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ComprasTableAdapter" GeneratorDataComponentClassName="ComprasTableAdapter" Name="Compras" UserDataComponentName="ComprasTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BDCarrillo (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select c.IdCompras, p.Descripcion, ca.NombreCategoria, tp.NombreTipo, c.Unidades, c.Precio, c.Total, c.Fecha
+from Productos p 
+join Compras c on c.IdProductos = p.IdProductos
+join Categorias ca on ca.idCategoria = p.idCategoria
+join TipoProductos tp on tp.idTipoProducto = ca.idTipoProducto</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdCompras" DataSetColumn="IdCompras" />
+              <Mapping SourceColumn="Descripcion" DataSetColumn="Descripcion" />
+              <Mapping SourceColumn="NombreCategoria" DataSetColumn="NombreCategoria" />
+              <Mapping SourceColumn="NombreTipo" DataSetColumn="NombreTipo" />
+              <Mapping SourceColumn="Unidades" DataSetColumn="Unidades" />
+              <Mapping SourceColumn="Precio" DataSetColumn="Precio" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+              <Mapping SourceColumn="Fecha" DataSetColumn="Fecha" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRegCompras" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsRegCompras" msprop:Generator_UserDSName="dsRegCompras">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Compras" msprop:Generator_TableClassName="ComprasDataTable" msprop:Generator_TableVarName="tableCompras" msprop:Generator_TablePropName="Compras" msprop:Generator_RowDeletingName="ComprasRowDeleting" msprop:Generator_RowChangingName="ComprasRowChanging" msprop:Generator_RowEvHandlerName="ComprasRowChangeEventHandler" msprop:Generator_RowDeletedName="ComprasRowDeleted" msprop:Generator_UserTableName="Compras" msprop:Generator_RowChangedName="ComprasRowChanged" msprop:Generator_RowEvArgName="ComprasRowChangeEvent" msprop:Generator_RowClassName="ComprasRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCompras" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIdCompras" msprop:Generator_ColumnPropNameInRow="IdCompras" msprop:Generator_ColumnPropNameInTable="IdComprasColumn" msprop:Generator_UserColumnName="IdCompras" type="xs:int" />
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NombreCategoria" msprop:Generator_ColumnVarNameInTable="columnNombreCategoria" msprop:Generator_ColumnPropNameInRow="NombreCategoria" msprop:Generator_ColumnPropNameInTable="NombreCategoriaColumn" msprop:Generator_UserColumnName="NombreCategoria">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NombreTipo" msprop:Generator_ColumnVarNameInTable="columnNombreTipo" msprop:Generator_ColumnPropNameInRow="NombreTipo" msprop:Generator_ColumnPropNameInTable="NombreTipoColumn" msprop:Generator_UserColumnName="NombreTipo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Unidades" msprop:Generator_ColumnVarNameInTable="columnUnidades" msprop:Generator_ColumnPropNameInRow="Unidades" msprop:Generator_ColumnPropNameInTable="UnidadesColumn" msprop:Generator_UserColumnName="Unidades" type="xs:int" />
+              <xs:element name="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" msprop:Generator_UserColumnName="Precio" type="xs:double" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:double" />
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Compras" />
+      <xs:field xpath="mstns:IdCompras" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

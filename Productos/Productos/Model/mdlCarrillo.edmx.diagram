@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5a16fdfa8b7c49f49b64ef4cd894fee1" Name="Diagram1" ZoomLevel="72">
+        <EntityTypeShape EntityType="BDCarrilloModel.Actividades" Width="1.5" PointX="7.5" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDCarrilloModel.Anomalias" Width="1.5" PointX="7.5" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDCarrilloModel.Categorias" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDCarrilloModel.Compras" Width="1.5" PointX="7.5" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDCarrilloModel.DetalleFolio" Width="1.5" PointX="10.5" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDCarrilloModel.Folio" Width="1.5" PointX="8.25" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDCarrilloModel.Personal" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDCarrilloModel.Productos" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDCarrilloModel.Solicitudes" Width="1.5" PointX="7.5" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDCarrilloModel.TipoProductos" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="BDCarrilloModel.RefPersonal6" ManuallyRouted="false" />
+        <AssociationConnector Association="BDCarrilloModel.RefPersonal4" ManuallyRouted="false" />
+        <AssociationConnector Association="BDCarrilloModel.RefProductos5" ManuallyRouted="false" />
+        <AssociationConnector Association="BDCarrilloModel.RefCategorias13" ManuallyRouted="false" />
+        <AssociationConnector Association="BDCarrilloModel.RefTipoProductos14" ManuallyRouted="false" />
+        <AssociationConnector Association="BDCarrilloModel.RefProductos15" ManuallyRouted="false" />
+        <AssociationConnector Association="BDCarrilloModel.RefFolio8" ManuallyRouted="false" />
+        <AssociationConnector Association="BDCarrilloModel.RefProductos10" ManuallyRouted="false" />
+        <AssociationConnector Association="BDCarrilloModel.RefPersonal7" ManuallyRouted="false" />
+        <AssociationConnector Association="BDCarrilloModel.RefPersonal1" ManuallyRouted="false" />
+        <AssociationConnector Association="BDCarrilloModel.RefProductos2" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="BDCarrilloModel.Abonos" Width="1.5" PointX="10.5" PointY="13.75" />
+        <AssociationConnector Association="BDCarrilloModel.RefFolio16" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

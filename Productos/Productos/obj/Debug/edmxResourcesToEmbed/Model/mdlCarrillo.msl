@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BDCarrilloModelStoreContainer" CdmEntityContainer="BDCarrilloEntities">
+    <EntitySetMapping Name="Actividades">
+      <EntityTypeMapping TypeName="BDCarrilloModel.Actividades">
+        <MappingFragment StoreEntitySet="Actividades">
+          <ScalarProperty Name="IdActividad" ColumnName="IdActividad" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaLimite" ColumnName="FechaLimite" />
+          <ScalarProperty Name="IdPersonal" ColumnName="IdPersonal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Anomalias">
+      <EntityTypeMapping TypeName="BDCarrilloModel.Anomalias">
+        <MappingFragment StoreEntitySet="Anomalias">
+          <ScalarProperty Name="Respuesta" ColumnName="Respuesta" />
+          <ScalarProperty Name="IdAnomalias" ColumnName="IdAnomalias" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="IdPersonal" ColumnName="IdPersonal" />
+          <ScalarProperty Name="IdProductos" ColumnName="IdProductos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categorias">
+      <EntityTypeMapping TypeName="BDCarrilloModel.Categorias">
+        <MappingFragment StoreEntitySet="Categorias">
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+          <ScalarProperty Name="NombreCategoria" ColumnName="NombreCategoria" />
+          <ScalarProperty Name="idTipoProducto" ColumnName="idTipoProducto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Compras">
+      <EntityTypeMapping TypeName="BDCarrilloModel.Compras">
+        <MappingFragment StoreEntitySet="Compras">
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="IdCompras" ColumnName="IdCompras" />
+          <ScalarProperty Name="IdProductos" ColumnName="IdProductos" />
+          <ScalarProperty Name="Unidades" ColumnName="Unidades" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetalleFolio">
+      <EntityTypeMapping TypeName="BDCarrilloModel.DetalleFolio">
+        <MappingFragment StoreEntitySet="DetalleFolio">
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="IdDetalle" ColumnName="IdDetalle" />
+          <ScalarProperty Name="IdFolio" ColumnName="IdFolio" />
+          <ScalarProperty Name="IdProductos" ColumnName="IdProductos" />
+          <ScalarProperty Name="Unidades" ColumnName="Unidades" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Folio">
+      <EntityTypeMapping TypeName="BDCarrilloModel.Folio">
+        <MappingFragment StoreEntitySet="Folio">
+          <ScalarProperty Name="Faltante" ColumnName="Faltante" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="IdFolio" ColumnName="IdFolio" />
+          <ScalarProperty Name="TotalVenta" ColumnName="TotalVenta" />
+          <ScalarProperty Name="FechaVenta" ColumnName="FechaVenta" />
+          <ScalarProperty Name="IdPersonal" ColumnName="IdPersonal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Personal">
+      <EntityTypeMapping TypeName="BDCarrilloModel.Personal">
+        <MappingFragment StoreEntitySet="Personal">
+          <ScalarProperty Name="IdPersonal" ColumnName="IdPersonal" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Contrasena" ColumnName="Contrasena" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Movil" ColumnName="Movil" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="Puesto" ColumnName="Puesto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Productos">
+      <EntityTypeMapping TypeName="BDCarrilloModel.Productos">
+        <MappingFragment StoreEntitySet="Productos">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="IdProductos" ColumnName="IdProductos" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="PrecioVenta" ColumnName="PrecioVenta" />
+          <ScalarProperty Name="PrecioMayoreo" ColumnName="PrecioMayoreo" />
+          <ScalarProperty Name="Unidades" ColumnName="Unidades" />
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Solicitudes">
+      <EntityTypeMapping TypeName="BDCarrilloModel.Solicitudes">
+        <MappingFragment StoreEntitySet="Solicitudes">
+          <ScalarProperty Name="idSolicitudes" ColumnName="idSolicitudes" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="IdPersonal" ColumnName="IdPersonal" />
+          <ScalarProperty Name="IdProductos" ColumnName="IdProductos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoProductos">
+      <EntityTypeMapping TypeName="BDCarrilloModel.TipoProductos">
+        <MappingFragment StoreEntitySet="TipoProductos">
+          <ScalarProperty Name="idTipoProducto" ColumnName="idTipoProducto" />
+          <ScalarProperty Name="NombreTipo" ColumnName="NombreTipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Abonos">
+      <EntityTypeMapping TypeName="BDCarrilloModel.Abonos">
+        <MappingFragment StoreEntitySet="Abonos">
+          <ScalarProperty Name="IdFolio" ColumnName="IdFolio" />
+          <ScalarProperty Name="FechaAbono" ColumnName="FechaAbono" />
+          <ScalarProperty Name="MontoAbono" ColumnName="MontoAbono" />
+          <ScalarProperty Name="IdAbono" ColumnName="IdAbono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
