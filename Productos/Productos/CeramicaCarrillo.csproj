@@ -120,13 +120,37 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="TableDependency, Version=6.1.0.0, Culture=neutral, PublicKeyToken=997305cc1a8bb802, processorArchitecture=MSIL">
+      <HintPath>..\packages\SqlTableDependency.6.1.0.0\lib\TableDependency.dll</HintPath>
+    </Reference>
+    <Reference Include="TableDependency.SqlClient, Version=6.1.0.0, Culture=neutral, PublicKeyToken=c3b0a3ab9ceb00ff, processorArchitecture=MSIL">
+      <HintPath>..\packages\SqlTableDependency.6.1.0.0\lib\TableDependency.SqlClient.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GUI\Actividades\frmXtraUCRegistroAcciones.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Actividades\frmXtraUCRegistroAcciones.Designer.cs">
+      <DependentUpon>frmXtraUCRegistroAcciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Actividades\frnXtraReporteActividades.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Actividades\frnXtraReporteActividades.Designer.cs">
+      <DependentUpon>frnXtraReporteActividades.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Anomalias\frmXtraAnomalias.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI\Anomalias\frmXtraAnomalias.Designer.cs">
       <DependentUpon>frmXtraAnomalias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Anomalias\frmXtraUCRegistroAnomalias.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Anomalias\frmXtraUCRegistroAnomalias.Designer.cs">
+      <DependentUpon>frmXtraUCRegistroAnomalias.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\Apartado\frmXtraReporteApartado.cs">
       <SubType>Component</SubType>
@@ -239,7 +263,7 @@
     <Compile Include="GUI\Ventas\frmXtraReporteVentas.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="GUI\Ventas\frmXtraReporteVentas.Designer.cs">
+    <Compile Include="GUI\Ventas\frmXtraReporteVentas.designer.cs">
       <DependentUpon>frmXtraReporteVentas.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\Ventas\frmXtraUCPuntoVenta.cs">
@@ -257,9 +281,10 @@
     <Compile Include="Model\Abonos.cs">
       <DependentUpon>mdlCarrillo.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\Actividades.cs">
+    <Compile Include="Model\Acciones.cs">
       <DependentUpon>mdlCarrillo.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\anom.cs" />
     <Compile Include="Model\Anomalias.cs">
       <DependentUpon>mdlCarrillo.tt</DependentUpon>
     </Compile>
@@ -286,6 +311,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dsPrueba.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Model\dsRegAnomalias.cs">
+      <DependentUpon>dsRegAnomalias.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Model\dsRegAnomalias.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRegAnomalias.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Model\dsRegCompras.cs">
       <DependentUpon>dsRegCompras.xsd</DependentUpon>
     </Compile>
@@ -293,6 +326,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>dsRegCompras.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Model\dsRegistroActividades.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRegistroActividades.xsd</DependentUpon>
     </Compile>
     <Compile Include="Model\dsSisApartado.cs">
       <DependentUpon>dsSisApartado.xsd</DependentUpon>
@@ -320,16 +358,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>mdlCarrillo.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Model\Mensajes\Mensaje.cs" />
+    <Compile Include="Model\Mensajes\MensajeLogin.cs" />
+    <Compile Include="Model\Mensajes\MensajeProductos.cs" />
     <Compile Include="Model\Personal.cs">
       <DependentUpon>mdlCarrillo.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\Productos.cs">
       <DependentUpon>mdlCarrillo.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\RegistroA.cs" />
     <Compile Include="Model\Sesiones.cs" />
-    <Compile Include="Model\Solicitudes.cs">
-      <DependentUpon>mdlCarrillo.tt</DependentUpon>
-    </Compile>
     <Compile Include="Model\TipoProductos.cs">
       <DependentUpon>mdlCarrillo.tt</DependentUpon>
     </Compile>
@@ -341,8 +380,17 @@
     <Compile Include="GUI\Inicio\frmXtraPrincipal.Designer.cs">
       <DependentUpon>frmXtraPrincipal.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="GUI\Actividades\frmXtraUCRegistroAcciones.resx">
+      <DependentUpon>frmXtraUCRegistroAcciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Actividades\frnXtraReporteActividades.resx">
+      <DependentUpon>frnXtraReporteActividades.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Anomalias\frmXtraAnomalias.resx">
       <DependentUpon>frmXtraAnomalias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Anomalias\frmXtraUCRegistroAnomalias.resx">
+      <DependentUpon>frmXtraUCRegistroAnomalias.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Apartado\frmXtraReporteApartado.resx">
       <DependentUpon>frmXtraReporteApartado.cs</DependentUpon>
@@ -449,6 +497,17 @@
     <None Include="Model\dsPrueba.xss">
       <DependentUpon>dsPrueba.xsd</DependentUpon>
     </None>
+    <None Include="Model\dsRegAnomalias.xsc">
+      <DependentUpon>dsRegAnomalias.xsd</DependentUpon>
+    </None>
+    <None Include="Model\dsRegAnomalias.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRegAnomalias.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Model\dsRegAnomalias.xss">
+      <DependentUpon>dsRegAnomalias.xsd</DependentUpon>
+    </None>
     <None Include="Model\dsRegCompras.xsc">
       <DependentUpon>dsRegCompras.xsd</DependentUpon>
     </None>
@@ -459,6 +518,17 @@
     </None>
     <None Include="Model\dsRegCompras.xss">
       <DependentUpon>dsRegCompras.xsd</DependentUpon>
+    </None>
+    <None Include="Model\dsRegistroActividades.xsc">
+      <DependentUpon>dsRegistroActividades.xsd</DependentUpon>
+    </None>
+    <None Include="Model\dsRegistroActividades.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRegistroActividades.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Model\dsRegistroActividades.xss">
+      <DependentUpon>dsRegistroActividades.xsd</DependentUpon>
     </None>
     <None Include="Model\dsSisApartado.xsc">
       <DependentUpon>dsSisApartado.xsd</DependentUpon>

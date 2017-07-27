@@ -172,6 +172,7 @@
             0,
             0,
             0});
+            this.txtTotal.Properties.ReadOnly = true;
             this.txtTotal.Size = new System.Drawing.Size(69, 20);
             this.txtTotal.StyleController = this.lyCtrlDatos;
             this.txtTotal.TabIndex = 10;
@@ -231,6 +232,7 @@
             this.CtrlItemDescripcionCompra.Size = new System.Drawing.Size(409, 24);
             this.CtrlItemDescripcionCompra.Text = "Descripción de la Compra";
             this.CtrlItemDescripcionCompra.TextSize = new System.Drawing.Size(120, 13);
+            this.CtrlItemDescripcionCompra.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
             // 
             // CtrlItemUnidades
             // 
@@ -280,6 +282,7 @@
             this.Space2.Size = new System.Drawing.Size(409, 10);
             this.Space2.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.Space2.TextSize = new System.Drawing.Size(0, 0);
+            this.Space2.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
             // 
             // Space4
             // 

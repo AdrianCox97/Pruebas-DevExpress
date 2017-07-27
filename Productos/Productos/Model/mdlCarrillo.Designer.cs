@@ -1,4 +1,4 @@
-﻿// La generación de código T4 está habilitada para el modelo 'C:\Proyectos Android\Ceramica_Carrillo\Productos\Productos\Model\mdlCarrillo.edmx'. 
+﻿// La generación de código T4 está habilitada para el modelo 'C:\Users\CT 08\Documents\GitHub\Ceramica_Carrillo\Productos\Productos\Model\mdlCarrillo.edmx'. 
 // Para habilitar la generación de código heredada, cambie el valor de la propiedad del diseñador 'Estrategia de generación de código'
 // por 'ObjectContext heredado'. Esta propiedad está disponible en la ventana Propiedades cuando se abre
 // el modelo en el diseñador.

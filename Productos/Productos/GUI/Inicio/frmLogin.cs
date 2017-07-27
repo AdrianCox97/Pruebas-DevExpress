@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CeramicaCarrillo.Model;
+using CeramicaCarrillo.Model.Mensajes;
 
 namespace CeramicaCarrillo.GUI.Inicio
 {
@@ -29,20 +30,20 @@ namespace CeramicaCarrillo.GUI.Inicio
                 var Usuario = (from tbUsuarios in bdCarrillo.Personal
                                where tbUsuarios.Usuario == txtUsuario.Text/*"administrador"*/
                                      && tbUsuarios.Contrasena == txtContraseña.Text/*"p0nc14n0"*/
-                               select tbUsuarios).ToList();
+                               select tbUsuarios).FirstOrDefault();
 
-                if (Usuario.Count() > 0)
+                if (Usuario != null)
                 {
                     frmXtraPrincipal.bdCarrillo = bdCarrillo;
-                    strNombreUsuario = Usuario.FirstOrDefault().Usuario;
+                    strNombreUsuario = Usuario.Usuario;
 
-                    sesion.Admin = (Usuario.FirstOrDefault().Puesto.Trim() == "Administrador") ? true : false;
+                    sesion.Admin = (Usuario.Puesto.Trim() == "Administrador") ? true : false;
                     sesion.Usuario = strNombreUsuario;
-                    sesion.Id = Usuario.FirstOrDefault().IdPersonal;
+                    sesion.Id = Usuario.IdPersonal;
 
                     frmXtraPrincipal.sesion = sesion;
                     frmXtraPrincipal frm = new frmXtraPrincipal();
-                    
+                    new MensajeLogin(sesion.Id);
 
                     frm.Show();
                     this.Hide();
@@ -52,7 +53,7 @@ namespace CeramicaCarrillo.GUI.Inicio
                     MessageBox.Show("El usuario o la contraseña son incorrectos. Intente de nuevo");
                 }
             }
-            catch (Exception a) { MessageBox.Show("Error al realizar la operación. Esto se puede ocacionar por una falta de conexión a la red. \rCompruebe que esté conectado a la red."); }
+            catch (Exception a) { MessageBox.Show("Error al realizar la operación. Esto se puede ocacionar por una falta de conexión a la red. \rCompruebe que esté conectado a la red. \n" + a.Message); }
         }
 
         private void btnSalir_Click(object sender, EventArgs e)

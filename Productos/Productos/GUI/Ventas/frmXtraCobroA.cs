@@ -19,7 +19,7 @@ namespace CeramicaCarrillo.GUI.Ventas
         public static int _idFolio = 0;
         List<Model.Productos> Compra;
         List<int> Cantidad;
-        double total = 0;
+        double falta = 0;
         Abonos abono = null;
         Folio folio = null;
 
@@ -30,21 +30,34 @@ namespace CeramicaCarrillo.GUI.Ventas
             Cantidad = unidades;
             txtTotal.Text = Total;
             sesion = ses;
+            falta = Convert.ToDouble(Total);
+        }
+
+        public frmXtraCobroA()
+        {
+            InitializeComponent();
         }
 
         private void txtMonto_TextChanged(object sender, EventArgs e)
         {
-            double cambio = total - Convert.ToInt32(txtMonto.Text);
-            if (cambio < 0)
+            if (txtMonto.Text != string.Empty)
             {
-                txtCambio.ForeColor = Color.Black;
-                txtCambio.Text = (cambio * -1).ToString();
+                double faltante = falta - Convert.ToDouble(txtMonto.Text);
+                if (faltante <= 0)
+                {
+                    txtFaltante.Text = "0";
+                    txtCambio.ForeColor = Color.Black;
+                    txtCambio.Text = "0";
+                    txtCambio.Text = ((falta - Convert.ToDouble(txtMonto.Text))* -1).ToString();
+                }
+                else
+                {
+                    txtFaltante.Text = (faltante).ToString();
+                    txtCambio.ForeColor = Color.Green;
+                    txtCambio.Text = "0";
+                }
             }
-            else
-            {
-                txtCambio.ForeColor = Color.Red;
-                txtCambio.Text = (cambio * -1).ToString();
-            }
+            else { txtCambio.Text = "0"; txtFaltante.Text = falta.ToString(); }
         }
 
         private void btnCobrar_Click(object sender, EventArgs e)
@@ -59,15 +72,17 @@ namespace CeramicaCarrillo.GUI.Ventas
                 if (XtraMessageBox.Show("¿Desea realizar el apartado?", "Apartando", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     realizarCompra();
+                    DialogResult = DialogResult.OK;
                 }
             }
             else
             {
-                if (Convert.ToDouble(txtCambio.Text) >= 0)
+                if (Convert.ToDouble(txtCambio.Text) == 0 && Convert.ToDouble(txtFaltante.Text) == 0)
                 {
                     if (XtraMessageBox.Show("Con este abono se completará el pago de los productos adquiridos.", "Abonando", MessageBoxButtons.OK) == DialogResult.OK)
                     {
                         RealizarAbono();
+                        DialogResult = DialogResult.OK;
                     }
                 }
                 else
@@ -75,6 +90,7 @@ namespace CeramicaCarrillo.GUI.Ventas
                     if (XtraMessageBox.Show("El abono ha sido realizado.", "Abonando", MessageBoxButtons.OK) == DialogResult.OK)
                     {
                         RealizarAbono();
+                        DialogResult = DialogResult.OK;
                     }
                 }
             }
@@ -133,12 +149,13 @@ namespace CeramicaCarrillo.GUI.Ventas
                 if (folio == null)
                 {
                     folio = new Folio();
-                    abono = new Abonos();
-                    folio = datos.Folio.Find(_idFolio);
                 }
+
+                folio = datos.Folio.Find(_idFolio);
+                abono = new Abonos();
                 abono.IdFolio = folio.IdFolio;
                 abono.MontoAbono = Convert.ToDouble(txtMonto.Text);
-                folio.Faltante = ((folio.TotalVenta - abono.MontoAbono) <= 0) ? 0 : (folio.TotalVenta - abono.MontoAbono);
+                folio.Faltante = ((folio.Faltante - abono.MontoAbono) <= 0) ? 0 : (folio.Faltante - abono.MontoAbono);
                 folio.Status = (folio.Faltante == 0) ? true : false;
                 abono.FechaAbono = DateTime.Now;
                 datos.Abonos.Add(abono);
@@ -168,7 +185,9 @@ namespace CeramicaCarrillo.GUI.Ventas
                 if (_idFolio != 0)
                 {
                     folio = datos.Folio.Find(_idFolio);
+                    falta = folio.Faltante;
                     txtFaltante.Text = folio.Faltante.ToString();
+                    txtTotal.Text = folio.TotalVenta.ToString();
                 }
                 else
                 {

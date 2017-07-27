@@ -110,7 +110,7 @@
             0,
             0,
             0});
-            this.txtPrecioMayoreo.Location = new System.Drawing.Point(159, 110);
+            this.txtPrecioMayoreo.Location = new System.Drawing.Point(159, 105);
             this.txtPrecioMayoreo.Name = "txtPrecioMayoreo";
             this.txtPrecioMayoreo.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -137,7 +137,7 @@
             0,
             0,
             0});
-            this.txtPrecioUnitario.Location = new System.Drawing.Point(159, 76);
+            this.txtPrecioUnitario.Location = new System.Drawing.Point(159, 71);
             this.txtPrecioUnitario.Name = "txtPrecioUnitario";
             this.txtPrecioUnitario.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -164,7 +164,7 @@
             0,
             0,
             0});
-            this.txtUnidades.Location = new System.Drawing.Point(431, 110);
+            this.txtUnidades.Location = new System.Drawing.Point(431, 105);
             this.txtUnidades.Name = "txtUnidades";
             this.txtUnidades.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -177,13 +177,14 @@
             0,
             0,
             0});
+            this.txtUnidades.Properties.ReadOnly = true;
             this.txtUnidades.Size = new System.Drawing.Size(115, 20);
             this.txtUnidades.StyleController = this.lyCtrlDatosProducto;
             this.txtUnidades.TabIndex = 25;
             // 
             // cbxCategoria
             // 
-            this.cbxCategoria.Location = new System.Drawing.Point(431, 76);
+            this.cbxCategoria.Location = new System.Drawing.Point(431, 71);
             this.cbxCategoria.Name = "cbxCategoria";
             this.cbxCategoria.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -193,7 +194,7 @@
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(159, 42);
+            this.txtDescripcion.Location = new System.Drawing.Point(159, 37);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Properties.NullValuePrompt = "Descripción del producto";
             this.txtDescripcion.Properties.NullValuePromptShowForEmptyValue = true;
@@ -246,18 +247,21 @@
             this.CtrlItemPrecioUnitario.Name = "CtrlItemPrecioUnitario";
             this.CtrlItemPrecioUnitario.OptionsTableLayoutItem.ColumnIndex = 1;
             this.CtrlItemPrecioUnitario.Size = new System.Drawing.Size(262, 24);
-            this.CtrlItemPrecioUnitario.Text = "Precio de Venta";
+            this.CtrlItemPrecioUnitario.Text = "Precio al Mayoreo";
             this.CtrlItemPrecioUnitario.TextSize = new System.Drawing.Size(132, 13);
             // 
             // CtrlitemPrecioMayoreo
             // 
             this.CtrlitemPrecioMayoreo.Control = this.txtPrecioMayoreo;
             this.CtrlitemPrecioMayoreo.Location = new System.Drawing.Point(0, 68);
+            this.CtrlitemPrecioMayoreo.MaxSize = new System.Drawing.Size(262, 24);
+            this.CtrlitemPrecioMayoreo.MinSize = new System.Drawing.Size(262, 24);
             this.CtrlitemPrecioMayoreo.Name = "CtrlitemPrecioMayoreo";
             this.CtrlitemPrecioMayoreo.OptionsTableLayoutItem.ColumnIndex = 1;
             this.CtrlitemPrecioMayoreo.OptionsTableLayoutItem.RowIndex = 1;
-            this.CtrlitemPrecioMayoreo.Size = new System.Drawing.Size(262, 24);
-            this.CtrlitemPrecioMayoreo.Text = "Precio de Mayoreo";
+            this.CtrlitemPrecioMayoreo.Size = new System.Drawing.Size(262, 29);
+            this.CtrlitemPrecioMayoreo.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
+            this.CtrlitemPrecioMayoreo.Text = "Precio al Mayorista";
             this.CtrlitemPrecioMayoreo.TextSize = new System.Drawing.Size(132, 13);
             // 
             // CtrlItemCategoria
@@ -276,9 +280,10 @@
             this.CtrlItemUnidades.Location = new System.Drawing.Point(272, 68);
             this.CtrlItemUnidades.Name = "CtrlItemUnidades";
             this.CtrlItemUnidades.OptionsTableLayoutItem.RowIndex = 2;
-            this.CtrlItemUnidades.Size = new System.Drawing.Size(254, 24);
+            this.CtrlItemUnidades.Size = new System.Drawing.Size(254, 29);
             this.CtrlItemUnidades.Text = "Unidades";
             this.CtrlItemUnidades.TextSize = new System.Drawing.Size(132, 13);
+            this.CtrlItemUnidades.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
             // 
             // emptySpaceItem1
             // 
@@ -320,7 +325,7 @@
             this.emptySpaceItem4.MaxSize = new System.Drawing.Size(10, 0);
             this.emptySpaceItem4.MinSize = new System.Drawing.Size(10, 10);
             this.emptySpaceItem4.Name = "emptySpaceItem4";
-            this.emptySpaceItem4.Size = new System.Drawing.Size(10, 24);
+            this.emptySpaceItem4.Size = new System.Drawing.Size(10, 29);
             this.emptySpaceItem4.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 0);
             // 
@@ -363,7 +368,7 @@
             this.MinimizeBox = false;
             this.Name = "frmXtraEdicionProductos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "-----";
+            this.Text = "Editar Producto";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmXtraEdicionProductos_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.txtIDProducto.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lyCtrlDatosProducto)).EndInit();

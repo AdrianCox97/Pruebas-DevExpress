@@ -47,14 +47,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CeramicaCarrillo.exe" size="570336">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CeramicaCarrillo.exe" size="629216">
       <assemblyIdentity name="CeramicaCarrillo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>J6mWQ0WTfbT3FlNvVn1pFrJsre6d9CVU66/yMtP8cxs=</dsig:DigestValue>
+        <dsig:DigestValue>eE89f/VpQMlndzACY8FhlKP9I9D4Ic2/BZYH6j0Vfmw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2023,6 +2023,30 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>ob9snjgg6D9D6fIN19mwozYqkxRvCv4LEzAYXi1RsMs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TableDependency.dll" size="33280">
+      <assemblyIdentity name="TableDependency" version="6.1.0.0" publicKeyToken="997305CC1A8BB802" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>J5JQhXGJAIOaPHoFih34KB05MyIYsMdk9t1zVIdJse8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TableDependency.SqlClient.dll" size="97792">
+      <assemblyIdentity name="TableDependency.SqlClient" version="6.1.0.0" publicKeyToken="C3B0A3AB9CEB00FF" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>e4fNbLyib73DYNpRFWsXNRqDguCh4a90Ycy9cd+7aAA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

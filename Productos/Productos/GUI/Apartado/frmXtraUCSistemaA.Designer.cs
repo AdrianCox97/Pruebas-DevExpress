@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
             DevExpress.XtraGrid.GridLevelNode gridLevelNode2 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmXtraUCSistemaA));
             DevExpress.XtraLayout.ColumnDefinition columnDefinition1 = new DevExpress.XtraLayout.ColumnDefinition();
             DevExpress.XtraLayout.ColumnDefinition columnDefinition2 = new DevExpress.XtraLayout.ColumnDefinition();
@@ -59,6 +60,8 @@
             this.colNombredelEmpleado = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colTotalVenta = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colFaltante = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.Acciones = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.ItemButtonApartados = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.layoutControl2 = new DevExpress.XtraLayout.LayoutControl();
             this.btnReporte = new DevExpress.XtraEditors.SimpleButton();
@@ -78,6 +81,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dsSisApartado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemButtonApartados)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl2)).BeginInit();
@@ -98,6 +102,8 @@
             this.colMontoAbono});
             this.gridView2.GridControl = this.gridControl1;
             this.gridView2.Name = "gridView2";
+            this.gridView2.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.gridView2.OptionsSelection.EnableAppearanceHideSelection = false;
             this.gridView2.OptionsView.ShowGroupPanel = false;
             // 
             // colIdFolio1
@@ -134,6 +140,8 @@
             this.gridControl1.Location = new System.Drawing.Point(12, 86);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
+            this.gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.ItemButtonApartados});
             this.gridControl1.Size = new System.Drawing.Size(572, 342);
             this.gridControl1.TabIndex = 7;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -160,6 +168,8 @@
             this.colTotal});
             this.gridView3.GridControl = this.gridControl1;
             this.gridView3.Name = "gridView3";
+            this.gridView3.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.gridView3.OptionsSelection.EnableAppearanceHideSelection = false;
             this.gridView3.OptionsView.ShowGroupPanel = false;
             // 
             // colDescripcion
@@ -197,11 +207,14 @@
             this.colFechaVenta,
             this.colNombredelEmpleado,
             this.colTotalVenta,
-            this.colFaltante});
+            this.colFaltante,
+            this.Acciones});
+            this.gridView1.CustomizationFormBounds = new System.Drawing.Rectangle(638, 463, 210, 172);
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.GroupCount = 1;
             this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.gridView1.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.gridView1.OptionsSelection.EnableAppearanceHideSelection = false;
             this.gridView1.SortInfo.AddRange(new DevExpress.XtraGrid.Columns.GridColumnSortInfo[] {
             new DevExpress.XtraGrid.Columns.GridColumnSortInfo(this.colFechaVenta, DevExpress.Data.ColumnSortOrder.Ascending)});
             // 
@@ -209,36 +222,67 @@
             // 
             this.colIdFolio.FieldName = "IdFolio";
             this.colIdFolio.Name = "colIdFolio";
+            this.colIdFolio.OptionsFilter.AllowFilter = false;
             this.colIdFolio.Visible = true;
             this.colIdFolio.VisibleIndex = 0;
+            this.colIdFolio.Width = 77;
             // 
             // colFechaVenta
             // 
             this.colFechaVenta.FieldName = "FechaVenta";
             this.colFechaVenta.Name = "colFechaVenta";
+            this.colFechaVenta.OptionsFilter.AllowFilter = false;
             this.colFechaVenta.Visible = true;
             this.colFechaVenta.VisibleIndex = 1;
+            this.colFechaVenta.Width = 94;
             // 
             // colNombredelEmpleado
             // 
             this.colNombredelEmpleado.FieldName = "Nombre del Empleado";
             this.colNombredelEmpleado.Name = "colNombredelEmpleado";
+            this.colNombredelEmpleado.OptionsFilter.AllowFilter = false;
             this.colNombredelEmpleado.Visible = true;
             this.colNombredelEmpleado.VisibleIndex = 1;
+            this.colNombredelEmpleado.Width = 114;
             // 
             // colTotalVenta
             // 
             this.colTotalVenta.FieldName = "TotalVenta";
             this.colTotalVenta.Name = "colTotalVenta";
+            this.colTotalVenta.OptionsFilter.AllowFilter = false;
             this.colTotalVenta.Visible = true;
             this.colTotalVenta.VisibleIndex = 2;
+            this.colTotalVenta.Width = 77;
             // 
             // colFaltante
             // 
             this.colFaltante.FieldName = "Faltante";
             this.colFaltante.Name = "colFaltante";
+            this.colFaltante.OptionsFilter.AllowFilter = false;
             this.colFaltante.Visible = true;
             this.colFaltante.VisibleIndex = 3;
+            this.colFaltante.Width = 77;
+            // 
+            // Acciones
+            // 
+            this.Acciones.Caption = "Acciones";
+            this.Acciones.ColumnEdit = this.ItemButtonApartados;
+            this.Acciones.ImageAlignment = System.Drawing.StringAlignment.Center;
+            this.Acciones.Name = "Acciones";
+            this.Acciones.OptionsFilter.AllowFilter = false;
+            this.Acciones.ShowButtonMode = DevExpress.XtraGrid.Views.Base.ShowButtonModeEnum.ShowAlways;
+            this.Acciones.Visible = true;
+            this.Acciones.VisibleIndex = 4;
+            this.Acciones.Width = 77;
+            // 
+            // ItemButtonApartados
+            // 
+            this.ItemButtonApartados.AutoHeight = false;
+            editorButtonImageOptions1.Image = ((System.Drawing.Image)(resources.GetObject("editorButtonImageOptions1.Image")));
+            this.ItemButtonApartados.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), "Abonar", "AbonarApartado")});
+            this.ItemButtonApartados.Name = "ItemButtonApartados";
+            this.ItemButtonApartados.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.ItemButtonApartados_ButtonClick);
             // 
             // layoutControl1
             // 
@@ -412,6 +456,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dsSisApartado)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemButtonApartados)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl2)).EndInit();
@@ -465,5 +510,7 @@
         private DevExpress.XtraGrid.Columns.GridColumn colPrecio;
         private DevExpress.XtraGrid.Columns.GridColumn colUnidades;
         private DevExpress.XtraGrid.Columns.GridColumn colTotal;
+        private DevExpress.XtraGrid.Columns.GridColumn Acciones;
+        private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit ItemButtonApartados;
     }
 }

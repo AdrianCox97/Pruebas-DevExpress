@@ -23,7 +23,8 @@ namespace CeramicaCarrillo.GUI.Inicio
         public static Sesiones sesion = null;
         ArchivosLocales oExtras = new ArchivosLocales();
         XtraUserControl frmProductosUC, frmCategoriasTiposUC, frmPuntoVentaUC, frmRegistroComprasUC,
-            frmRegistroVentasUC, frmPersonalUC, frmSisApartadoUC, frmEstadisticasUC;
+            frmRegistroVentasUC, frmPersonalUC, frmActividadesUC, frmSisApartadoUC, frmEstadisticasUC, 
+            frmRegistroAnomaliasUC;
         
 
         public frmXtraPrincipal()
@@ -68,6 +69,12 @@ namespace CeramicaCarrillo.GUI.Inicio
                 case "Personal":
                     frmUserControl = frmPersonalUC;
                     break;
+                case "Registro de Actividades":
+                    frmUserControl = frmActividadesUC;
+                    break;
+                case "Anomalías":
+                    frmUserControl = frmRegistroAnomaliasUC;
+                    break;
                 case "Sistema de Apartado":
                     frmUserControl = frmSisApartadoUC;
                     break;
@@ -78,7 +85,7 @@ namespace CeramicaCarrillo.GUI.Inicio
                     frmUserControl = null;
                     break;
             }
-
+            frmUserControl.Refresh();
             tabbedView.AddDocument(frmUserControl);
             tabbedView.ActivateDocument(frmUserControl);
         }
@@ -97,24 +104,7 @@ namespace CeramicaCarrillo.GUI.Inicio
 
         void SetAccordionSelectedElement(DocumentEventArgs e)
         {
-            //    if (tabbedView.Documents.Count != 0)
-            //    {
-            //        if (e.Document.Caption == "Employees") accordionCtrlNavegacion.SelectedElement = btnProductos;
-            //        else accordionCtrlNavegacion.SelectedElement = employeesAccordionControlElement;
-            //switch (e.Document.Caption)
-            //{
-            //    case "Productos":
-            //        accordionCtrlNavegacion.SelectedElement = btnProductos;
-            //        break;
-            //    case "Tipos y Categorías":
-            //        accordionCtrlNavegacion.SelectedElement = btnCategorias_Tipos;
-            //        break;
-            //}
-            //    }
-            //    else
-            //    {
-                    accordionCtrlNavegacion.SelectedElement = null;
-            //    }
+            accordionCtrlNavegacion.SelectedElement = null;
             if (tabbedView.Documents.Count == 0)
             {
                 accordionCtrlNavegacion.SelectedElement = null;
@@ -123,8 +113,6 @@ namespace CeramicaCarrillo.GUI.Inicio
 
         void RecreateUserControls(DocumentEventArgs e)
         {
-            //if (e.Document.Caption == "Productos") employeesUserControl = CreateUserControl("Productos");
-            //else customersUserControl = CreateUserControl("Customers");
             switch (e.Document.Caption)
             {
                 case "Productos":
@@ -144,6 +132,12 @@ namespace CeramicaCarrillo.GUI.Inicio
                     break;
                 case "Personal":
                     frmPersonalUC = CreateUserControl("Personal", new Personal.frmXtraUCPersonal());
+                    break;
+                case "Registro de Actividades":
+                    frmActividadesUC = CreateUserControl("Registro de Actividades", new Actividades.frmXtraUCRegistroAcciones());
+                    break;
+                case "Anomalías":
+                    frmRegistroAnomaliasUC = CreateUserControl("Anomalías", new Anomalias.frmXtraUCRegistroAnomalias());
                     break;
                 case "Sistema de Apartado":
                     frmSisApartadoUC = CreateUserControl("Sistema de Apartado", new Apartado.frmXtraUCSistemaA());
@@ -169,7 +163,11 @@ namespace CeramicaCarrillo.GUI.Inicio
             Compras.frmXtraUCRegistroC.datos = bdCarrillo;
 
             Personal.frmXtraUCPersonal.bdCarrillo = bdCarrillo;
-            Personal.frmXtraUCPersonal.sesion = sesion;            
+            Personal.frmXtraUCPersonal.sesion = sesion;
+
+            Anomalias.frmXtraUCRegistroAnomalias.bdCarrillo = bdCarrillo;
+
+            Apartado.frmXtraUCSistemaA.datos = bdCarrillo;
 
             frmProductosUC = CreateUserControl("Productos", new Productos.frmXtraUCProductos());
             frmCategoriasTiposUC = CreateUserControl("Tipos y Departamentos", new TiposCategorias.frmXtraUCTiposCategorias());
@@ -177,6 +175,8 @@ namespace CeramicaCarrillo.GUI.Inicio
             frmRegistroComprasUC = CreateUserControl("Compras", new Compras.frmXtraUCRegistroC());
             frmRegistroVentasUC = CreateUserControl("Ventas", new Ventas.frmXtraUCRegistroVentas());
             frmPersonalUC = CreateUserControl("Personal", new Personal.frmXtraUCPersonal());
+            frmActividadesUC = CreateUserControl("Registro de Actividades", new Actividades.frmXtraUCRegistroAcciones());
+            frmRegistroAnomaliasUC = CreateUserControl("Anomalías", new Anomalias.frmXtraUCRegistroAnomalias());
             frmSisApartadoUC = CreateUserControl("Sistema de Apartado", new Apartado.frmXtraUCSistemaA());
             frmEstadisticasUC = CreateUserControl("Compra-Venta", new Estadisticas.frmXtraUCEstadisticas());
         }

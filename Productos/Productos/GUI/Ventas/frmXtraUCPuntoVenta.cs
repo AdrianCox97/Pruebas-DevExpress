@@ -49,7 +49,7 @@ namespace CeramicaCarrillo.GUI.Ventas
 
         private void agregarProducto(int id)
         {
-            CeramicaCarrillo.Model.Productos producto = datos.Productos.Find(id);
+            Model.Productos producto = datos.Productos.Find(id);
             Categorias cat = datos.Categorias.Find(producto.idCategoria);
             TipoProductos tp = datos.TipoProductos.Find(cat.idTipoProducto);
             _compra.Add(producto);
@@ -158,7 +158,10 @@ namespace CeramicaCarrillo.GUI.Ventas
             {
                 frmXtraCobroV.datos = datos;
                 frmXtraCobroV cobro = new frmXtraCobroV(_compra, Cantidad, txtTotal.Text, sesion);
-                cobro.ShowDialog();
+                if (cobro.ShowDialog() == DialogResult.OK)
+                {
+                    gvDatos.Rows.Clear();
+                }
             }
             else
             {
@@ -201,7 +204,13 @@ namespace CeramicaCarrillo.GUI.Ventas
             {
                 frmXtraCobroA.datos = datos;
                 frmXtraCobroA cobro = new frmXtraCobroA(_compra, Cantidad, txtTotal.Text, sesion);
-                cobro.ShowDialog();
+                if (cobro.ShowDialog() == DialogResult.OK)
+                {
+                    for (int i = 0; i < gvDatos.Rows.Count; i++)
+                    {
+                        gvDatos.Rows.RemoveAt(i);
+                    }
+                }
             }
             else
             {

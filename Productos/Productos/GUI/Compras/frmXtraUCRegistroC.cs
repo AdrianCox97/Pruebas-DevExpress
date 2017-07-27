@@ -33,9 +33,9 @@ namespace CeramicaCarrillo.GUI.Compras
 
         private void VerReporte()
         {
-            frmXtraReporteCompras frm = new frmXtraReporteCompras();
+            DevExpress.XtraReports.UI.ReportPrintTool Imprimir = new 
+                DevExpress.XtraReports.UI.ReportPrintTool(new frmXtraReporteCompras());
 
-            DevExpress.XtraReports.UI.ReportPrintTool Imprimir = new DevExpress.XtraReports.UI.ReportPrintTool(frm);
             Imprimir.ShowRibbonPreviewDialog();
         }
     }

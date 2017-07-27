@@ -11,17 +11,16 @@
           </Key>
           <Property Name="IdAbono" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="MontoAbono" Type="float" Nullable="false" />
-          <Property Name="FechaAbono" Type="date" Nullable="false" />
+          <Property Name="FechaAbono" Type="datetime2" Precision="7" Nullable="false" />
           <Property Name="IdFolio" Type="int" Nullable="false" />
         </EntityType>
-        <EntityType Name="Actividades">
+        <EntityType Name="Acciones">
           <Key>
             <PropertyRef Name="IdActividad" />
           </Key>
           <Property Name="IdActividad" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Nombre" Type="varchar" MaxLength="50" />
-          <Property Name="Descripcion" Type="varchar(max)" />
-          <Property Name="FechaLimite" Type="date" />
+          <Property Name="Descripcion" Type="varchar(max)" Nullable="false" />
+          <Property Name="Fecha" Type="datetime2" Precision="7" Nullable="false" />
           <Property Name="IdPersonal" Type="int" Nullable="false" />
         </EntityType>
         <EntityType Name="Anomalias">
@@ -30,7 +29,7 @@
           </Key>
           <Property Name="IdAnomalias" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Descripcion" Type="varchar(max)" Nullable="false" />
-          <Property Name="Fecha" Type="date" Nullable="false" />
+          <Property Name="Fecha" Type="datetime2" Precision="7" Nullable="false" />
           <Property Name="Respuesta" Type="varchar(max)" />
           <Property Name="IdPersonal" Type="int" Nullable="false" />
           <Property Name="IdProductos" Type="int" Nullable="false" />
@@ -52,7 +51,7 @@
           <Property Name="Unidades" Type="int" Nullable="false" />
           <Property Name="Precio" Type="float" Nullable="false" />
           <Property Name="Total" Type="float" Nullable="false" />
-          <Property Name="Fecha" Type="date" Nullable="false" />
+          <Property Name="Fecha" Type="datetime2" Precision="7" Nullable="false" />
         </EntityType>
         <EntityType Name="DetalleFolio">
           <Key>
@@ -71,7 +70,7 @@
           </Key>
           <Property Name="IdFolio" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="TotalVenta" Type="float" Nullable="false" />
-          <Property Name="FechaVenta" Type="date" Nullable="false" />
+          <Property Name="FechaVenta" Type="datetime2" Precision="7" Nullable="false" />
           <Property Name="Status" Type="bit" Nullable="false" />
           <Property Name="Faltante" Type="float" Nullable="false" />
           <Property Name="IdPersonal" Type="int" Nullable="false" />
@@ -90,6 +89,7 @@
           <Property Name="Direccion" Type="varchar" MaxLength="100" />
           <Property Name="FechaNacimiento" Type="date" />
           <Property Name="Puesto" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Status" Type="bit" Nullable="false" />
         </EntityType>
         <EntityType Name="Productos">
           <Key>
@@ -102,16 +102,6 @@
           <Property Name="Unidades" Type="int" />
           <Property Name="Status" Type="bit" Nullable="false" />
           <Property Name="idCategoria" Type="int" />
-        </EntityType>
-        <EntityType Name="Solicitudes">
-          <Key>
-            <PropertyRef Name="idSolicitudes" />
-          </Key>
-          <Property Name="idSolicitudes" Type="char" MaxLength="10" Nullable="false" />
-          <Property Name="Descripcion" Type="varchar(max)" />
-          <Property Name="Status" Type="varchar" MaxLength="20" />
-          <Property Name="IdPersonal" Type="int" Nullable="false" />
-          <Property Name="IdProductos" Type="int" Nullable="false" />
         </EntityType>
         <EntityType Name="TipoProductos">
           <Key>
@@ -156,18 +146,6 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="RefPersonal1">
-          <End Role="Personal" Type="Self.Personal" Multiplicity="1" />
-          <End Role="Solicitudes" Type="Self.Solicitudes" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Personal">
-              <PropertyRef Name="IdPersonal" />
-            </Principal>
-            <Dependent Role="Solicitudes">
-              <PropertyRef Name="IdPersonal" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
         <Association Name="RefPersonal4">
           <End Role="Personal" Type="Self.Personal" Multiplicity="1" />
           <End Role="Anomalias" Type="Self.Anomalias" Multiplicity="*" />
@@ -182,12 +160,12 @@
         </Association>
         <Association Name="RefPersonal6">
           <End Role="Personal" Type="Self.Personal" Multiplicity="1" />
-          <End Role="Actividades" Type="Self.Actividades" Multiplicity="*" />
+          <End Role="Acciones" Type="Self.Acciones" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Personal">
               <PropertyRef Name="IdPersonal" />
             </Principal>
-            <Dependent Role="Actividades">
+            <Dependent Role="Acciones">
               <PropertyRef Name="IdPersonal" />
             </Dependent>
           </ReferentialConstraint>
@@ -228,18 +206,6 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="RefProductos2">
-          <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
-          <End Role="Solicitudes" Type="Self.Solicitudes" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Productos">
-              <PropertyRef Name="IdProductos" />
-            </Principal>
-            <Dependent Role="Solicitudes">
-              <PropertyRef Name="IdProductos" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
         <Association Name="RefProductos5">
           <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
           <End Role="Anomalias" Type="Self.Anomalias" Multiplicity="*" />
@@ -266,7 +232,7 @@
         </Association>
         <EntityContainer Name="BDCarrilloModelStoreContainer">
           <EntitySet Name="Abonos" EntityType="Self.Abonos" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Actividades" EntityType="Self.Actividades" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Acciones" EntityType="Self.Acciones" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Anomalias" EntityType="Self.Anomalias" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Categorias" EntityType="Self.Categorias" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Compras" EntityType="Self.Compras" Schema="dbo" store:Type="Tables" />
@@ -274,7 +240,6 @@
           <EntitySet Name="Folio" EntityType="Self.Folio" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Personal" EntityType="Self.Personal" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Productos" EntityType="Self.Productos" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Solicitudes" EntityType="Self.Solicitudes" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TipoProductos" EntityType="Self.TipoProductos" Schema="dbo" store:Type="Tables" />
           <AssociationSet Name="RefCategorias13" Association="Self.RefCategorias13">
             <End Role="Categorias" EntitySet="Categorias" />
@@ -288,17 +253,13 @@
             <End Role="Folio" EntitySet="Folio" />
             <End Role="DetalleFolio" EntitySet="DetalleFolio" />
           </AssociationSet>
-          <AssociationSet Name="RefPersonal1" Association="Self.RefPersonal1">
-            <End Role="Personal" EntitySet="Personal" />
-            <End Role="Solicitudes" EntitySet="Solicitudes" />
-          </AssociationSet>
           <AssociationSet Name="RefPersonal4" Association="Self.RefPersonal4">
             <End Role="Personal" EntitySet="Personal" />
             <End Role="Anomalias" EntitySet="Anomalias" />
           </AssociationSet>
           <AssociationSet Name="RefPersonal6" Association="Self.RefPersonal6">
             <End Role="Personal" EntitySet="Personal" />
-            <End Role="Actividades" EntitySet="Actividades" />
+            <End Role="Acciones" EntitySet="Acciones" />
           </AssociationSet>
           <AssociationSet Name="RefPersonal7" Association="Self.RefPersonal7">
             <End Role="Personal" EntitySet="Personal" />
@@ -311,10 +272,6 @@
           <AssociationSet Name="RefProductos15" Association="Self.RefProductos15">
             <End Role="Productos" EntitySet="Productos" />
             <End Role="Compras" EntitySet="Compras" />
-          </AssociationSet>
-          <AssociationSet Name="RefProductos2" Association="Self.RefProductos2">
-            <End Role="Productos" EntitySet="Productos" />
-            <End Role="Solicitudes" EntitySet="Solicitudes" />
           </AssociationSet>
           <AssociationSet Name="RefProductos5" Association="Self.RefProductos5">
             <End Role="Productos" EntitySet="Productos" />
@@ -329,24 +286,13 @@
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="BDCarrilloModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityType Name="Actividades">
-          <Key>
-            <PropertyRef Name="IdActividad" />
-          </Key>
-          <Property Name="IdActividad" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
-          <Property Name="FechaLimite" Type="DateTime" Precision="0" />
-          <Property Name="IdPersonal" Type="Int32" Nullable="false" />
-          <NavigationProperty Name="Personal" Relationship="Self.RefPersonal6" FromRole="Actividades" ToRole="Personal" />
-        </EntityType>
         <EntityType Name="Anomalias">
           <Key>
             <PropertyRef Name="IdAnomalias" />
           </Key>
           <Property Name="IdAnomalias" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="7" />
           <Property Name="IdPersonal" Type="Int32" Nullable="false" />
           <Property Name="IdProductos" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Personal" Relationship="Self.RefPersonal4" FromRole="Anomalias" ToRole="Personal" />
@@ -373,7 +319,7 @@
           <Property Name="Precio" Type="Double" Nullable="false" />
           <Property Name="Total" Type="Double" Nullable="false" />
           <NavigationProperty Name="Productos" Relationship="Self.RefProductos15" FromRole="Compras" ToRole="Productos" />
-          <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="7" />
         </EntityType>
         <EntityType Name="DetalleFolio">
           <Key>
@@ -394,7 +340,7 @@
           </Key>
           <Property Name="IdFolio" Type="Int32" Nullable="false" />
           <Property Name="TotalVenta" Type="Double" Nullable="false" />
-          <Property Name="FechaVenta" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="FechaVenta" Type="DateTime" Nullable="false" Precision="7" />
           <Property Name="IdPersonal" Type="Int32" Nullable="false" />
           <NavigationProperty Name="DetalleFolio" Relationship="Self.RefFolio8" FromRole="Folio" ToRole="DetalleFolio" />
           <NavigationProperty Name="Personal" Relationship="Self.RefPersonal7" FromRole="Folio" ToRole="Personal" />
@@ -416,10 +362,10 @@
           <Property Name="Direccion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="FechaNacimiento" Type="DateTime" Precision="0" />
           <Property Name="Puesto" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
-          <NavigationProperty Name="Actividades" Relationship="Self.RefPersonal6" FromRole="Personal" ToRole="Actividades" />
           <NavigationProperty Name="Anomalias" Relationship="Self.RefPersonal4" FromRole="Personal" ToRole="Anomalias" />
           <NavigationProperty Name="Folio" Relationship="Self.RefPersonal7" FromRole="Personal" ToRole="Folio" />
-          <NavigationProperty Name="Solicitudes" Relationship="Self.RefPersonal1" FromRole="Personal" ToRole="Solicitudes" />
+          <Property Name="Status" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="Acciones" Relationship="BDCarrilloModel.RefPersonal61" FromRole="Personal" ToRole="Acciones" />
         </EntityType>
         <EntityType Name="Productos">
           <Key>
@@ -435,20 +381,7 @@
           <NavigationProperty Name="Categorias" Relationship="Self.RefCategorias13" FromRole="Productos" ToRole="Categorias" />
           <NavigationProperty Name="Compras" Relationship="Self.RefProductos15" FromRole="Productos" ToRole="Compras" />
           <NavigationProperty Name="DetalleFolio" Relationship="Self.RefProductos10" FromRole="Productos" ToRole="DetalleFolio" />
-          <NavigationProperty Name="Solicitudes" Relationship="Self.RefProductos2" FromRole="Productos" ToRole="Solicitudes" />
           <Property Name="Status" Type="Boolean" Nullable="false" />
-        </EntityType>
-        <EntityType Name="Solicitudes">
-          <Key>
-            <PropertyRef Name="idSolicitudes" />
-          </Key>
-          <Property Name="idSolicitudes" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
-          <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
-          <Property Name="Status" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-          <Property Name="IdPersonal" Type="Int32" Nullable="false" />
-          <Property Name="IdProductos" Type="Int32" Nullable="false" />
-          <NavigationProperty Name="Personal" Relationship="Self.RefPersonal1" FromRole="Solicitudes" ToRole="Personal" />
-          <NavigationProperty Name="Productos" Relationship="Self.RefProductos2" FromRole="Solicitudes" ToRole="Productos" />
         </EntityType>
         <EntityType Name="TipoProductos">
           <Key>
@@ -458,18 +391,6 @@
           <Property Name="NombreTipo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
           <NavigationProperty Name="Categorias" Relationship="Self.RefTipoProductos14" FromRole="TipoProductos" ToRole="Categorias" />
         </EntityType>
-        <Association Name="RefPersonal6">
-          <End Role="Personal" Type="Self.Personal" Multiplicity="1" />
-          <End Role="Actividades" Type="Self.Actividades" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Personal">
-              <PropertyRef Name="IdPersonal" />
-            </Principal>
-            <Dependent Role="Actividades">
-              <PropertyRef Name="IdPersonal" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
         <Association Name="RefPersonal4">
           <End Role="Personal" Type="Self.Personal" Multiplicity="1" />
           <End Role="Anomalias" Type="Self.Anomalias" Multiplicity="*" />
@@ -566,32 +487,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="RefPersonal1">
-          <End Role="Personal" Type="Self.Personal" Multiplicity="1" />
-          <End Role="Solicitudes" Type="Self.Solicitudes" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Personal">
-              <PropertyRef Name="IdPersonal" />
-            </Principal>
-            <Dependent Role="Solicitudes">
-              <PropertyRef Name="IdPersonal" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="RefProductos2">
-          <End Role="Productos" Type="Self.Productos" Multiplicity="1" />
-          <End Role="Solicitudes" Type="Self.Solicitudes" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Productos">
-              <PropertyRef Name="IdProductos" />
-            </Principal>
-            <Dependent Role="Solicitudes">
-              <PropertyRef Name="IdProductos" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
         <EntityContainer Name="BDCarrilloEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="Actividades" EntityType="Self.Actividades" />
           <EntitySet Name="Anomalias" EntityType="Self.Anomalias" />
           <EntitySet Name="Categorias" EntityType="Self.Categorias" />
           <EntitySet Name="Compras" EntityType="Self.Compras" />
@@ -599,12 +495,7 @@
           <EntitySet Name="Folio" EntityType="Self.Folio" />
           <EntitySet Name="Personal" EntityType="Self.Personal" />
           <EntitySet Name="Productos" EntityType="Self.Productos" />
-          <EntitySet Name="Solicitudes" EntityType="Self.Solicitudes" />
           <EntitySet Name="TipoProductos" EntityType="Self.TipoProductos" />
-          <AssociationSet Name="RefPersonal6" Association="Self.RefPersonal6">
-            <End Role="Personal" EntitySet="Personal" />
-            <End Role="Actividades" EntitySet="Actividades" />
-          </AssociationSet>
           <AssociationSet Name="RefPersonal4" Association="Self.RefPersonal4">
             <End Role="Personal" EntitySet="Personal" />
             <End Role="Anomalias" EntitySet="Anomalias" />
@@ -637,18 +528,15 @@
             <End Role="Personal" EntitySet="Personal" />
             <End Role="Folio" EntitySet="Folio" />
           </AssociationSet>
-          <AssociationSet Name="RefPersonal1" Association="Self.RefPersonal1">
-            <End Role="Personal" EntitySet="Personal" />
-            <End Role="Solicitudes" EntitySet="Solicitudes" />
-          </AssociationSet>
-          <AssociationSet Name="RefProductos2" Association="Self.RefProductos2">
-            <End Role="Productos" EntitySet="Productos" />
-            <End Role="Solicitudes" EntitySet="Solicitudes" />
-          </AssociationSet>
           <EntitySet Name="Abonos" EntityType="BDCarrilloModel.Abonos" />
           <AssociationSet Name="RefFolio16" Association="BDCarrilloModel.RefFolio16">
             <End Role="Folio" EntitySet="Folio" />
             <End Role="Abonos" EntitySet="Abonos" />
+          </AssociationSet>
+          <EntitySet Name="Acciones" EntityType="BDCarrilloModel.Acciones" />
+          <AssociationSet Name="RefPersonal61" Association="BDCarrilloModel.RefPersonal61">
+            <End Role="Personal" EntitySet="Personal" />
+            <End Role="Acciones" EntitySet="Acciones" />
           </AssociationSet>
         </EntityContainer>
         <EntityType Name="Abonos">
@@ -657,7 +545,7 @@
           </Key>
           <Property Name="IdAbono" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="MontoAbono" Type="Double" Nullable="false" />
-          <Property Name="FechaAbono" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="FechaAbono" Type="DateTime" Nullable="false" Precision="7" />
           <Property Name="IdFolio" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Folio" Relationship="BDCarrilloModel.RefFolio16" FromRole="Abonos" ToRole="Folio" />
         </EntityType>
@@ -673,23 +561,34 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <EntityType Name="Acciones">
+          <Key>
+            <PropertyRef Name="IdActividad" />
+          </Key>
+          <Property Name="IdActividad" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Descripcion" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="IdPersonal" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Personal" Relationship="BDCarrilloModel.RefPersonal61" FromRole="Acciones" ToRole="Personal" />
+        </EntityType>
+        <Association Name="RefPersonal61">
+          <End Type="BDCarrilloModel.Personal" Role="Personal" Multiplicity="1" />
+          <End Type="BDCarrilloModel.Acciones" Role="Acciones" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Personal">
+              <PropertyRef Name="IdPersonal" />
+            </Principal>
+            <Dependent Role="Acciones">
+              <PropertyRef Name="IdPersonal" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="BDCarrilloModelStoreContainer" CdmEntityContainer="BDCarrilloEntities">
-          <EntitySetMapping Name="Actividades">
-            <EntityTypeMapping TypeName="BDCarrilloModel.Actividades">
-              <MappingFragment StoreEntitySet="Actividades">
-                <ScalarProperty Name="IdActividad" ColumnName="IdActividad" />
-                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
-                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
-                <ScalarProperty Name="FechaLimite" ColumnName="FechaLimite" />
-                <ScalarProperty Name="IdPersonal" ColumnName="IdPersonal" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="Anomalias">
             <EntityTypeMapping TypeName="BDCarrilloModel.Anomalias">
               <MappingFragment StoreEntitySet="Anomalias">
@@ -750,6 +649,7 @@
           <EntitySetMapping Name="Personal">
             <EntityTypeMapping TypeName="BDCarrilloModel.Personal">
               <MappingFragment StoreEntitySet="Personal">
+                <ScalarProperty Name="Status" ColumnName="Status" />
                 <ScalarProperty Name="IdPersonal" ColumnName="IdPersonal" />
                 <ScalarProperty Name="Nombre" ColumnName="Nombre" />
                 <ScalarProperty Name="Apellido" ColumnName="Apellido" />
@@ -776,17 +676,6 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="Solicitudes">
-            <EntityTypeMapping TypeName="BDCarrilloModel.Solicitudes">
-              <MappingFragment StoreEntitySet="Solicitudes">
-                <ScalarProperty Name="idSolicitudes" ColumnName="idSolicitudes" />
-                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
-                <ScalarProperty Name="Status" ColumnName="Status" />
-                <ScalarProperty Name="IdPersonal" ColumnName="IdPersonal" />
-                <ScalarProperty Name="IdProductos" ColumnName="IdProductos" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="TipoProductos">
             <EntityTypeMapping TypeName="BDCarrilloModel.TipoProductos">
               <MappingFragment StoreEntitySet="TipoProductos">
@@ -802,6 +691,16 @@
                 <ScalarProperty Name="FechaAbono" ColumnName="FechaAbono" />
                 <ScalarProperty Name="MontoAbono" ColumnName="MontoAbono" />
                 <ScalarProperty Name="IdAbono" ColumnName="IdAbono" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Acciones">
+            <EntityTypeMapping TypeName="BDCarrilloModel.Acciones">
+              <MappingFragment StoreEntitySet="Acciones">
+                <ScalarProperty Name="IdPersonal" ColumnName="IdPersonal" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="IdActividad" ColumnName="IdActividad" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

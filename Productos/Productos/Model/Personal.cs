@@ -17,10 +17,9 @@ namespace CeramicaCarrillo.Model
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Personal()
         {
-            this.Actividades = new HashSet<Actividades>();
             this.Anomalias = new HashSet<Anomalias>();
             this.Folio = new HashSet<Folio>();
-            this.Solicitudes = new HashSet<Solicitudes>();
+            this.Acciones = new HashSet<Acciones>();
         }
     
         public int IdPersonal { get; set; }
@@ -33,14 +32,13 @@ namespace CeramicaCarrillo.Model
         public string Direccion { get; set; }
         public Nullable<System.DateTime> FechaNacimiento { get; set; }
         public string Puesto { get; set; }
+        public bool Status { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Actividades> Actividades { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Anomalias> Anomalias { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Folio> Folio { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Solicitudes> Solicitudes { get; set; }
+        public virtual ICollection<Acciones> Acciones { get; set; }
     }
 }

@@ -121,7 +121,7 @@ namespace CeramicaCarrillo.GUI.Productos
                 Descripcion = dtgVistaProductos.GetRowCellValue(IndexFila, Descripcion).ToString().Trim(),
                 PrecioVenta = Convert.ToDouble(dtgVistaProductos.GetRowCellValue(IndexFila, PrecioVenta).ToString().Trim()),
                 PrecioMayoreo = Convert.ToDouble(dtgVistaProductos.GetRowCellValue(IndexFila, PrecioMayoreo).ToString().Trim()),
-                Unidades = Convert.ToInt32(dtgVistaProductos.GetRowCellValue(IndexFila, CategoriaTipo).ToString().Trim())
+                Unidades = Convert.ToInt32(dtgVistaProductos.GetRowCellValue(IndexFila, Unidades).ToString().Trim())
             };
 
             CategoriaProducto = dtgVistaProductos.GetRowCellValue(IndexFila, CategoriaTipo).ToString().Trim();
@@ -193,9 +193,9 @@ namespace CeramicaCarrillo.GUI.Productos
 
         private void VerReporte()
         {
-            frmXtraReporteProductos frm = new frmXtraReporteProductos();
+            DevExpress.XtraReports.UI.ReportPrintTool Imprimir = new 
+                DevExpress.XtraReports.UI.ReportPrintTool(new frmXtraReporteProductos());
 
-            DevExpress.XtraReports.UI.ReportPrintTool Imprimir = new DevExpress.XtraReports.UI.ReportPrintTool(frm);
             Imprimir.ShowRibbonPreviewDialog();
         }
     }

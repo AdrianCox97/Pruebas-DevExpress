@@ -20,7 +20,6 @@ namespace CeramicaCarrillo.Model
             this.Anomalias = new HashSet<Anomalias>();
             this.Compras = new HashSet<Compras>();
             this.DetalleFolio = new HashSet<DetalleFolio>();
-            this.Solicitudes = new HashSet<Solicitudes>();
         }
     
         public int IdProductos { get; set; }
@@ -38,7 +37,5 @@ namespace CeramicaCarrillo.Model
         public virtual ICollection<Compras> Compras { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<DetalleFolio> DetalleFolio { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Solicitudes> Solicitudes { get; set; }
     }
 }

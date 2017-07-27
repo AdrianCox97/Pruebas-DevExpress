@@ -29,6 +29,7 @@ namespace CeramicaCarrillo.GUI.Ventas
         private void btnCobrar_Click(object sender, EventArgs e)
         {
             validarCobro();
+            DialogResult = DialogResult.OK;
         }
 
         private void validarCobro()

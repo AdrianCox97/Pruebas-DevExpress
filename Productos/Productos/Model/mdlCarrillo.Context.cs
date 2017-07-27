@@ -25,7 +25,6 @@ namespace CeramicaCarrillo.Model
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Actividades> Actividades { get; set; }
         public virtual DbSet<Anomalias> Anomalias { get; set; }
         public virtual DbSet<Categorias> Categorias { get; set; }
         public virtual DbSet<Compras> Compras { get; set; }
@@ -33,8 +32,8 @@ namespace CeramicaCarrillo.Model
         public virtual DbSet<Folio> Folio { get; set; }
         public virtual DbSet<Personal> Personal { get; set; }
         public virtual DbSet<Productos> Productos { get; set; }
-        public virtual DbSet<Solicitudes> Solicitudes { get; set; }
         public virtual DbSet<TipoProductos> TipoProductos { get; set; }
         public virtual DbSet<Abonos> Abonos { get; set; }
+        public virtual DbSet<Acciones> Acciones { get; set; }
     }
 }

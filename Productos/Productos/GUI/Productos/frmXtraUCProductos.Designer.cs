@@ -75,11 +75,14 @@
             this.Unidades,
             this.CategoriaTipo,
             this.Acciones});
+            this.dtgVistaProductos.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus;
             this.dtgVistaProductos.GridControl = this.dtgVista;
             this.dtgVistaProductos.Name = "dtgVistaProductos";
             this.dtgVistaProductos.OptionsBehavior.ReadOnly = true;
             this.dtgVistaProductos.OptionsFind.AlwaysVisible = true;
             this.dtgVistaProductos.OptionsFind.FindNullPrompt = "Búsquedas...";
+            this.dtgVistaProductos.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.dtgVistaProductos.OptionsSelection.EnableAppearanceHideSelection = false;
             // 
             // IdProductos
             // 
@@ -99,7 +102,7 @@
             // 
             // PrecioVenta
             // 
-            this.PrecioVenta.Caption = "Precio Unitario";
+            this.PrecioVenta.Caption = "Precio Mayoreo";
             this.PrecioVenta.FieldName = "PrecioVenta";
             this.PrecioVenta.Name = "PrecioVenta";
             this.PrecioVenta.Visible = true;
@@ -107,7 +110,7 @@
             // 
             // PrecioMayoreo
             // 
-            this.PrecioMayoreo.Caption = "Precio de Mayoreo";
+            this.PrecioMayoreo.Caption = "Precio Mayorista";
             this.PrecioMayoreo.FieldName = "PrecioMayoreo";
             this.PrecioMayoreo.Name = "PrecioMayoreo";
             this.PrecioMayoreo.Visible = true;
@@ -175,7 +178,7 @@
             this.btnReporteProductos.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReporteProductos.Appearance.Options.UseFont = true;
             this.btnReporteProductos.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
-            this.btnReporteProductos.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.btnReporteProductos.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnReporteProductos.ImageOptions.Image")));
             this.btnReporteProductos.Location = new System.Drawing.Point(517, 30);
             this.btnReporteProductos.Name = "btnReporteProductos";
             this.btnReporteProductos.Size = new System.Drawing.Size(206, 42);

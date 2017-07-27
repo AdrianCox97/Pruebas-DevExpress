@@ -12,15 +12,13 @@ namespace CeramicaCarrillo.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class Solicitudes
+    public partial class Acciones
     {
-        public string idSolicitudes { get; set; }
+        public int IdActividad { get; set; }
         public string Descripcion { get; set; }
-        public string Status { get; set; }
+        public System.DateTime Fecha { get; set; }
         public int IdPersonal { get; set; }
-        public int IdProductos { get; set; }
     
         public virtual Personal Personal { get; set; }
-        public virtual Productos Productos { get; set; }
     }
 }

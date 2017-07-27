@@ -101,7 +101,7 @@ namespace CeramicaCarrillo.GUI.Personal
 
                     if (edicion != null)
                     {
-                        bdCarrillo.Personal.Remove(edicion);
+                        edicion.Status = false;
 
                         bdCarrillo.SaveChanges();
 
@@ -134,6 +134,7 @@ namespace CeramicaCarrillo.GUI.Personal
         {
             dtgVista.DataSource = (from tbPersonal in bdCarrillo.Personal
                                    let NombreCompleto = tbPersonal.Nombre + " " + tbPersonal.Apellido
+                                   where tbPersonal.Status == true
                                    select new
                                    {
                                        tbPersonal.IdPersonal,

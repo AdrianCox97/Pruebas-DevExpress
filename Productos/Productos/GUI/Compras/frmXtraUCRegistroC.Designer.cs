@@ -145,6 +145,7 @@
             // 
             // colNombreCategoria
             // 
+            this.colNombreCategoria.Caption = "Departamento";
             this.colNombreCategoria.FieldName = "NombreCategoria";
             this.colNombreCategoria.Name = "colNombreCategoria";
             this.colNombreCategoria.Visible = true;
